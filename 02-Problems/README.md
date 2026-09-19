@@ -76,6 +76,32 @@ Imported from [W3Schools Practice PHP Coding Problems](https://www.w3schools.com
 | 060 | Longest Common Prefix | C | Strings | W3Schools | 60 | ☐ |
 | 061 | Bubble Sort Swap Count | Side | Sorting (educational) | W3Schools | 40 | ☐ |
 
+### Wave 3 — Edabit PHP Very Easy (curated)
+
+Imported from [Edabit PHP Challenges](https://edabit.com/challenges/php) (Very Easy band) after the PHP Fitness Filter.  
+**Not imported:** meta “How Edabit Works”, bug-fix drills, and near-duplicates of earlier Waves. More Easy/Medium Edabit can land in later waves.
+
+| Gate | Title | Rank | Pattern | Platform | XP | Status |
+|:---|:---|:---:|:---|:---|:---:|:---:|
+| 062 | Sum of Two Numbers | E | Functions / Math | Edabit | 25 | ☐ |
+| 063 | Next Number | E | Math | Edabit | 25 | ☐ |
+| 064 | Minutes to Seconds | E | Formulas | Edabit | 25 | ☐ |
+| 065 | Hours to Seconds | E | Formulas | Edabit | 25 | ☐ |
+| 066 | Area of a Triangle | E | Formulas | Edabit | 25 | ☐ |
+| 067 | Maximum Triangle Edge | E | Math | Edabit | 25 | ☐ |
+| 068 | Rectangle Perimeter | E | Formulas | Edabit | 25 | ☐ |
+| 069 | Age to Days | E | Formulas | Edabit | 25 | ☐ |
+| 070 | The Farm Problem | E | Math | Edabit | 25 | ☐ |
+| 071 | Remainder of Two Numbers | E | Math | Edabit | 25 | ☐ |
+| 072 | Divisible by Five | E | Validation | Edabit | 25 | ☐ |
+| 073 | Multiple of 100 | E | Validation | Edabit | 25 | ☐ |
+| 074 | Less Than or Equal to Zero | E | Conditions | Edabit | 25 | ☐ |
+| 075 | Return Something to Me | E | Strings | Edabit | 25 | ☐ |
+| 076 | Is the String Empty | E | Validation | Edabit | 25 | ☐ |
+| 077 | Concatenate Name | E | Formatting | Edabit | 25 | ☐ |
+| 078 | First Array Element | E | Arrays | Edabit | 25 | ☐ |
+| 079 | Reverse an Array | E | Arrays | Edabit | 25 | ☐ |
+
 More Gates land in later waves — see `repo-ideas/11-core-curriculum.md`.
 
 ## Session cycle

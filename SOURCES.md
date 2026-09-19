@@ -13,7 +13,7 @@
 | [Codewars (PHP)](https://www.codewars.com/?language=php) | Warmups, PHP-flavor kata |
 | [HackerRank](https://www.hackerrank.com/) | Arrays/strings + interview sets |
 | [Exercism — PHP](https://exercism.org/tracks/php) | Mentored fluency (E/D) |
-| [Edabit — PHP](https://edabit.com/challenges/php) | Early-rank volume |
+| [Edabit — PHP](https://edabit.com/challenges/php) | Early-rank volume (**Wave 3** Very Easy curated) |
 | [W3Schools — Practice PHP](https://www.w3schools.com/php/exercise.asp) | E/D warmups + curated C Gates (Wave 2) |
 
 ## Additional
