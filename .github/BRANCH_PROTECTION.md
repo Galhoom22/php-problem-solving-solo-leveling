@@ -17,7 +17,7 @@ Enable:
    - Dismiss stale approvals when new commits are pushed
 3. **Require status checks to pass**
    - Require branches to be up to date before merging (recommended)
-   - Required checks (exact job names from `.github/workflows/ci.yml`):
+   - Required checks (exact job names from `.github/workflows/ci.yml` after you activate it from [`.github/pending-workflows/`](pending-workflows/)):
      - `Repo Laws + PHP Lint`
      - `Sacred Structure Guard`
 4. **Block force pushes**

@@ -49,4 +49,13 @@ Suggested **name:** `php-problem-solving-solo-leveling`
 gh repo create php-problem-solving-solo-leveling --public --source=. --remote=origin --push
 ```
 
+`ci.yml` starts under [`.github/pending-workflows/`](.github/pending-workflows/) so the first push works without the OAuth `workflow` scope. Activate Actions:
+
+```bash
+gh auth refresh -h github.com -s repo,workflow
+git mv .github/pending-workflows/ci.yml .github/workflows/ci.yml
+git commit -m "Enable GitHub Actions CI workflow"
+git push
+```
+
 Then enable branch protection: [`.github/BRANCH_PROTECTION.md`](.github/BRANCH_PROTECTION.md)
