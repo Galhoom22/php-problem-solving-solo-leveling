@@ -7,7 +7,7 @@
 
 **Do not open early.** Finish PHP-fit Gates + Skill Books first.
 
-**ID range:** Gate **208–224** (after Side Quests on the global ladder).
+**ID range:** Gate **214–230** (after Side Quests on the global ladder).
 
 ---
 
@@ -15,8 +15,8 @@
 
 | Part | Focus | Status |
 |:---|:---|:---|
-| [`Part-1-Linked-Lists-Interview/`](Part-1-Linked-Lists-Interview/) | Gates **208–215** (stubs) | 🔒 seeded |
-| [`Part-2-TreeNode-Interview-Form/`](Part-2-TreeNode-Interview-Form/) | Gates **216–224** (stubs) | 🔒 seeded |
+| [`Part-1-Linked-Lists-Interview/`](Part-1-Linked-Lists-Interview/) | Gates **214–221** (stubs) | 🔒 seeded |
+| [`Part-2-TreeNode-Interview-Form/`](Part-2-TreeNode-Interview-Form/) | Gates **222–230** (stubs) | 🔒 seeded |
 | [`Part-3-Classic-Mediums/`](Part-3-Classic-Mediums/) | Harder interview Mediums under time | 🔒 |
 | [`Part-4-Language-Transfer-Sprint/`](Part-4-Language-Transfer-Sprint/) | Re-express Shadows in Python/Java/JS/C++ | 🔒 |
 

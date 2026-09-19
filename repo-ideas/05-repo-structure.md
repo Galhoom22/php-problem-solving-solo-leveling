@@ -66,11 +66,11 @@ Gate numbers are **global and sequential by difficulty lane**:
 | 01-E-Gates | 001–049 |
 | 02-D-Gates | 050–094 |
 | 03-C-Gates | 095–132 |
-| 04-B-Gates | 133–166 |
-| 05-A-Gates | 167–183 |
-| 06-S-Gates | 184–186 |
-| 07-Side-Quests | 187–207 |
-| Interview Armor | 208–224 |
+| 04-B-Gates | 133–170 |
+| 05-A-Gates | 171–189 |
+| 06-S-Gates | 190–192 |
+| 07-Side-Quests | 193–213 |
+| Interview Armor | 214–230 |
 
 Never append a new Easy Gate with an ID after a Medium/Hard Gate. New imports must be **insertion-sorted** into the correct rank block (renumber later IDs if needed), not “next wave number”.
 
