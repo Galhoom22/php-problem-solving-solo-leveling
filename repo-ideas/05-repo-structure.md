@@ -8,7 +8,7 @@
 Folders are numbered so GitHub lists them in learning order.
 
 ```
-php-problem-solving-solo-leveling/
+php-problem-solving-solo-leveling-style/
 │
 ├── README.md                         ← At a glance + Status Window + Graduation
 ├── CONTRIBUTING.md

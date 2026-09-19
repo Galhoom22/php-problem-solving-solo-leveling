@@ -15,7 +15,11 @@
 | **Optional** | [`Side-Quests/`](Side-Quests/) — not graduation-critical |
 | **Armor** | Linked lists / TreeNode → [`../04-Interview-Armor/`](../04-Interview-Armor/) (after S on the ID ladder) |
 
-**How to clear one Gate:** open its `README.md` → fill `solution-1.php` → mark ✅ below → update root Status Window.
+**How to clear one Gate:** open its `README.md` → **Brief → Brute → Tighten → Talk** (see root [Clear method](../README.md#clear-method-interview-mirror)) → fill `solution-1.php` → mark ✅ below → update root Status Window.  
+
+**Folder name:** `Gate-NNN-kebab-case/` under `Rank/Category/` (example: `D-Gates/05-Arrays-Hashing/Gate-080-contains-duplicate/`).
+
+**Category order:** within each rank, numbered folders ascend by skill load (easy drills → core patterns). Gate IDs follow that walk.
 
 ---
 
@@ -43,148 +47,148 @@
 
 | Gate | Title | Category | Platform | XP | Status |
 |:---|:---|:---|:---|:---:|:---:|
-| 001 | Sum Array Elements | `01-PHP-Arrays-Basics` | Original | 25 | ☐ |
-| 002 | Find Max and Min | `01-PHP-Arrays-Basics` | Original | 25 | ☐ |
-| 003 | Average Score | `01-PHP-Arrays-Basics` | W3Schools | 25 | ☐ |
-| 004 | Count Matches | `01-PHP-Arrays-Basics` | W3Schools | 25 | ☐ |
-| 005 | First Array Element | `01-PHP-Arrays-Basics` | Edabit | 25 | ☐ |
-| 006 | Reverse an Array | `01-PHP-Arrays-Basics` | Edabit | 25 | ☐ |
-| 007 | Associative Value Sum | `01-PHP-Arrays-Basics` | HackerRank | 25 | ☐ |
-| 008 | 2D Matrix Sum | `01-PHP-Arrays-Basics` | HackerRank | 25 | ☐ |
-| 009 | Array Values Product | `01-PHP-Arrays-Basics` | w3resource | 25 | ☐ |
-| 010 | Unique Then Sort | `01-PHP-Arrays-Basics` | w3resource | 25 | ☐ |
-| 011 | Resistor Color | `01-PHP-Arrays-Basics` | Exercism | 25 | ☐ |
-| 012 | Reverse String | `02-Strings` | LeetCode | 25 | ☐ |
-| 013 | Count Vowels | `02-Strings` | Original | 25 | ☐ |
-| 014 | Word Counter | `02-Strings` | W3Schools | 25 | ☐ |
-| 015 | First and Last Character | `02-Strings` | W3Schools | 25 | ☐ |
-| 016 | Return Something to Me | `02-Strings` | Edabit | 25 | ☐ |
-| 017 | Is the String Empty | `02-Strings` | Edabit | 25 | ☐ |
-| 018 | Concatenate Name | `02-Strings` | Edabit | 25 | ☐ |
-| 019 | Convert a String to an Array | `02-Strings` | Codewars | 25 | ☐ |
-| 020 | Remove String Spaces | `02-Strings` | Codewars | 25 | ☐ |
-| 021 | String Concat Parts | `02-Strings` | HackerRank | 25 | ☐ |
-| 022 | Length and Uppercase | `02-Strings` | HackerRank | 25 | ☐ |
-| 023 | String Stats | `02-Strings` | w3resource | 25 | ☐ |
-| 024 | Two Fer | `02-Strings` | Exercism | 25 | ☐ |
-| 025 | Even or Odd | `03-Control-Flow` | W3Schools | 25 | ☐ |
-| 026 | FizzBuzz | `03-Control-Flow` | W3Schools | 25 | ☐ |
-| 027 | Keep Up the Hoop | `03-Control-Flow` | Codewars | 25 | ☐ |
-| 028 | Multiplication Table for Number | `03-Control-Flow` | Codewars | 25 | ☐ |
-| 029 | Grade Decision | `03-Control-Flow` | HackerRank | 25 | ☐ |
-| 030 | Sum With a Loop | `03-Control-Flow` | HackerRank | 25 | ☐ |
-| 031 | Factorial Table Lines | `03-Control-Flow` | w3resource | 25 | ☐ |
-| 032 | Factorial | `04-Numbers` | W3Schools | 25 | ☐ |
-| 033 | Sum 1 to N | `04-Numbers` | W3Schools | 25 | ☐ |
-| 034 | Celsius to Fahrenheit | `04-Numbers` | W3Schools | 25 | ☐ |
-| 035 | Sum of Two Numbers | `04-Numbers` | Edabit | 25 | ☐ |
-| 036 | Next Number | `04-Numbers` | Edabit | 25 | ☐ |
-| 037 | Minutes to Seconds | `04-Numbers` | Edabit | 25 | ☐ |
-| 038 | Hours to Seconds | `04-Numbers` | Edabit | 25 | ☐ |
-| 039 | Area of a Triangle | `04-Numbers` | Edabit | 25 | ☐ |
-| 040 | Maximum Triangle Edge | `04-Numbers` | Edabit | 25 | ☐ |
-| 041 | Rectangle Perimeter | `04-Numbers` | Edabit | 25 | ☐ |
-| 042 | Age to Days | `04-Numbers` | Edabit | 25 | ☐ |
-| 043 | The Farm Problem | `04-Numbers` | Edabit | 25 | ☐ |
-| 044 | Remainder of Two Numbers | `04-Numbers` | Edabit | 25 | ☐ |
-| 045 | Divisible by Five | `04-Numbers` | Edabit | 25 | ☐ |
-| 046 | Multiple of 100 | `04-Numbers` | Edabit | 25 | ☐ |
-| 047 | Less Than or Equal to Zero | `04-Numbers` | Edabit | 25 | ☐ |
-| 048 | Absolute Difference | `04-Numbers` | w3resource | 25 | ☐ |
-| 049 | Difference of Squares | `04-Numbers` | Exercism | 25 | ☐ |
+| 001 | Sum of Two Numbers | `01-Numbers` | Edabit | 25 | ☐ |
+| 002 | Next Number | `01-Numbers` | Edabit | 25 | ☐ |
+| 003 | Minutes to Seconds | `01-Numbers` | Edabit | 25 | ☐ |
+| 004 | Hours to Seconds | `01-Numbers` | Edabit | 25 | ☐ |
+| 005 | Remainder of Two Numbers | `01-Numbers` | Edabit | 25 | ☐ |
+| 006 | Divisible by Five | `01-Numbers` | Edabit | 25 | ☐ |
+| 007 | Multiple of 100 | `01-Numbers` | Edabit | 25 | ☐ |
+| 008 | Less Than or Equal to Zero | `01-Numbers` | Edabit | 25 | ☐ |
+| 009 | Celsius to Fahrenheit | `01-Numbers` | W3Schools | 25 | ☐ |
+| 010 | Area of a Triangle | `01-Numbers` | Edabit | 25 | ☐ |
+| 011 | Maximum Triangle Edge | `01-Numbers` | Edabit | 25 | ☐ |
+| 012 | Rectangle Perimeter | `01-Numbers` | Edabit | 25 | ☐ |
+| 013 | Age to Days | `01-Numbers` | Edabit | 25 | ☐ |
+| 014 | The Farm Problem | `01-Numbers` | Edabit | 25 | ☐ |
+| 015 | Absolute Difference | `01-Numbers` | w3resource | 25 | ☐ |
+| 016 | Sum 1 to N | `01-Numbers` | W3Schools | 25 | ☐ |
+| 017 | Factorial | `01-Numbers` | W3Schools | 25 | ☐ |
+| 018 | Difference of Squares | `01-Numbers` | Exercism | 25 | ☐ |
+| 019 | Even or Odd | `02-Control-Flow` | W3Schools | 25 | ☐ |
+| 020 | FizzBuzz | `02-Control-Flow` | W3Schools | 25 | ☐ |
+| 021 | Keep Up the Hoop | `02-Control-Flow` | Codewars | 25 | ☐ |
+| 022 | Multiplication Table for Number | `02-Control-Flow` | Codewars | 25 | ☐ |
+| 023 | Grade Decision | `02-Control-Flow` | HackerRank | 25 | ☐ |
+| 024 | Sum With a Loop | `02-Control-Flow` | HackerRank | 25 | ☐ |
+| 025 | Factorial Table Lines | `02-Control-Flow` | w3resource | 25 | ☐ |
+| 026 | Reverse String | `03-Strings` | LeetCode | 25 | ☐ |
+| 027 | Count Vowels | `03-Strings` | Original | 25 | ☐ |
+| 028 | Word Counter | `03-Strings` | W3Schools | 25 | ☐ |
+| 029 | First and Last Character | `03-Strings` | W3Schools | 25 | ☐ |
+| 030 | Return Something to Me | `03-Strings` | Edabit | 25 | ☐ |
+| 031 | Is the String Empty | `03-Strings` | Edabit | 25 | ☐ |
+| 032 | Concatenate Name | `03-Strings` | Edabit | 25 | ☐ |
+| 033 | Convert a String to an Array | `03-Strings` | Codewars | 25 | ☐ |
+| 034 | Remove String Spaces | `03-Strings` | Codewars | 25 | ☐ |
+| 035 | String Concat Parts | `03-Strings` | HackerRank | 25 | ☐ |
+| 036 | Length and Uppercase | `03-Strings` | HackerRank | 25 | ☐ |
+| 037 | String Stats | `03-Strings` | w3resource | 25 | ☐ |
+| 038 | Two Fer | `03-Strings` | Exercism | 25 | ☐ |
+| 039 | Sum Array Elements | `04-PHP-Arrays-Basics` | Original | 25 | ☐ |
+| 040 | Find Max and Min | `04-PHP-Arrays-Basics` | Original | 25 | ☐ |
+| 041 | Average Score | `04-PHP-Arrays-Basics` | W3Schools | 25 | ☐ |
+| 042 | Count Matches | `04-PHP-Arrays-Basics` | W3Schools | 25 | ☐ |
+| 043 | First Array Element | `04-PHP-Arrays-Basics` | Edabit | 25 | ☐ |
+| 044 | Reverse an Array | `04-PHP-Arrays-Basics` | Edabit | 25 | ☐ |
+| 045 | Associative Value Sum | `04-PHP-Arrays-Basics` | HackerRank | 25 | ☐ |
+| 046 | 2D Matrix Sum | `04-PHP-Arrays-Basics` | HackerRank | 25 | ☐ |
+| 047 | Array Values Product | `04-PHP-Arrays-Basics` | w3resource | 25 | ☐ |
+| 048 | Unique Then Sort | `04-PHP-Arrays-Basics` | w3resource | 25 | ☐ |
+| 049 | Resistor Color | `04-PHP-Arrays-Basics` | Exercism | 25 | ☐ |
 
 ### D-Gates (45)
 
 | Gate | Title | Category | Platform | XP | Status |
 |:---|:---|:---|:---|:---:|:---:|
-| 050 | Two Sum | `01-Arrays-Hashing` | LeetCode | 40 | ☐ |
-| 051 | Valid Anagram | `01-Arrays-Hashing` | LeetCode | 40 | ☐ |
-| 052 | Contains Duplicate | `01-Arrays-Hashing` | LeetCode | 40 | ☐ |
-| 053 | Move Zeros to End | `01-Arrays-Hashing` | W3Schools | 40 | ☐ |
-| 054 | Letter Frequency | `01-Arrays-Hashing` | W3Schools | 40 | ☐ |
-| 055 | Second Largest | `01-Arrays-Hashing` | W3Schools | 40 | ☐ |
-| 056 | Running Sum | `01-Arrays-Hashing` | W3Schools | 40 | ☐ |
-| 057 | Two Oldest Ages | `01-Arrays-Hashing` | Codewars | 40 | ☐ |
-| 058 | Small Enough | `01-Arrays-Hashing` | Codewars | 40 | ☐ |
-| 059 | Lost Number in Sequence | `01-Arrays-Hashing` | Codewars | 40 | ☐ |
-| 060 | Scrabble Score | `01-Arrays-Hashing` | Exercism | 40 | ☐ |
-| 061 | High Scores | `01-Arrays-Hashing` | Exercism | 40 | ☐ |
-| 062 | Majority Element | `01-Arrays-Hashing` | LeetCode | 40 | ☐ |
-| 063 | Single Number | `01-Arrays-Hashing` | LeetCode | 40 | ☐ |
-| 064 | Happy Number | `01-Arrays-Hashing` | LeetCode | 40 | ☐ |
-| 065 | Contains Duplicate II | `01-Arrays-Hashing` | LeetCode | 40 | ☐ |
-| 066 | Find Pivot Index | `01-Arrays-Hashing` | LeetCode | 40 | ☐ |
-| 067 | Valid Palindrome | `02-Strings` | LeetCode | 40 | ☐ |
-| 068 | Reverse Words | `02-Strings` | W3Schools | 40 | ☐ |
-| 069 | Most Common Character | `02-Strings` | W3Schools | 40 | ☐ |
-| 070 | Highest and Lowest | `02-Strings` | Codewars | 40 | ☐ |
-| 071 | Disemvowel Trolls | `02-Strings` | Codewars | 40 | ☐ |
-| 072 | Digits Only Check | `02-Strings` | w3resource | 40 | ☐ |
-| 073 | Raindrops | `02-Strings` | Exercism | 40 | ☐ |
-| 074 | Bob | `02-Strings` | Exercism | 40 | ☐ |
-| 075 | Hamming Distance | `02-Strings` | Exercism | 40 | ☐ |
-| 076 | Isogram | `02-Strings` | Exercism | 40 | ☐ |
-| 077 | Pangram | `02-Strings` | Exercism | 40 | ☐ |
-| 078 | RNA Transcription | `02-Strings` | Exercism | 40 | ☐ |
-| 079 | Acronym | `02-Strings` | Exercism | 40 | ☐ |
-| 080 | Isomorphic Strings | `02-Strings` | LeetCode | 40 | ☐ |
-| 081 | Ransom Note | `02-Strings` | LeetCode | 40 | ☐ |
-| 082 | Is Subsequence | `02-Strings` | LeetCode | 40 | ☐ |
-| 083 | Leap Year | `03-Numbers` | W3Schools | 40 | ☐ |
-| 084 | Prime Check | `03-Numbers` | W3Schools | 40 | ☐ |
-| 085 | Breaking Chocolate Problem | `03-Numbers` | Codewars | 40 | ☐ |
-| 086 | Descending Order | `03-Numbers` | Codewars | 40 | ☐ |
-| 087 | Square Every Digit | `03-Numbers` | Codewars | 40 | ☐ |
-| 088 | Palindrome Number | `03-Numbers` | LeetCode | 40 | ☐ |
-| 089 | Reverse Integer | `03-Numbers` | LeetCode | 40 | ☐ |
-| 090 | Plus One | `03-Numbers` | LeetCode | 40 | ☐ |
-| 091 | JSON Encode User Map | `04-JSON` | w3resource | 40 | ☐ |
-| 092 | JSON Decode Sum Scores | `04-JSON` | w3resource | 40 | ☐ |
-| 093 | Format Date Y-m-d | `05-Date` | w3resource | 40 | ☐ |
-| 094 | Gigasecond | `05-Date` | Exercism | 40 | ☐ |
+| 050 | Leap Year | `01-Numbers` | W3Schools | 40 | ☐ |
+| 051 | Prime Check | `01-Numbers` | W3Schools | 40 | ☐ |
+| 052 | Breaking Chocolate Problem | `01-Numbers` | Codewars | 40 | ☐ |
+| 053 | Descending Order | `01-Numbers` | Codewars | 40 | ☐ |
+| 054 | Square Every Digit | `01-Numbers` | Codewars | 40 | ☐ |
+| 055 | Palindrome Number | `01-Numbers` | LeetCode | 40 | ☐ |
+| 056 | Reverse Integer | `01-Numbers` | LeetCode | 40 | ☐ |
+| 057 | Plus One | `01-Numbers` | LeetCode | 40 | ☐ |
+| 058 | JSON Encode User Map | `02-JSON` | w3resource | 40 | ☐ |
+| 059 | JSON Decode Sum Scores | `02-JSON` | w3resource | 40 | ☐ |
+| 060 | Format Date Y-m-d | `03-Date` | w3resource | 40 | ☐ |
+| 061 | Gigasecond | `03-Date` | Exercism | 40 | ☐ |
+| 062 | Valid Palindrome | `04-Strings` | LeetCode | 40 | ☐ |
+| 063 | Reverse Words | `04-Strings` | W3Schools | 40 | ☐ |
+| 064 | Most Common Character | `04-Strings` | W3Schools | 40 | ☐ |
+| 065 | Highest and Lowest | `04-Strings` | Codewars | 40 | ☐ |
+| 066 | Disemvowel Trolls | `04-Strings` | Codewars | 40 | ☐ |
+| 067 | Digits Only Check | `04-Strings` | w3resource | 40 | ☐ |
+| 068 | Raindrops | `04-Strings` | Exercism | 40 | ☐ |
+| 069 | Bob | `04-Strings` | Exercism | 40 | ☐ |
+| 070 | Hamming Distance | `04-Strings` | Exercism | 40 | ☐ |
+| 071 | Isogram | `04-Strings` | Exercism | 40 | ☐ |
+| 072 | Pangram | `04-Strings` | Exercism | 40 | ☐ |
+| 073 | RNA Transcription | `04-Strings` | Exercism | 40 | ☐ |
+| 074 | Acronym | `04-Strings` | Exercism | 40 | ☐ |
+| 075 | Isomorphic Strings | `04-Strings` | LeetCode | 40 | ☐ |
+| 076 | Ransom Note | `04-Strings` | LeetCode | 40 | ☐ |
+| 077 | Is Subsequence | `04-Strings` | LeetCode | 40 | ☐ |
+| 078 | Two Sum | `05-Arrays-Hashing` | LeetCode | 40 | ☐ |
+| 079 | Valid Anagram | `05-Arrays-Hashing` | LeetCode | 40 | ☐ |
+| 080 | Contains Duplicate | `05-Arrays-Hashing` | LeetCode | 40 | ☐ |
+| 081 | Move Zeros to End | `05-Arrays-Hashing` | W3Schools | 40 | ☐ |
+| 082 | Letter Frequency | `05-Arrays-Hashing` | W3Schools | 40 | ☐ |
+| 083 | Second Largest | `05-Arrays-Hashing` | W3Schools | 40 | ☐ |
+| 084 | Running Sum | `05-Arrays-Hashing` | W3Schools | 40 | ☐ |
+| 085 | Two Oldest Ages | `05-Arrays-Hashing` | Codewars | 40 | ☐ |
+| 086 | Small Enough | `05-Arrays-Hashing` | Codewars | 40 | ☐ |
+| 087 | Lost Number in Sequence | `05-Arrays-Hashing` | Codewars | 40 | ☐ |
+| 088 | Scrabble Score | `05-Arrays-Hashing` | Exercism | 40 | ☐ |
+| 089 | High Scores | `05-Arrays-Hashing` | Exercism | 40 | ☐ |
+| 090 | Majority Element | `05-Arrays-Hashing` | LeetCode | 40 | ☐ |
+| 091 | Single Number | `05-Arrays-Hashing` | LeetCode | 40 | ☐ |
+| 092 | Happy Number | `05-Arrays-Hashing` | LeetCode | 40 | ☐ |
+| 093 | Contains Duplicate II | `05-Arrays-Hashing` | LeetCode | 40 | ☐ |
+| 094 | Find Pivot Index | `05-Arrays-Hashing` | LeetCode | 40 | ☐ |
 
 ### C-Gates (38)
 
 | Gate | Title | Category | Platform | XP | Status |
 |:---|:---|:---|:---|:---:|:---:|
-| 095 | Best Time to Buy and Sell Stock | `01-Sliding-Window` | LeetCode | 60 | ☐ |
-| 096 | Longest Substring Without Repeating Characters | `01-Sliding-Window` | LeetCode | 60 | ☐ |
-| 097 | Find All Anagrams in a String | `01-Sliding-Window` | LeetCode | 60 | ☐ |
-| 098 | Minimum Size Subarray Sum | `01-Sliding-Window` | LeetCode | 60 | ☐ |
-| 099 | Longest Repeating Character Replacement | `01-Sliding-Window` | LeetCode | 60 | ☐ |
-| 100 | Maximum Average Subarray I | `01-Sliding-Window` | LeetCode | 60 | ☐ |
-| 101 | Container With Most Water | `02-Two-Pointers` | LeetCode | 60 | ☐ |
-| 102 | Longest Common Prefix | `02-Two-Pointers` | W3Schools | 60 | ☐ |
-| 103 | 3Sum | `02-Two-Pointers` | LeetCode | 60 | ☐ |
-| 104 | Sort Colors | `02-Two-Pointers` | LeetCode | 60 | ☐ |
-| 105 | Squares of a Sorted Array | `02-Two-Pointers` | LeetCode | 60 | ☐ |
-| 106 | Two Sum II - Input Array Is Sorted | `02-Two-Pointers` | LeetCode | 60 | ☐ |
-| 107 | Group Anagrams | `03-Hashing` | LeetCode | 60 | ☐ |
-| 108 | Longest Consecutive Sequence | `03-Hashing` | LeetCode | 60 | ☐ |
-| 109 | Subarray Sum Equals K | `03-Hashing` | LeetCode | 60 | ☐ |
-| 110 | Valid Parentheses | `04-Stack` | LeetCode | 60 | ☐ |
-| 111 | Daily Temperatures | `04-Stack` | LeetCode | 60 | ☐ |
-| 112 | Decode String | `04-Stack` | LeetCode | 60 | ☐ |
-| 113 | Remove Duplicates Keep Order | `05-Arrays` | W3Schools | 60 | ☐ |
-| 114 | Rotate Left | `05-Arrays` | W3Schools | 60 | ☐ |
-| 115 | Merge Sorted Lists | `05-Arrays` | W3Schools | 60 | ☐ |
-| 116 | Longest Streak | `05-Arrays` | W3Schools | 60 | ☐ |
-| 117 | Maximum Subarray Sum | `05-Arrays` | W3Schools | 60 | ☐ |
-| 118 | Equal Sides Of An Array | `05-Arrays` | Codewars | 60 | ☐ |
-| 119 | Array Diff | `05-Arrays` | Codewars | 60 | ☐ |
-| 120 | Bit Counting | `05-Arrays` | Codewars | 60 | ☐ |
-| 121 | Pair Closest to Zero Sum | `05-Arrays` | w3resource | 60 | ☐ |
-| 122 | Product of Array Except Self | `05-Arrays` | LeetCode | 60 | ☐ |
-| 123 | Rotate Array | `05-Arrays` | LeetCode | 60 | ☐ |
-| 124 | Partition Labels | `05-Arrays` | LeetCode | 60 | ☐ |
-| 125 | Counting Bits | `05-Arrays` | LeetCode | 60 | ☐ |
-| 126 | Merge Sorted Array | `05-Arrays` | LeetCode | 60 | ☐ |
-| 127 | Flatten Array | `06-Nested-Arrays` | Exercism | 60 | ☐ |
-| 128 | Word Frequency | `07-Strings` | W3Schools | 60 | ☐ |
-| 129 | Stop Spinning My Words | `07-Strings` | Codewars | 60 | ☐ |
-| 130 | Create Phone Number | `07-Strings` | Codewars | 60 | ☐ |
-| 131 | Who Likes It | `07-Strings` | Codewars | 60 | ☐ |
-| 132 | Zigzag Conversion | `07-Strings` | LeetCode | 60 | ☐ |
+| 095 | Word Frequency | `01-Strings` | W3Schools | 60 | ☐ |
+| 096 | Stop Spinning My Words | `01-Strings` | Codewars | 60 | ☐ |
+| 097 | Create Phone Number | `01-Strings` | Codewars | 60 | ☐ |
+| 098 | Who Likes It | `01-Strings` | Codewars | 60 | ☐ |
+| 099 | Zigzag Conversion | `01-Strings` | LeetCode | 60 | ☐ |
+| 100 | Remove Duplicates Keep Order | `02-Arrays` | W3Schools | 60 | ☐ |
+| 101 | Rotate Left | `02-Arrays` | W3Schools | 60 | ☐ |
+| 102 | Merge Sorted Lists | `02-Arrays` | W3Schools | 60 | ☐ |
+| 103 | Longest Streak | `02-Arrays` | W3Schools | 60 | ☐ |
+| 104 | Maximum Subarray Sum | `02-Arrays` | W3Schools | 60 | ☐ |
+| 105 | Equal Sides Of An Array | `02-Arrays` | Codewars | 60 | ☐ |
+| 106 | Array Diff | `02-Arrays` | Codewars | 60 | ☐ |
+| 107 | Bit Counting | `02-Arrays` | Codewars | 60 | ☐ |
+| 108 | Pair Closest to Zero Sum | `02-Arrays` | w3resource | 60 | ☐ |
+| 109 | Product of Array Except Self | `02-Arrays` | LeetCode | 60 | ☐ |
+| 110 | Rotate Array | `02-Arrays` | LeetCode | 60 | ☐ |
+| 111 | Partition Labels | `02-Arrays` | LeetCode | 60 | ☐ |
+| 112 | Counting Bits | `02-Arrays` | LeetCode | 60 | ☐ |
+| 113 | Merge Sorted Array | `02-Arrays` | LeetCode | 60 | ☐ |
+| 114 | Flatten Array | `03-Nested-Arrays` | Exercism | 60 | ☐ |
+| 115 | Valid Parentheses | `04-Stack` | LeetCode | 60 | ☐ |
+| 116 | Daily Temperatures | `04-Stack` | LeetCode | 60 | ☐ |
+| 117 | Decode String | `04-Stack` | LeetCode | 60 | ☐ |
+| 118 | Group Anagrams | `05-Hashing` | LeetCode | 60 | ☐ |
+| 119 | Longest Consecutive Sequence | `05-Hashing` | LeetCode | 60 | ☐ |
+| 120 | Subarray Sum Equals K | `05-Hashing` | LeetCode | 60 | ☐ |
+| 121 | Container With Most Water | `06-Two-Pointers` | LeetCode | 60 | ☐ |
+| 122 | Longest Common Prefix | `06-Two-Pointers` | W3Schools | 60 | ☐ |
+| 123 | 3Sum | `06-Two-Pointers` | LeetCode | 60 | ☐ |
+| 124 | Sort Colors | `06-Two-Pointers` | LeetCode | 60 | ☐ |
+| 125 | Squares of a Sorted Array | `06-Two-Pointers` | LeetCode | 60 | ☐ |
+| 126 | Two Sum II - Input Array Is Sorted | `06-Two-Pointers` | LeetCode | 60 | ☐ |
+| 127 | Best Time to Buy and Sell Stock | `07-Sliding-Window` | LeetCode | 60 | ☐ |
+| 128 | Longest Substring Without Repeating Characters | `07-Sliding-Window` | LeetCode | 60 | ☐ |
+| 129 | Find All Anagrams in a String | `07-Sliding-Window` | LeetCode | 60 | ☐ |
+| 130 | Minimum Size Subarray Sum | `07-Sliding-Window` | LeetCode | 60 | ☐ |
+| 131 | Longest Repeating Character Replacement | `07-Sliding-Window` | LeetCode | 60 | ☐ |
+| 132 | Maximum Average Subarray I | `07-Sliding-Window` | LeetCode | 60 | ☐ |
 
 ### B-Gates (34)
 
@@ -199,31 +203,31 @@
 | 139 | Find Peak Element | `01-Binary-Search` | LeetCode | 90 | ☐ |
 | 140 | Search a 2D Matrix II | `01-Binary-Search` | LeetCode | 90 | ☐ |
 | 141 | Koko Eating Bananas | `01-Binary-Search` | LeetCode | 90 | ☐ |
-| 142 | Top K Frequent Elements | `02-Heap-TopK` | LeetCode | 90 | ☐ |
-| 143 | Kth Largest Element in an Array | `02-Heap-TopK` | LeetCode | 90 | ☐ |
-| 144 | Find the Duplicate Number | `03-Hashing-Medium` | LeetCode | 90 | ☐ |
-| 145 | Valid Sudoku | `03-Hashing-Medium` | LeetCode | 90 | ☐ |
-| 146 | Merge Intervals | `04-Intervals` | LeetCode | 90 | ☐ |
-| 147 | Insert Interval | `04-Intervals` | LeetCode | 90 | ☐ |
-| 148 | Non-overlapping Intervals | `04-Intervals` | LeetCode | 90 | ☐ |
-| 149 | LRU Cache | `05-Cache-Design` | LeetCode | 90 | ☐ |
-| 150 | Insert Delete GetRandom O(1) | `05-Cache-Design` | LeetCode | 90 | ☐ |
-| 151 | Min Stack | `06-Stack-Design` | LeetCode | 90 | ☐ |
-| 152 | Simplify Path | `06-Stack-Design` | LeetCode | 90 | ☐ |
-| 153 | Evaluate Reverse Polish Notation | `06-Stack-Design` | LeetCode | 90 | ☐ |
-| 154 | Maximum Depth (Nested Structure) | `07-Nested-Trees` | LeetCode | 90 | ☐ |
-| 155 | Implement Trie (Prefix Tree) | `08-Trie-Design` | LeetCode | 90 | ☐ |
-| 156 | Jump Game | `09-Greedy` | LeetCode | 90 | ☐ |
-| 157 | Jump Game II | `09-Greedy` | LeetCode | 90 | ☐ |
-| 158 | Subsets | `10-Backtracking` | LeetCode | 90 | ☐ |
-| 159 | Permutations | `10-Backtracking` | LeetCode | 90 | ☐ |
-| 160 | Combination Sum | `10-Backtracking` | LeetCode | 90 | ☐ |
-| 161 | Generate Parentheses | `10-Backtracking` | LeetCode | 90 | ☐ |
-| 162 | Letter Combinations of a Phone Number | `10-Backtracking` | LeetCode | 90 | ☐ |
-| 163 | Rotate Image | `11-Matrix` | LeetCode | 90 | ☐ |
-| 164 | Set Matrix Zeroes | `11-Matrix` | LeetCode | 90 | ☐ |
-| 165 | Spiral Matrix | `11-Matrix` | LeetCode | 90 | ☐ |
-| 166 | Next Permutation | `12-Arrays-Medium` | LeetCode | 90 | ☐ |
+| 142 | Next Permutation | `02-Arrays-Medium` | LeetCode | 90 | ☐ |
+| 143 | Find the Duplicate Number | `03-Hashing-Medium` | LeetCode | 90 | ☐ |
+| 144 | Valid Sudoku | `03-Hashing-Medium` | LeetCode | 90 | ☐ |
+| 145 | Top K Frequent Elements | `04-Heap-TopK` | LeetCode | 90 | ☐ |
+| 146 | Kth Largest Element in an Array | `04-Heap-TopK` | LeetCode | 90 | ☐ |
+| 147 | Merge Intervals | `05-Intervals` | LeetCode | 90 | ☐ |
+| 148 | Insert Interval | `05-Intervals` | LeetCode | 90 | ☐ |
+| 149 | Non-overlapping Intervals | `05-Intervals` | LeetCode | 90 | ☐ |
+| 150 | Min Stack | `06-Stack-Design` | LeetCode | 90 | ☐ |
+| 151 | Simplify Path | `06-Stack-Design` | LeetCode | 90 | ☐ |
+| 152 | Evaluate Reverse Polish Notation | `06-Stack-Design` | LeetCode | 90 | ☐ |
+| 153 | LRU Cache | `07-Cache-Design` | LeetCode | 90 | ☐ |
+| 154 | Insert Delete GetRandom O(1) | `07-Cache-Design` | LeetCode | 90 | ☐ |
+| 155 | Maximum Depth (Nested Structure) | `08-Nested-Trees` | LeetCode | 90 | ☐ |
+| 156 | Implement Trie (Prefix Tree) | `09-Trie-Design` | LeetCode | 90 | ☐ |
+| 157 | Jump Game | `10-Greedy` | LeetCode | 90 | ☐ |
+| 158 | Jump Game II | `10-Greedy` | LeetCode | 90 | ☐ |
+| 159 | Rotate Image | `11-Matrix` | LeetCode | 90 | ☐ |
+| 160 | Set Matrix Zeroes | `11-Matrix` | LeetCode | 90 | ☐ |
+| 161 | Spiral Matrix | `11-Matrix` | LeetCode | 90 | ☐ |
+| 162 | Subsets | `12-Backtracking` | LeetCode | 90 | ☐ |
+| 163 | Permutations | `12-Backtracking` | LeetCode | 90 | ☐ |
+| 164 | Combination Sum | `12-Backtracking` | LeetCode | 90 | ☐ |
+| 165 | Generate Parentheses | `12-Backtracking` | LeetCode | 90 | ☐ |
+| 166 | Letter Combinations of a Phone Number | `12-Backtracking` | LeetCode | 90 | ☐ |
 
 ### A-Gates (17)
 
@@ -259,27 +263,27 @@
 
 | Gate | Title | Folder | Platform | XP | Status |
 |:---|:---|:---|:---|:---:|:---:|
-| 187 | First and Last Digit | `CodeChef` | CodeChef | 25 | ☐ |
-| 188 | Sum of Digits | `CodeChef` | CodeChef | 25 | ☐ |
-| 189 | Reverse The Number | `CodeChef` | CodeChef | 25 | ☐ |
-| 190 | Lucky Four | `CodeChef` | CodeChef | 25 | ☐ |
-| 191 | Chef and Operators | `CodeChef` | CodeChef | 25 | ☐ |
-| 192 | Second Largest of Three | `CodeChef` | CodeChef | 40 | ☐ |
-| 193 | ATM Withdrawal | `CodeChef` | CodeChef | 40 | ☐ |
-| 194 | Watermelon | `Codeforces` | Codeforces | 25 | ☐ |
-| 195 | Way Too Long Words | `Codeforces` | Codeforces | 25 | ☐ |
-| 196 | Team | `Codeforces` | Codeforces | 25 | ☐ |
-| 197 | Bit++ | `Codeforces` | Codeforces | 25 | ☐ |
-| 198 | Domino piling | `Codeforces` | Codeforces | 25 | ☐ |
-| 199 | Next Round | `Codeforces` | Codeforces | 25 | ☐ |
-| 200 | Beautiful Matrix | `Codeforces` | Codeforces | 25 | ☐ |
-| 201 | Helpful Maths | `Codeforces` | Codeforces | 25 | ☐ |
-| 202 | Stones on the Table | `Codeforces` | Codeforces | 25 | ☐ |
-| 203 | Bear and Big Brother | `Codeforces` | Codeforces | 25 | ☐ |
-| 204 | Wrong Subtraction | `Codeforces` | Codeforces | 25 | ☐ |
-| 205 | Kefa and First Steps | `Codeforces` | Codeforces | 40 | ☐ |
-| 206 | Selection Sort Steps | `W3Resource-Extras` | w3resource | 40 | ☐ |
-| 207 | Bubble Sort Swap Count | `W3Schools-Extras` | W3Schools | 40 | ☐ |
+| 187 | First and Last Digit | `01-CodeChef` | CodeChef | 25 | ☐ |
+| 188 | Sum of Digits | `01-CodeChef` | CodeChef | 25 | ☐ |
+| 189 | Reverse The Number | `01-CodeChef` | CodeChef | 25 | ☐ |
+| 190 | Lucky Four | `01-CodeChef` | CodeChef | 25 | ☐ |
+| 191 | Chef and Operators | `01-CodeChef` | CodeChef | 25 | ☐ |
+| 192 | Second Largest of Three | `01-CodeChef` | CodeChef | 40 | ☐ |
+| 193 | ATM Withdrawal | `01-CodeChef` | CodeChef | 40 | ☐ |
+| 194 | Watermelon | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 195 | Way Too Long Words | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 196 | Team | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 197 | Bit++ | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 198 | Domino piling | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 199 | Next Round | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 200 | Beautiful Matrix | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 201 | Helpful Maths | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 202 | Stones on the Table | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 203 | Bear and Big Brother | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 204 | Wrong Subtraction | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 205 | Kefa and First Steps | `02-Codeforces` | Codeforces | 40 | ☐ |
+| 206 | Selection Sort Steps | `03-W3Resource-Extras` | w3resource | 40 | ☐ |
+| 207 | Bubble Sort Swap Count | `04-W3Schools-Extras` | W3Schools | 40 | ☐ |
 
 ### Interview Armor (17)
 

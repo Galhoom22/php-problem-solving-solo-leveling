@@ -6,7 +6,8 @@
 [![English Only](https://img.shields.io/badge/Docs-English%20100%25-informational)](repo-ideas/22-english-only.md)
 [![CI Laws](https://img.shields.io/badge/CI-Repo%20Laws-success)](scripts/ci/validate-repo.php)
 
-> **PHP 8.5 Learn + Solve gym** — DSA the PHP way · Solo Leveling progression · Big Tech / FAANG-ready patterns.  
+> **PHP 8.5 Learn + Solve gym** — the **20% of DSA patterns** that cover most interview / backend thinking, practiced the PHP way.  
+> Solo Leveling progression · Big Tech / FAANG-ready patterns.  
 > **Not** a solutions dump. **Not** Laravel / OOP / Design Patterns. You write every `solution-1.php`.
 
 ```
@@ -21,10 +22,24 @@ Command waiting: Arise.
 | | |
 |:---|:---|
 | **What** | Tracks `00`→`04`: PHP/PS → Skill Books → Gates → mocks → interview armor |
-| **How** | Gate `README.md` → fill stub `solution-1.php` (PHP 8.5) |
+| **How** | Gate `README.md` → fill stub `solution-1.php` (PHP 8.5) · method below |
 | **Order** | Gate IDs: **E (001+) → D → C → B → A → S → Side → Armor**; unlock by Hunter Rank |
+| **Layout** | `Rank / Category / Gate-NNN-kebab/` — one stub per Gate |
 | **Start** | Beginner → [`00-Awakening/`](00-Awakening/). Else → [`02-Problems/E-Gates/`](02-Problems/E-Gates/) **001** |
 | **Laws** | Hunter Solves First · English-Only · PHP Fitness · Professionalism · Strict Progression |
+
+## Clear method (interview mirror)
+
+Same discipline as a serious Pareto set — **one file**, your iterations, no shipped answers:
+
+| Step | Do this |
+|:---|:---|
+| 1. **Brief** | Read System Brief · Learn First · constraints · 1–2 examples |
+| 2. **Brute** | Get a correct PHP answer first ([Awakening Lesson 02](00-Awakening/Part-0-Problem-Solving-Intro/Lesson-02-brute-force-first/)) |
+| 3. **Tighten** | Improve time/space; rewrite the same `solution-1.php` (or note Big-O in a comment) |
+| 4. **Talk** | Say Time / Space aloud — mocks require this ([Track 3](03-Mock-Interview/)) |
+
+Mark ✅ on the [Gate map](02-Problems/README.md) only when you can explain the clear without reading the code.
 
 ```
 00-Awakening/                    learn PHP + how to read problems
@@ -117,6 +132,14 @@ Reward: XP +25 · VIT +1 · Streak +1
 | Contributor | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
 | AI / maintainer | [`AGENTS.md`](AGENTS.md) → [`repo-ideas/`](repo-ideas/) |
 | Sources | [`SOURCES.md`](SOURCES.md) |
+
+## Credits
+
+| | |
+|:---|:---|
+| Platforms | Curated imports only — [`SOURCES.md`](SOURCES.md) · never copy solutions |
+| Pattern curation | Interview classics (e.g. NeetCode / Blind 75 / Pareto-style sets) filtered by [PHP Fitness](repo-ideas/19-php-fitness-filter.md) |
+| Prior milestone | Sibling C++ Pareto practice: [LeetCode-DSA-Pareto-Set](https://github.com/Galhoom22/LeetCode-DSA-Pareto-Set) — same 20/80 idea; **this** gym is Learn+Solve PHP stubs |
 
 ```bash
 php scripts/ci/validate-repo.php

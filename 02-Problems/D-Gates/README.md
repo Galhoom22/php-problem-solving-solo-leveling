@@ -2,18 +2,19 @@
 
 Min Hunter Rank: **D-Rank**
 
-Core Easy — hashing and string scans.
+Core Easy — PHP drills first, then strings, then hashing interviews.
 
-**ID range:** Gate **050–094**.
+**ID range:** Gate **050–094**.  
+**Walk order:** Numbers → JSON → Date → Strings → Arrays-Hashing.
 
 ## Pattern categories
 
 | # | Folder |
 |:---:|:---|
-| 01 | [`01-Arrays-Hashing/`](01-Arrays-Hashing/) |
-| 02 | [`02-Strings/`](02-Strings/) |
-| 03 | [`03-Numbers/`](03-Numbers/) |
-| 04 | [`04-JSON/`](04-JSON/) |
-| 05 | [`05-Date/`](05-Date/) |
+| 01 | [`01-Numbers/`](01-Numbers/) |
+| 02 | [`02-JSON/`](02-JSON/) |
+| 03 | [`03-Date/`](03-Date/) |
+| 04 | [`04-Strings/`](04-Strings/) |
+| 05 | [`05-Arrays-Hashing/`](05-Arrays-Hashing/) |
 
 Full map: [`../README.md`](../README.md)

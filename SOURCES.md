@@ -4,6 +4,13 @@
 > Import only after the [PHP Fitness Filter](repo-ideas/19-php-fitness-filter.md).  
 > Gate list: [`02-Problems/README.md`](02-Problems/README.md). Policy: [`repo-ideas/02`](repo-ideas/02-multi-platform-sources.md).
 
+## Inspiration (not mirrored)
+
+| Work | What we take | What we do **not** take |
+|:---|:---|:---|
+| [LeetCode-DSA-Pareto-Set](https://github.com/Galhoom22/LeetCode-DSA-Pareto-Set) (hunter’s C++ set) | 20/80 focus · Brute→tighten discipline · checklist honesty | C++ solution dumps · required flowcharts · multi-file answers per problem |
+| NeetCode / Blind 75 / Pareto-style lists | Pattern coverage ideas for Gate selection | Whole lists as required climb without Fitness |
+
 ## Primary
 
 | Platform | Role here |
