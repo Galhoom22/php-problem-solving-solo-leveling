@@ -11,7 +11,14 @@ Source Platform: LeetCode
 ## System Brief
 Count islands of `'1'` in a grid.
 
-See LeetCode for examples.
+Example:
+```
+11110
+11010
+11000
+00000
+```
+→ `1` island.
 
 ## What This Gate Is Testing
 Grid BFS/DFS connected components.

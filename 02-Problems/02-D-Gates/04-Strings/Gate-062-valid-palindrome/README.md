@@ -11,7 +11,7 @@ Source Platform: LeetCode
 ## System Brief
 Check if a string is a palindrome after ignoring non-alphanumeric and case.
 
-See LeetCode for examples.
+Examples: `"A man, a plan, a canal: Panama"` → `true`; `"race a car"` → `false`.
 
 ## What This Gate Is Testing
 Two pointers + character filtering.

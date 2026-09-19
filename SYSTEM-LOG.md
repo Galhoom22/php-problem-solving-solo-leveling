@@ -19,6 +19,7 @@ Objective: Clear Gates. Absorb Patterns. Level Up Alone.
 
 | Date | Event | Details |
 |:---|:---|:---|
+| 2026-09-19 | GitHub 100 path | Live Actions `workflows/ci.yml` · stronger Protect-main ruleset · filled 12 thin LeetCode briefs · CI badge |
 | 2026-09-19 | NeetCode PHP-fit Gates | +6 climb stubs (Meeting Rooms II · TimeMap · Gas Station · Asteroid Collision · House Robber II · Course Schedule II); bank **230**; IDs after 166 shifted |
 | 2026-09-19 | NeetCode All policy | Documented [NeetCode All](https://neetcode.io/practice/practice/allNC) as unstructured optional pool; Blind 75/150/250 as pattern inspiration only — no 973-Gate dump |
 | 2026-09-19 | OOP-repo craft | Root TOC · structure tree · Requirements · Gate README/folder template in CONTRIBUTING; sibling [php-oop-documentation](https://github.com/Galhoom22/php-oop-documentation) (no OOP curriculum merge) |

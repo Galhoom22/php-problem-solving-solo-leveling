@@ -11,7 +11,7 @@ Source Platform: LeetCode
 ## System Brief
 Return index of `target` in sorted `nums`, or `-1`.
 
-See LeetCode for examples.
+Example: `nums = [-1,0,3,5,9,12]`, `target = 9` → `4`; `target = 2` → `-1`.
 
 ## What This Gate Is Testing
 Classic binary search on a sorted list.

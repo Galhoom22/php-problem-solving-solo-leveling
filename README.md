@@ -4,7 +4,7 @@
 [![Gates](https://img.shields.io/badge/Gates-230%20stubs-blue)](02-Problems/README.md)
 [![Hunter Solves First](https://img.shields.io/badge/Spoilers-Off-critical)](repo-ideas/21-hunter-solves-first-no-direct-answers.md)
 [![English Only](https://img.shields.io/badge/Docs-English%20100%25-informational)](repo-ideas/22-english-only.md)
-[![CI Laws](https://img.shields.io/badge/CI-Repo%20Laws-success)](scripts/ci/validate-repo.php)
+[![CI](https://github.com/Galhoom22/php-problem-solving-solo-leveling/actions/workflows/ci.yml/badge.svg)](https://github.com/Galhoom22/php-problem-solving-solo-leveling/actions/workflows/ci.yml)
 
 A **Learn + Solve gym**: curated DSA Gates with empty PHP stubs — you write every answer.  
 Not a solutions dump, and not a scraped LeetCode mirror. Theme is light Solo Leveling (ranks, Gates, XP).

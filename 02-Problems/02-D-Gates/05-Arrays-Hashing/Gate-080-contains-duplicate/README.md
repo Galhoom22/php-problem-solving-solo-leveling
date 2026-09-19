@@ -11,7 +11,7 @@ Source Platform: LeetCode
 ## System Brief
 Return true if any value appears at least twice.
 
-See LeetCode for examples.
+Examples: `[1,2,3,1]` → `true`; `[1,2,3,4]` → `false`.
 
 ## What This Gate Is Testing
 Detect seen values with a set/map.

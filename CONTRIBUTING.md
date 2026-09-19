@@ -99,13 +99,12 @@ Suggested **name:** `php-problem-solving-solo-leveling`
 gh repo create php-problem-solving-solo-leveling --public --source=. --remote=origin --push
 ```
 
-`ci.yml` starts under [`.github/pending-workflows/`](.github/pending-workflows/) so the first push works without the OAuth `workflow` scope. Activate Actions:
+CI workflow is live at [`.github/workflows/ci.yml`](.github/workflows/ci.yml).  
+Branch protection: [`.github/BRANCH_PROTECTION.md`](.github/BRANCH_PROTECTION.md)
+
+If a clone ever lacks Actions (OAuth without `workflow` scope), restore with:
 
 ```bash
 gh auth refresh -h github.com -s repo,workflow
-git mv .github/pending-workflows/ci.yml .github/workflows/ci.yml
-git commit -m "Enable GitHub Actions CI workflow"
-git push
+# ensure .github/workflows/ci.yml exists, then push
 ```
-
-Then enable branch protection: [`.github/BRANCH_PROTECTION.md`](.github/BRANCH_PROTECTION.md)

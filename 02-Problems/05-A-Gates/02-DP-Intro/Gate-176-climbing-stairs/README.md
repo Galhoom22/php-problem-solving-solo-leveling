@@ -11,7 +11,7 @@ Source Platform: LeetCode
 ## System Brief
 Ways to climb `n` stairs taking 1 or 2 steps.
 
-See LeetCode for examples.
+Examples: `n = 2` → `2`; `n = 3` → `3`.
 
 ## What This Gate Is Testing
 Memoization / simple DP intro.

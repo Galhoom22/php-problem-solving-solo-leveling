@@ -11,7 +11,7 @@ Source Platform: LeetCode
 ## System Brief
 Return whether `t` is an anagram of `s`.
 
-See LeetCode for examples.
+Examples: `s = "anagram"`, `t = "nagaram"` → `true`; `s = "rat"`, `t = "car"` → `false`.
 
 ## What This Gate Is Testing
 Frequency counting with maps or sorted compare.

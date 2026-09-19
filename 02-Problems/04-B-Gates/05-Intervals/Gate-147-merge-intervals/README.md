@@ -11,7 +11,7 @@ Source Platform: LeetCode
 ## System Brief
 Merge overlapping intervals.
 
-See LeetCode for examples.
+Example: `[[1,3],[2,6],[8,10],[15,18]]` → `[[1,6],[8,10],[15,18]]`.
 
 ## What This Gate Is Testing
 Sort intervals then merge overlaps.

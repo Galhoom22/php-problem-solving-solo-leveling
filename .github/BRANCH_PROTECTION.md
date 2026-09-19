@@ -2,12 +2,11 @@
 
 CI alone is not enough. Turn on **GitHub Branch Protection** (or Rulesets) so broken / law-breaking changes cannot land on `main` by accident.
 
-Also in this folder: [`pull_request_template.md`](pull_request_template.md) · Actions workflow lives in [`pending-workflows/`](pending-workflows/) until activated (see [`../CONTRIBUTING.md`](../CONTRIBUTING.md)).
+Also in this folder: [`pull_request_template.md`](pull_request_template.md) · live Actions: [`workflows/ci.yml`](workflows/ci.yml).
 
-## Required settings (GitHub UI)
+## Required settings (GitHub UI / Rulesets)
 
-**Repo → Settings → Rules → Rulesets → New branch ruleset**  
-(or Settings → Branches → Branch protection rules)
+**Repo → Settings → Rules → Rulesets** (or Branches → Branch protection)
 
 Apply to: `main`
 
@@ -15,15 +14,17 @@ Enable:
 
 1. **Restrict updates** / block force pushes to `main`
 2. **Require a pull request before merging**
-   - At least **1** approval (optional if you are solo — still useful later)
+   - Required approvals: **0** is OK for solo (still blocks direct force chaos when combined with checks)
    - Dismiss stale approvals when new commits are pushed
 3. **Require status checks to pass**
-   - Require branches to be up to date before merging (recommended)
-   - Required checks (exact job names from `.github/workflows/ci.yml` after you activate it from [`.github/pending-workflows/`](pending-workflows/)):
+   - Require branches to be up to date before merging
+   - Required checks (exact job names from [`.github/workflows/ci.yml`](workflows/ci.yml)):
      - `Repo Laws + PHP Lint`
      - `Sacred Structure Guard`
 4. **Block force pushes**
-5. **Do not allow bypassing the above settings** (except carefully limited admins)
+5. **Do not allow bypassing** except carefully limited admins
+
+This repo should already have an active **Protect main** ruleset; keep status checks aligned with the two CI job names above.
 
 ## What CI enforces automatically
 

@@ -11,7 +11,9 @@ Source Platform: LeetCode
 ## System Brief
 Design LRUCache with `get` / `put` in average O(1) if possible.
 
-See LeetCode for examples. Implement with PHP arrays/`Spl` — document your choice in notes.md.
+Example: capacity `2` — `put(1,1)`, `put(2,2)`, `get(1)` → `1`, `put(3,3)` evicts key `2`, `get(2)` → `-1`.
+
+Implement with PHP arrays/`Spl` — document your choice in notes.md if useful.
 
 ## What This Gate Is Testing
 Capacity-limited cache with least-recently-used eviction.

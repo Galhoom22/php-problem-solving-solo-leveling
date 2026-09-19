@@ -11,7 +11,7 @@ Source Platform: LeetCode
 ## System Brief
 One buy + one sell for max profit (or 0).
 
-See LeetCode for examples.
+Example: `prices = [7,1,5,3,6,4]` → `5` (buy at 1, sell at 6).
 
 ## What This Gate Is Testing
 Track running minimum while scanning for best profit.

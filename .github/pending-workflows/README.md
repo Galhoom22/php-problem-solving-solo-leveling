@@ -1,15 +1,5 @@
-# Pending GitHub Actions workflow
+# Pending workflow folder
 
-`ci.yml` lives here so the first `git push` works with a default `gh` OAuth token (no `workflow` scope).
+CI is **live** at [`.github/workflows/ci.yml`](../workflows/ci.yml).
 
-## Activate Actions on GitHub
-
-```bash
-gh auth refresh -h github.com -s repo,workflow
-mkdir -p .github/workflows
-git mv .github/pending-workflows/ci.yml .github/workflows/ci.yml
-git commit -m "Enable GitHub Actions CI workflow"
-git push
-```
-
-Then turn on branch protection: [`../BRANCH_PROTECTION.md`](../BRANCH_PROTECTION.md).
+This folder is kept empty (or with this note only) so older docs that linked here do not 404. Do not put a second `ci.yml` here.

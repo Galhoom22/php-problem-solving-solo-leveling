@@ -11,7 +11,7 @@ Source Platform: LeetCode
 ## System Brief
 Check if bracket string is valid.
 
-See LeetCode for examples.
+Examples: `"()[]{}"` → `true`; `"(]"` → `false`; `"([])"` → `true`.
 
 ## What This Gate Is Testing
 Stack discipline for matching pairs.

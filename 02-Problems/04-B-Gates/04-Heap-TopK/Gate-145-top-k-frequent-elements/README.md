@@ -11,7 +11,7 @@ Source Platform: LeetCode
 ## System Brief
 Return the `k` most frequent elements.
 
-See LeetCode for examples.
+Example: `nums = [1,1,1,2,2,3]`, `k = 2` → `[1,2]` (any order).
 
 ## What This Gate Is Testing
 Frequency map + top-K selection (heap or bucket).
