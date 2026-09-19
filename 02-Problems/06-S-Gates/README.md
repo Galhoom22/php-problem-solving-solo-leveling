@@ -4,7 +4,7 @@ Min Hunter Rank: **S-Rank+**
 
 Prestige PHP-fit Hard.
 
-**ID range:** Gate **184–186**.
+**ID range:** Gate **190–192**.
 
 ## Pattern categories
 

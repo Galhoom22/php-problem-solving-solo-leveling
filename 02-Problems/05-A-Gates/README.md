@@ -4,7 +4,7 @@ Min Hunter Rank: **A-Rank**
 
 Stretch raids — still PHP-fit.
 
-**ID range:** Gate **167–183**.
+**ID range:** Gate **171–189**.
 
 ## Pattern categories
 
