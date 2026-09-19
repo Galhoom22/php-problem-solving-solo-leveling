@@ -29,6 +29,7 @@ Build a **huge PHP-only problem collection** by pulling famous challenges from m
 | [CodinGame](https://www.codingame.com/) | Game-like puzzles | Fun side quests |
 | [CodeCrafters — PHP](https://app.codecrafters.io/tracks/php) | Build real tools in PHP | Late-rank Boss Projects (strong PHP identity) |
 | NeetCode / Blind 75 lists | Interview roadmaps | **Filter through PHP Fitness** — keep pattern, drop PHP-unnatural items from required path |
+| [NeetCode All](https://neetcode.io/practice/practice/allNC) | Huge unstructured practice pool (~973) | **Never** mirror into required climb; optional random drills only after Fitness |
 
 ### Source Policy (important)
 1. **PHP-only solutions in this repo** — even if the original platform’s judge is multi-language.

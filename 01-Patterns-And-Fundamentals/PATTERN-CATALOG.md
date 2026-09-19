@@ -58,3 +58,5 @@ Mission out-of-scope: [`../repo-ideas/00-mission-learn-and-solve.md`](../repo-id
 1. Open one Skill Book → type the tiny example yourself  
 2. Clear related Gates in Track 2  
 3. On fluency → Shadow Extraction (`Arise`) → update root Status Window
+
+NeetCode’s pattern buckets ([All](https://neetcode.io/practice/practice/allNC) · 150 · Blind 75) are a **naming crosswalk**, not a second curriculum — this catalog is the ordered path.
