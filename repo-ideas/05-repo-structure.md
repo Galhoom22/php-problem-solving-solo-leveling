@@ -104,7 +104,7 @@ Respect Hunter Rank gates throughout.
 
 ### Teaching density by track
 
-- Awakening / E-Gates: maximum teaching
+- Awakening / `01-E-Gates`: maximum teaching
 - D/C/B Gates: pattern + Backend Link + PHP idiom
 - Mocks: interview behavior
 - Interview Armor: honest “interview-shaped” training after foundations

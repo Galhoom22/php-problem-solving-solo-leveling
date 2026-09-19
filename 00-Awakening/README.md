@@ -9,7 +9,7 @@
 
 ## Mission
 
-Enough **PHP 8.5** + **problem-solving literacy** to enter E-Gates without drowning.
+Enough **PHP 8.5** + **problem-solving literacy** to enter `01-E-Gates` without drowning.
 
 ## Parts
 
@@ -29,7 +29,7 @@ Mark a lesson ✅ only after you can explain it in your own words and run a tiny
 
 ## Session recipe
 
-One lesson per session. Do not rush into D-Gates before E-Gates feel easy.
+One lesson per session. Do not rush into `02-D-Gates` before `01-E-Gates` feel easy.
 
 HackerRank PHP (Basic) environment/variables competencies: Lessons 05–06 in Part-0-PHP-Basics.
 

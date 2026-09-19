@@ -31,7 +31,7 @@ Before every change: **What becomes more professional after this?**
 php scripts/ci/validate-repo.php
 ```
 
-Optional: `php scripts/audit-hunter-ready.php`
+Optional: `php scripts/audit-hunter-ready.php` · `php scripts/audit-consistency.php --links`
 
 Required PR checks: `Repo Laws + PHP Lint` · `Sacred Structure Guard`
 

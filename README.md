@@ -103,7 +103,7 @@ Edit this when you clear Gates (also update the Gate map ✅).
 ║ Title       : The Weakest Solver         ║
 ║ XP          : 0 / 100                    ║
 ║ Streak      : 0 days                     ║
-║ Gates Open  : E-Gates only               ║
+║ Gates Open  : 01-E-Gates only            ║
 ║ Mastered patterns : (none yet — Arise)   ║
 ```
 
@@ -138,7 +138,7 @@ Details: [`repo-ideas/20-big-tech-faang-graduation.md`](repo-ideas/20-big-tech-f
 
 | Need | Open |
 |:---|:---|
-| Solve / learn | This file → Awakening or E-Gates |
+| Solve / learn | This file → Awakening or `01-E-Gates` |
 | Add a Gate / contribute | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
 | Problem sources | [`SOURCES.md`](SOURCES.md) |
 | AI / maintainer laws | [`AGENTS.md`](AGENTS.md) · [`repo-ideas/`](repo-ideas/) |

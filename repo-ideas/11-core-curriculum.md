@@ -128,7 +128,7 @@ Also encourage PHP-native tree Gates:
 
 ## Side Quest lane vs Interview Armor
 
-- **Side-Quests/** = optional extras (not required).
+- **`07-Side-Quests/`** = optional extras (not required).
 - **04-Interview-Armor/** = **required for Big Tech / FAANG graduation** after B-Rank+ PHP-fit core.
   Includes linked-list classics and language transfer — honestly labeled as interview preparation.
   See `20-big-tech-faang-graduation.md`.

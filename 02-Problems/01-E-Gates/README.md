@@ -2,7 +2,7 @@
 
 Min Hunter Rank: **E-Rank**
 
-Warmups for PHP confidence. Clear these before D-Gates.
+Warmups for PHP confidence. Clear these before `02-D-Gates`.
 
 **ID range:** Gate **001–049** (first on the global ladder).  
 **Walk order:** Numbers → Control-Flow → Strings → Arrays (easiest skill load first).

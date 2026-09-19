@@ -20,12 +20,12 @@ Keep a live panel in root `README.md`: Level · Hunter Rank · Job · Title · X
 
 | Rank | Levels (suggest) | Unlocks |
 |:---|:---|:---|
-| E | 1–5 | E-Gates |
-| D | 6–10 | D-Gates |
-| C | 11–18 | C-Gates |
-| B | 19–26 | B-Gates + mocks |
-| A | 27–34 | A-Gates |
-| S | 35–42 | S-Gates |
+| E | 1–5 | `01-E-Gates/` |
+| D | 6–10 | `02-D-Gates/` |
+| C | 11–18 | `03-C-Gates/` |
+| B | 19–26 | `04-B-Gates/` + mocks |
+| A | 27–34 | `05-A-Gates/` |
+| S | 35–42 | `06-S-Gates/` |
 | National | 43–48 | Harder Instant Dungeons |
 | Monarch Candidate | 49–50+ | Prestige + teach-back |
 

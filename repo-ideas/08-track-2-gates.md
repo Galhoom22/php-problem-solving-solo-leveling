@@ -16,12 +16,13 @@ Never ship finished answers as default Gate files. Never open a session with a f
 ## Layout
 
 ```
-02-Problems/{E|D|C|B|A|S}-Gates/{NN-Pattern}/Gate-NNN-kebab/
+02-Problems/{01-E|02-D|03-C|04-B|05-A|06-S}-Gates/{NN-Pattern}/Gate-NNN-kebab/
   README.md
   solution-1.php   ← stub + TODO only
 ```
 
 Side Quests: `02-Problems/07-Side-Quests/` (optional).  
+Rank folder numbers exist so explorer/GitHub sort matches the climb (E→…→Side).  
 List/TreeNode theater: `04-Interview-Armor/` only.
 
 ## Gate README (required fields)

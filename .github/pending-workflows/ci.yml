@@ -77,6 +77,7 @@ jobs:
             "repo-ideas/22-english-only.md"
             "repo-ideas/23-professionalism-ratchet.md"
             "scripts/ci/validate-repo.php"
+            ".github/pending-workflows/ci.yml"
             ".github/workflows/ci.yml"
           )
 

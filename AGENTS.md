@@ -37,7 +37,7 @@ Before editing: **What becomes more professional after this?**
 
 **D) Mock / Armor** — Timed talk-aloud; Armor sealed until B-Rank+ on PHP-fit climb.
 
-**E) Repo / CI** — Do not delete tracks, law files, or `.github/workflows/ci.yml`.
+**E) Repo / CI** — Do not delete tracks, law files, or the CI workflow (live: `.github/workflows/ci.yml` · until activated: `.github/pending-workflows/ci.yml`).
 
 ## Code standards
 
