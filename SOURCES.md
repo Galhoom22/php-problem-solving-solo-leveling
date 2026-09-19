@@ -12,7 +12,7 @@
 | [technical-interview-questions](https://github.com/Galhoom22/technical-interview-questions) | Clear is/is-not pitch · section legend · study-order counts · sibling links | Verbal answer-bank model (spoilers) · Laravel curriculum |
 | [php-oop-documentation](https://github.com/Galhoom22/php-oop-documentation) | Numbered tracks · TOC · repo structure tree · Requirements · per-item folder template | OOP lecture curriculum · progress grids for every unit · framework-free OOP course content |
 | [Blind 75](https://neetcode.io/practice/practice/blind75) · [NeetCode 150](https://neetcode.io/practice/practice/neetcode150) · [NeetCode 250](https://neetcode.io/practice/practice/neetcode250) | Pattern bucket names for Skill Books / Gate selection (arrays, two pointers, window, …) | Whole list as required climb · video solutions as default · non–PHP-fit theater |
-| [NeetCode All](https://neetcode.io/practice/practice/allNC) (~973; unstructured) | Optional random practice *after* the climb; tag ideas only | Dumping All into `02-Problems` · treating volume as graduation |
+| [NeetCode All](https://neetcode.io/practice/practice/allNC) (~973; unstructured) | Optional random practice *after* the climb; tag ideas only · curated PHP+Backend imports only | Dumping All into `02-Problems` · treating volume as graduation · JS / linked-list / olympiad buckets |
 
 ## Primary
 

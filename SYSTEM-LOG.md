@@ -19,6 +19,7 @@ Objective: Clear Gates. Absorb Patterns. Level Up Alone.
 
 | Date | Event | Details |
 |:---|:---|:---|
+| 2026-09-19 | NeetCode PHP+Backend wave | +8 B-rank stubs (Moving Average · TinyURL · Auth Manager · First Bad Version · Ship Capacity · Task Scheduler · Car Pooling · My Calendar I); bank **238**; skipped non–PHP-fit All buckets |
 | 2026-09-19 | GitHub 100 path | Live Actions `workflows/ci.yml` · stronger Protect-main ruleset · filled 12 thin LeetCode briefs · CI badge |
 | 2026-09-19 | NeetCode PHP-fit Gates | +6 climb stubs (Meeting Rooms II · TimeMap · Gas Station · Asteroid Collision · House Robber II · Course Schedule II); bank **230**; IDs after 166 shifted |
 | 2026-09-19 | NeetCode All policy | Documented [NeetCode All](https://neetcode.io/practice/practice/allNC) as unstructured optional pool; Blind 75/150/250 as pattern inspiration only — no 973-Gate dump |

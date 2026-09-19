@@ -4,7 +4,7 @@ Min Hunter Rank: **B-Rank**
 
 Main Medium set (PHP-fit).
 
-**ID range:** Gate **133–170**.  
+**ID range:** Gate **133–178**.  
 **Walk order:** Binary Search → Arrays → Hashing → Heap → Intervals → Stack → Cache → Nested → Trie → Greedy → Matrix → Backtracking.
 
 ## Pattern categories

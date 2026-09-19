@@ -31,7 +31,7 @@ Digit math + overflow guard.
 - "Digit reverse needs bounds checks."
 
 ## Related Gates
-- Side Quest Gate 195 Reverse The Number (CodeChef) — similar digit reverse, contest I/O optional
+- Side Quest Gate 203 Reverse The Number (CodeChef) — similar digit reverse, contest I/O optional
 - Gate 055 Palindrome Number — often uses reverse thinking
 
 ## Clear Rule

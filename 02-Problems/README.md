@@ -8,7 +8,7 @@
 
 | | |
 |:---|:---|
-| **Bank size** | 230 Gate stubs (climb + Side Quests + Interview Armor) |
+| **Bank size** | 238 Gate stubs (climb + Side Quests + Interview Armor) |
 | **Order law** | Gate IDs ascend with difficulty: **E → D → C → B → A → S → Side → Armor** |
 | **Start** | [`01-E-Gates/`](01-E-Gates/) — lowest IDs first |
 | **Layout** | `Rank-folder / Pattern-category / Gate-NNN-kebab/` |
@@ -30,11 +30,11 @@
 | [`01-E-Gates/`](01-E-Gates/) | E | Survive — PHP confidence | 001–049 |
 | [`02-D-Gates/`](02-D-Gates/) | D | Core Easy | 050–094 |
 | [`03-C-Gates/`](03-C-Gates/) | C | Easy → early Medium | 095–132 |
-| [`04-B-Gates/`](04-B-Gates/) | B | Main Medium set | 133–170 |
-| [`05-A-Gates/`](05-A-Gates/) | A | Stretch | 171–189 |
-| [`06-S-Gates/`](06-S-Gates/) | S | Prestige (PHP-fit only) | 190–192 |
-| [`07-Side-Quests/`](07-Side-Quests/) | any | Optional — not graduation-critical | 193–213 |
-| [`../04-Interview-Armor/`](../04-Interview-Armor/) | B+ | Interview lists/trees | 214–230 |
+| [`04-B-Gates/`](04-B-Gates/) | B | Main Medium set | 133–178 |
+| [`05-A-Gates/`](05-A-Gates/) | A | Stretch | 179–197 |
+| [`06-S-Gates/`](06-S-Gates/) | S | Prestige (PHP-fit only) | 198–200 |
+| [`07-Side-Quests/`](07-Side-Quests/) | any | Optional — not graduation-critical | 201–221 |
+| [`../04-Interview-Armor/`](../04-Interview-Armor/) | B+ | Interview lists/trees | 222–238 |
 
 ## Gate Source Map (progression order)
 
@@ -190,7 +190,7 @@
 | 131 | Longest Repeating Character Replacement | `07-Sliding-Window` | LeetCode | 60 | ☐ |
 | 132 | Maximum Average Subarray I | `07-Sliding-Window` | LeetCode | 60 | ☐ |
 
-### 04-B-Gates (38)
+### 04-B-Gates (46)
 
 | Gate | Title | Category | Platform | XP | Status |
 |:---|:---|:---|:---|:---:|:---:|
@@ -232,64 +232,72 @@
 | 168 | Time Based Key-Value Store | `01-Binary-Search` | LeetCode | 90 | ☐ |
 | 169 | Gas Station | `10-Greedy` | LeetCode | 90 | ☐ |
 | 170 | Asteroid Collision | `06-Stack-Design` | LeetCode | 90 | ☐ |
+| 171 | Moving Average from Data Stream | `13-Backend-Design` | LeetCode | 90 | ☐ |
+| 172 | Encode and Decode TinyURL | `13-Backend-Design` | LeetCode | 90 | ☐ |
+| 173 | Design Authentication Manager | `13-Backend-Design` | LeetCode | 90 | ☐ |
+| 174 | First Bad Version | `01-Binary-Search` | LeetCode | 90 | ☐ |
+| 175 | Capacity To Ship Packages Within D Days | `01-Binary-Search` | LeetCode | 90 | ☐ |
+| 176 | Task Scheduler | `04-Heap-TopK` | LeetCode | 90 | ☐ |
+| 177 | Car Pooling | `05-Intervals` | LeetCode | 90 | ☐ |
+| 178 | My Calendar I | `05-Intervals` | LeetCode | 90 | ☐ |
 
 ### 05-A-Gates (19)
 
 | Gate | Title | Category | Platform | XP | Status |
 |:---|:---|:---|:---|:---:|:---:|
-| 171 | Number of Islands | `01-Graphs` | LeetCode | 130 | ☐ |
-| 172 | Course Schedule | `01-Graphs` | LeetCode | 130 | ☐ |
-| 173 | Course Schedule II | `01-Graphs` | LeetCode | 130 | ☐ |
-| 174 | Number of Provinces | `01-Graphs` | LeetCode | 130 | ☐ |
-| 175 | Rotting Oranges | `01-Graphs` | LeetCode | 130 | ☐ |
-| 176 | Climbing Stairs | `02-DP-Intro` | LeetCode | 130 | ☐ |
-| 177 | House Robber | `02-DP-Intro` | LeetCode | 130 | ☐ |
-| 178 | House Robber II | `02-DP-Intro` | LeetCode | 130 | ☐ |
-| 179 | Coin Change | `02-DP-Intro` | LeetCode | 130 | ☐ |
-| 180 | Unique Paths | `02-DP-Intro` | LeetCode | 130 | ☐ |
-| 181 | Minimum Path Sum | `02-DP-Intro` | LeetCode | 130 | ☐ |
-| 182 | Maximum Product Subarray | `02-DP-Intro` | LeetCode | 130 | ☐ |
-| 183 | Word Break | `02-DP-Intro` | LeetCode | 130 | ☐ |
-| 184 | Longest Increasing Subsequence | `02-DP-Intro` | LeetCode | 130 | ☐ |
-| 185 | Longest Common Subsequence | `02-DP-Intro` | LeetCode | 130 | ☐ |
-| 186 | Partition Equal Subset Sum | `02-DP-Intro` | LeetCode | 130 | ☐ |
-| 187 | Coin Change II | `02-DP-Intro` | LeetCode | 130 | ☐ |
-| 188 | Trapping Rain Water | `02-DP-Intro` | LeetCode | 130 | ☐ |
-| 189 | Word Search | `03-Backtracking-Harder` | LeetCode | 130 | ☐ |
+| 179 | Number of Islands | `01-Graphs` | LeetCode | 130 | ☐ |
+| 180 | Course Schedule | `01-Graphs` | LeetCode | 130 | ☐ |
+| 181 | Course Schedule II | `01-Graphs` | LeetCode | 130 | ☐ |
+| 182 | Number of Provinces | `01-Graphs` | LeetCode | 130 | ☐ |
+| 183 | Rotting Oranges | `01-Graphs` | LeetCode | 130 | ☐ |
+| 184 | Climbing Stairs | `02-DP-Intro` | LeetCode | 130 | ☐ |
+| 185 | House Robber | `02-DP-Intro` | LeetCode | 130 | ☐ |
+| 186 | House Robber II | `02-DP-Intro` | LeetCode | 130 | ☐ |
+| 187 | Coin Change | `02-DP-Intro` | LeetCode | 130 | ☐ |
+| 188 | Unique Paths | `02-DP-Intro` | LeetCode | 130 | ☐ |
+| 189 | Minimum Path Sum | `02-DP-Intro` | LeetCode | 130 | ☐ |
+| 190 | Maximum Product Subarray | `02-DP-Intro` | LeetCode | 130 | ☐ |
+| 191 | Word Break | `02-DP-Intro` | LeetCode | 130 | ☐ |
+| 192 | Longest Increasing Subsequence | `02-DP-Intro` | LeetCode | 130 | ☐ |
+| 193 | Longest Common Subsequence | `02-DP-Intro` | LeetCode | 130 | ☐ |
+| 194 | Partition Equal Subset Sum | `02-DP-Intro` | LeetCode | 130 | ☐ |
+| 195 | Coin Change II | `02-DP-Intro` | LeetCode | 130 | ☐ |
+| 196 | Trapping Rain Water | `02-DP-Intro` | LeetCode | 130 | ☐ |
+| 197 | Word Search | `03-Backtracking-Harder` | LeetCode | 130 | ☐ |
 
 ### 06-S-Gates (3)
 
 | Gate | Title | Category | Platform | XP | Status |
 |:---|:---|:---|:---|:---:|:---:|
-| 190 | Minimum Window Substring | `01-Hard-PHP-Fit` | LeetCode | 200 | ☐ |
-| 191 | Edit Distance | `01-Hard-PHP-Fit` | LeetCode | 200 | ☐ |
-| 192 | Sliding Window Maximum | `01-Hard-PHP-Fit` | LeetCode | 200 | ☐ |
+| 198 | Minimum Window Substring | `01-Hard-PHP-Fit` | LeetCode | 200 | ☐ |
+| 199 | Edit Distance | `01-Hard-PHP-Fit` | LeetCode | 200 | ☐ |
+| 200 | Sliding Window Maximum | `01-Hard-PHP-Fit` | LeetCode | 200 | ☐ |
 
 ### 07-Side-Quests (21)
 
 | Gate | Title | Folder | Platform | XP | Status |
 |:---|:---|:---|:---|:---:|:---:|
-| 193 | First and Last Digit | `01-CodeChef` | CodeChef | 25 | ☐ |
-| 194 | Sum of Digits | `01-CodeChef` | CodeChef | 25 | ☐ |
-| 195 | Reverse The Number | `01-CodeChef` | CodeChef | 25 | ☐ |
-| 196 | Lucky Four | `01-CodeChef` | CodeChef | 25 | ☐ |
-| 197 | Chef and Operators | `01-CodeChef` | CodeChef | 25 | ☐ |
-| 198 | Second Largest of Three | `01-CodeChef` | CodeChef | 40 | ☐ |
-| 199 | ATM Withdrawal | `01-CodeChef` | CodeChef | 40 | ☐ |
-| 200 | Watermelon | `02-Codeforces` | Codeforces | 25 | ☐ |
-| 201 | Way Too Long Words | `02-Codeforces` | Codeforces | 25 | ☐ |
-| 202 | Team | `02-Codeforces` | Codeforces | 25 | ☐ |
-| 203 | Bit++ | `02-Codeforces` | Codeforces | 25 | ☐ |
-| 204 | Domino piling | `02-Codeforces` | Codeforces | 25 | ☐ |
-| 205 | Next Round | `02-Codeforces` | Codeforces | 25 | ☐ |
-| 206 | Beautiful Matrix | `02-Codeforces` | Codeforces | 25 | ☐ |
-| 207 | Helpful Maths | `02-Codeforces` | Codeforces | 25 | ☐ |
-| 208 | Stones on the Table | `02-Codeforces` | Codeforces | 25 | ☐ |
-| 209 | Bear and Big Brother | `02-Codeforces` | Codeforces | 25 | ☐ |
-| 210 | Wrong Subtraction | `02-Codeforces` | Codeforces | 25 | ☐ |
-| 211 | Kefa and First Steps | `02-Codeforces` | Codeforces | 40 | ☐ |
-| 212 | Selection Sort Steps | `03-W3Resource-Extras` | w3resource | 40 | ☐ |
-| 213 | Bubble Sort Swap Count | `04-W3Schools-Extras` | W3Schools | 40 | ☐ |
+| 201 | First and Last Digit | `01-CodeChef` | CodeChef | 25 | ☐ |
+| 202 | Sum of Digits | `01-CodeChef` | CodeChef | 25 | ☐ |
+| 203 | Reverse The Number | `01-CodeChef` | CodeChef | 25 | ☐ |
+| 204 | Lucky Four | `01-CodeChef` | CodeChef | 25 | ☐ |
+| 205 | Chef and Operators | `01-CodeChef` | CodeChef | 25 | ☐ |
+| 206 | Second Largest of Three | `01-CodeChef` | CodeChef | 40 | ☐ |
+| 207 | ATM Withdrawal | `01-CodeChef` | CodeChef | 40 | ☐ |
+| 208 | Watermelon | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 209 | Way Too Long Words | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 210 | Team | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 211 | Bit++ | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 212 | Domino piling | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 213 | Next Round | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 214 | Beautiful Matrix | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 215 | Helpful Maths | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 216 | Stones on the Table | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 217 | Bear and Big Brother | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 218 | Wrong Subtraction | `02-Codeforces` | Codeforces | 25 | ☐ |
+| 219 | Kefa and First Steps | `02-Codeforces` | Codeforces | 40 | ☐ |
+| 220 | Selection Sort Steps | `03-W3Resource-Extras` | w3resource | 40 | ☐ |
+| 221 | Bubble Sort Swap Count | `04-W3Schools-Extras` | W3Schools | 40 | ☐ |
 
 ### Interview Armor (17)
 
@@ -297,23 +305,23 @@
 
 | Gate | Title | Part | Platform | XP | Status |
 |:---|:---|:---|:---|:---:|:---:|
-| 214 | Reverse Linked List | `Part-1-Linked-Lists-Interview` | LeetCode | 90 | ☐ |
-| 215 | Merge Two Sorted Lists | `Part-1-Linked-Lists-Interview` | LeetCode | 90 | ☐ |
-| 216 | Linked List Cycle | `Part-1-Linked-Lists-Interview` | LeetCode | 90 | ☐ |
-| 217 | Remove Nth Node From End of List | `Part-1-Linked-Lists-Interview` | LeetCode | 90 | ☐ |
-| 218 | Linked List Cycle II | `Part-1-Linked-Lists-Interview` | LeetCode | 90 | ☐ |
-| 219 | Palindrome Linked List | `Part-1-Linked-Lists-Interview` | LeetCode | 90 | ☐ |
-| 220 | Add Two Numbers | `Part-1-Linked-Lists-Interview` | LeetCode | 90 | ☐ |
-| 221 | Swap Nodes in Pairs | `Part-1-Linked-Lists-Interview` | LeetCode | 90 | ☐ |
-| 222 | Invert Binary Tree | `Part-2-TreeNode-Interview-Form` | LeetCode | 90 | ☐ |
-| 223 | Symmetric Tree | `Part-2-TreeNode-Interview-Form` | LeetCode | 90 | ☐ |
-| 224 | Validate Binary Search Tree | `Part-2-TreeNode-Interview-Form` | LeetCode | 90 | ☐ |
-| 225 | Binary Tree Level Order Traversal | `Part-2-TreeNode-Interview-Form` | LeetCode | 90 | ☐ |
-| 226 | Diameter of Binary Tree | `Part-2-TreeNode-Interview-Form` | LeetCode | 90 | ☐ |
-| 227 | Kth Smallest Element in a BST | `Part-2-TreeNode-Interview-Form` | LeetCode | 90 | ☐ |
-| 228 | Lowest Common Ancestor of a Binary Tree | `Part-2-TreeNode-Interview-Form` | LeetCode | 90 | ☐ |
-| 229 | Maximum Depth of Binary Tree | `Part-2-TreeNode-Interview-Form` | LeetCode | 90 | ☐ |
-| 230 | Binary Tree Inorder Traversal | `Part-2-TreeNode-Interview-Form` | LeetCode | 90 | ☐ |
+| 222 | Reverse Linked List | `Part-1-Linked-Lists-Interview` | LeetCode | 90 | ☐ |
+| 223 | Merge Two Sorted Lists | `Part-1-Linked-Lists-Interview` | LeetCode | 90 | ☐ |
+| 224 | Linked List Cycle | `Part-1-Linked-Lists-Interview` | LeetCode | 90 | ☐ |
+| 225 | Remove Nth Node From End of List | `Part-1-Linked-Lists-Interview` | LeetCode | 90 | ☐ |
+| 226 | Linked List Cycle II | `Part-1-Linked-Lists-Interview` | LeetCode | 90 | ☐ |
+| 227 | Palindrome Linked List | `Part-1-Linked-Lists-Interview` | LeetCode | 90 | ☐ |
+| 228 | Add Two Numbers | `Part-1-Linked-Lists-Interview` | LeetCode | 90 | ☐ |
+| 229 | Swap Nodes in Pairs | `Part-1-Linked-Lists-Interview` | LeetCode | 90 | ☐ |
+| 230 | Invert Binary Tree | `Part-2-TreeNode-Interview-Form` | LeetCode | 90 | ☐ |
+| 231 | Symmetric Tree | `Part-2-TreeNode-Interview-Form` | LeetCode | 90 | ☐ |
+| 232 | Validate Binary Search Tree | `Part-2-TreeNode-Interview-Form` | LeetCode | 90 | ☐ |
+| 233 | Binary Tree Level Order Traversal | `Part-2-TreeNode-Interview-Form` | LeetCode | 90 | ☐ |
+| 234 | Diameter of Binary Tree | `Part-2-TreeNode-Interview-Form` | LeetCode | 90 | ☐ |
+| 235 | Kth Smallest Element in a BST | `Part-2-TreeNode-Interview-Form` | LeetCode | 90 | ☐ |
+| 236 | Lowest Common Ancestor of a Binary Tree | `Part-2-TreeNode-Interview-Form` | LeetCode | 90 | ☐ |
+| 237 | Maximum Depth of Binary Tree | `Part-2-TreeNode-Interview-Form` | LeetCode | 90 | ☐ |
+| 238 | Binary Tree Inorder Traversal | `Part-2-TreeNode-Interview-Form` | LeetCode | 90 | ☐ |
 
 ## Session cycle
 

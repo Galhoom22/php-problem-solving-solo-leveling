@@ -2,7 +2,7 @@
 
 Optional. **Not required for graduation.**
 
-**ID range:** Gate **193–213** (after S on the global ladder).
+**ID range:** Gate **201–221** (after S on the global ladder).
 
 Contest / educational extras stay here so the E→S climb stays PHP-fit and honest.
 

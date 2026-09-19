@@ -90,7 +90,7 @@ Required PR checks: `Repo Laws + PHP Lint` · `Sacred Structure Guard`
 Suggested **name:** `php-problem-solving-solo-leveling`  
 
 **Description:**  
-`PHP 8.5 Learn + Solve gym: 230 DSA Gate stubs, Solo Leveling ranks, Hunter Solves First — not a solutions dump.`
+`PHP 8.5 Learn + Solve gym: 238 DSA Gate stubs, Solo Leveling ranks, Hunter Solves First — not a solutions dump.`
 
 **Topics:** `php` `php85` `dsa` `leetcode` `problem-solving` `interview-prep` `algorithms` `solo-leveling`
 

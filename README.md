@@ -1,7 +1,7 @@
 # ⚔️ PHP Problem Solving — Solo Leveling Edition
 
 [![PHP 8.5+](https://img.shields.io/badge/PHP-8.5%2B-777BB4?logo=php&logoColor=white)](https://www.php.net/)
-[![Gates](https://img.shields.io/badge/Gates-230%20stubs-blue)](02-Problems/README.md)
+[![Gates](https://img.shields.io/badge/Gates-238%20stubs-blue)](02-Problems/README.md)
 [![Hunter Solves First](https://img.shields.io/badge/Spoilers-Off-critical)](repo-ideas/21-hunter-solves-first-no-direct-answers.md)
 [![English Only](https://img.shields.io/badge/Docs-English%20100%25-informational)](repo-ideas/22-english-only.md)
 [![CI](https://github.com/Galhoom22/php-problem-solving-solo-leveling/actions/workflows/ci.yml/badge.svg)](https://github.com/Galhoom22/php-problem-solving-solo-leveling/actions/workflows/ci.yml)
@@ -9,7 +9,7 @@
 A **Learn + Solve gym**: curated DSA Gates with empty PHP stubs — you write every answer.  
 Not a solutions dump, and not a scraped LeetCode mirror. Theme is light Solo Leveling (ranks, Gates, XP).
 
-**230 Gates** · PHP **8.5** · climb **E → S** (+ Side Quests · Interview Armor)
+**238 Gates** · PHP **8.5** · climb **E → S** (+ Side Quests · Interview Armor)
 
 > 🌑 **Hunter Solves First** — you write every `solution-1.php`.
 
@@ -55,7 +55,7 @@ Command waiting: Arise.
 
 | ✅ This gym | 🚫 Not this gym |
 |:---|:---|
-| 230 problem **stubs** (brief + empty PHP file) | Finished answers on the climb |
+| 238 problem **stubs** (brief + empty PHP file) | Finished answers on the climb |
 | 📖 DSA Skill Books ([catalog](01-Patterns-And-Fundamentals/PATTERN-CATALOG.md)) | Laravel / OOP / GoF Design Patterns course |
 | 🏰 Ranked path E → S + optional Side Quests | Random full-site problem dumps |
 | ⏱️ Mocks + interview list/tree armor (late) | Spoilers as the default path |
@@ -129,7 +129,7 @@ Listed in **climb order** — open folders top to bottom in the explorer too (`0
 | 🌱 | [`01-E-Gates/`](02-Problems/01-E-Gates/) | 49 | Survive — PHP confidence |
 | 🗡️ | [`02-D-Gates/`](02-Problems/02-D-Gates/) | 45 | Core Easy |
 | ⚡ | [`03-C-Gates/`](02-Problems/03-C-Gates/) | 38 | Easy → early Medium |
-| 🔥 | [`04-B-Gates/`](02-Problems/04-B-Gates/) | 38 | Main Medium set |
+| 🔥 | [`04-B-Gates/`](02-Problems/04-B-Gates/) | 46 | Main Medium set |
 | 🌑 | [`05-A-Gates/`](02-Problems/05-A-Gates/) | 19 | Stretch |
 | 👑 | [`06-S-Gates/`](02-Problems/06-S-Gates/) | 3 | Prestige (PHP-fit Hard) |
 | 🗺️ | [`07-Side-Quests/`](02-Problems/07-Side-Quests/) | 21 | Optional — not graduation-critical |
