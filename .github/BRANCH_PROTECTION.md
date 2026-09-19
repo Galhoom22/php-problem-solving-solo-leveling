@@ -49,4 +49,6 @@ php scripts/ci/validate-repo.php
 
 ## Solo hunter note
 
-If you work alone, still keep **required status checks** on. You can set required reviewers to 0, but never disable CI checks on `main`.
+If you work alone, still keep **required status checks** on. You can set required reviewers to 0 and skip “require PR” if it blocks your solo push rhythm — but never disable the two CI checks on `main`.
+
+Live checks: [Actions](https://github.com/Galhoom22/php-problem-solving-solo-leveling/actions) · Ruleset **Protect main**.
