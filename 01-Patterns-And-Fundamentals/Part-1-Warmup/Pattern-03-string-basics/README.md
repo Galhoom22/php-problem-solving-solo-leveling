@@ -7,15 +7,16 @@ Suggested Rank: E
 Index chars, build results.
 
 ## When to use
-Fill this after studying: situations where this pattern wins.
+Use when the problem matches this pattern’s trigger (see What / CHECK).
 
 ## Backend Link
 ### Direct
-- (hunter fills after learning)
+- Parsing tokens, validation messages, formatting responses.
 ### Indirect
-- Trains structure choice under growth
+- Careful string handling avoids off-by-one bugs in APIs.
 ### Job takeaway
-- "I can name this pattern and when PHP backends need it."
+- "I treat strings as data I can scan and transform safely."
+
 
 ## Teaching note
 AI may show a **tiny** annotated PHP 8.5 example in chat.

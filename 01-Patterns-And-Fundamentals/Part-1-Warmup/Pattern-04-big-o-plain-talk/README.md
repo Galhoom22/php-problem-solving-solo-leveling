@@ -7,15 +7,16 @@ Suggested Rank: E
 Name growth, not buzzwords.
 
 ## When to use
-Fill this after studying: situations where this pattern wins.
+Use when the problem matches this pattern’s trigger (see What / CHECK).
 
 ## Backend Link
 ### Direct
-- (hunter fills after learning)
+- Why nested loops over large payloads kill an endpoint.
 ### Indirect
-- Trains structure choice under growth
+- Same instinct as pagination and avoiding N+1 work.
 ### Job takeaway
-- "I can name this pattern and when PHP backends need it."
+- "I can explain why an approach will or will not scale."
+
 
 ## Teaching note
 AI may show a **tiny** annotated PHP 8.5 example in chat.

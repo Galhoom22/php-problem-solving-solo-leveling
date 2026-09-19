@@ -12,6 +12,7 @@ declare(strict_types=1);
  * - PHP strict_types + syntax
  * - Gate README required sections (Learn First, Backend Link, Source, ranks)
  * - Strict Progression Law (Gate folders only under E/D/C/B/A/S or Side-Quests)
+ * - Gate IDs ascend by lane: E → D → C → B → A → S → Side → Armor (no gaps / no backtracking)
  * - PHP Fitness Filter bans in early core climb (E/D/C)
  * - Hunter Solves First: no sealed-spoiler dumps in default Gate paths
  * - Sacred root files must exist
@@ -97,6 +98,7 @@ final class RepoValidator
         $this->checkProblemsRankFolders();
         $this->checkPhpFiles();
         $this->checkGates();
+        $this->checkGateIdProgression();
         $this->checkNoOpenSpoilers();
         $this->checkRepoIdeasBootFiles();
         $this->checkEnglishOnly();
@@ -268,6 +270,129 @@ final class RepoValidator
                 }
             }
         }
+    }
+
+    /**
+     * Gate IDs must be unique, gap-free from 001, and non-decreasing by lane:
+     * E → D → C → B → A → S → Side → Armor.
+     * Folder Gate-NNN must match README H1 Gate NNN.
+     */
+    private function checkGateIdProgression(): void
+    {
+        $laneOrder = [
+            'E' => 1,
+            'D' => 2,
+            'C' => 3,
+            'B' => 4,
+            'A' => 5,
+            'S' => 6,
+            'Side' => 7,
+            'Armor' => 8,
+        ];
+
+        /** @var array<int, array{lane:string,rel:string}> */
+        $byId = [];
+
+        $roots = [
+            $this->root . DIRECTORY_SEPARATOR . '02-Problems',
+            $this->root . DIRECTORY_SEPARATOR . '04-Interview-Armor',
+        ];
+
+        foreach ($roots as $scanRoot) {
+            if (!is_dir($scanRoot)) {
+                continue;
+            }
+            $iterator = new RecursiveIteratorIterator(
+                new RecursiveDirectoryIterator($scanRoot, FilesystemIterator::SKIP_DOTS),
+                RecursiveIteratorIterator::SELF_FIRST
+            );
+            foreach ($iterator as $fileInfo) {
+                /** @var SplFileInfo $fileInfo */
+                if (!$fileInfo->isDir()) {
+                    continue;
+                }
+                $base = $fileInfo->getFilename();
+                if (!preg_match('/^Gate-(\d{3})-/', $base, $m)) {
+                    continue;
+                }
+                $id = (int) $m[1];
+                $rel = $this->rel($fileInfo->getPathname());
+                $lane = $this->gateLane($rel);
+                if ($lane === null) {
+                    $this->errors[] = "[progression] Gate outside known lanes: {$rel}";
+                    continue;
+                }
+                if (isset($byId[$id])) {
+                    $this->errors[] = "[progression] Duplicate Gate ID {$m[1]}: {$byId[$id]['rel']} and {$rel}";
+                    continue;
+                }
+                $byId[$id] = ['lane' => $lane, 'rel' => $rel];
+
+                $readmePath = $fileInfo->getPathname() . DIRECTORY_SEPARATOR . 'README.md';
+                if (is_file($readmePath)) {
+                    $readme = (string) file_get_contents($readmePath);
+                    if (preg_match('/^#\s+Gate\s+(\d{3})\b/m', $readme, $hm) && $hm[1] !== $m[1]) {
+                        $this->errors[] = "[progression] {$rel}: folder ID {$m[1]} != README H1 Gate {$hm[1]}";
+                    }
+                }
+            }
+        }
+
+        if ($byId === []) {
+            return;
+        }
+
+        ksort($byId);
+        $ids = array_keys($byId);
+        $max = max($ids);
+        for ($i = 1; $i <= $max; $i++) {
+            if (!isset($byId[$i])) {
+                $this->errors[] = '[progression] Missing Gate ID ' . sprintf('%03d', $i) . ' (IDs must be contiguous from 001)';
+            }
+        }
+
+        $maxLane = 0;
+        foreach ($byId as $id => $info) {
+            $level = $laneOrder[$info['lane']] ?? 99;
+            if ($level < $maxLane) {
+                $this->errors[] = "[progression] Gate ID " . sprintf('%03d', $id)
+                    . " lane {$info['lane']} appears after a harder lane — {$info['rel']}";
+            }
+            if ($level > $maxLane) {
+                $maxLane = $level;
+            }
+        }
+    }
+
+    private function gateLane(string $rel): ?string
+    {
+        $normalized = str_replace('\\', '/', $rel);
+        if (str_contains($normalized, '02-Problems/E-Gates/')) {
+            return 'E';
+        }
+        if (str_contains($normalized, '02-Problems/D-Gates/')) {
+            return 'D';
+        }
+        if (str_contains($normalized, '02-Problems/C-Gates/')) {
+            return 'C';
+        }
+        if (str_contains($normalized, '02-Problems/B-Gates/')) {
+            return 'B';
+        }
+        if (str_contains($normalized, '02-Problems/A-Gates/')) {
+            return 'A';
+        }
+        if (str_contains($normalized, '02-Problems/S-Gates/')) {
+            return 'S';
+        }
+        if (str_contains($normalized, '02-Problems/Side-Quests/')) {
+            return 'Side';
+        }
+        if (str_contains($normalized, '04-Interview-Armor/')) {
+            return 'Armor';
+        }
+
+        return null;
     }
 
     private function checkNoOpenSpoilers(): void

@@ -1,194 +1,69 @@
 # AGENTS.md
 
-> Instructions for AI coding agents working in this repository.
-> Humans: start at [`README.md`](README.md). Design depth: [`repo-ideas/README.md`](repo-ideas/README.md).
-
----
+> Instructions for AI coding agents.  
+> Humans: [`README.md`](README.md). Design depth: [`repo-ideas/README.md`](repo-ideas/README.md).
 
 ## What this repo is
 
-A **PHP 8.5 Learn + Solve gym** themed as Solo Leveling:
+PHP 8.5 **Learn + Solve** gym (Solo Leveling): Skill Books → Gates → mocks → Interview Armor.  
+Exit: **Big Tech / FAANG Ready** (honest: PHP is not the default FAANG live-coding language).
 
-- Skill Books teach PHP-fit DSA patterns
-- Gates are problems the **hunter** solves
-- Exit goal: **Big Tech Ready** / **FAANG Ready** (patterns + mocks + transfer), while staying honest that PHP is not the most common FAANG live-coding language
+**Not:** solutions dump · OOP / Design Patterns / Laravel course.
 
-It is **not** an OOP course, Laravel course, Design Patterns course, or a solutions dump.
+## Boot order
 
----
-
-## Boot order (load before acting)
-
-| Priority | File | When |
+| # | File | When |
 |:---:|:---|:---|
-| 1 | [`repo-ideas/21-hunter-solves-first-no-direct-answers.md`](repo-ideas/21-hunter-solves-first-no-direct-answers.md) | **Every** Gate / solving session |
-| 2 | [`repo-ideas/00-mission-learn-and-solve.md`](repo-ideas/00-mission-learn-and-solve.md) | Session start / scope questions |
-| 3 | [`repo-ideas/22-english-only.md`](repo-ideas/22-english-only.md) | Any file create/edit (language) |
-| 4 | [`repo-ideas/23-professionalism-ratchet.md`](repo-ideas/23-professionalism-ratchet.md) | **Every** change — must raise professionalism |
-| 5 | [`repo-ideas/19-php-fitness-filter.md`](repo-ideas/19-php-fitness-filter.md) | Adding or moving Gates |
-| 6 | [`repo-ideas/03-strict-progression-law.md`](repo-ideas/03-strict-progression-law.md) | Ordering Gates |
-| 7 | [`repo-ideas/20-big-tech-faang-graduation.md`](repo-ideas/20-big-tech-faang-graduation.md) | Graduation / interview readiness |
-| 8 | Track README for the active folder | `00`–`04` |
+| 1 | [`21` Hunter Solves First](repo-ideas/21-hunter-solves-first-no-direct-answers.md) | Every Gate session |
+| 2 | [`00` Mission](repo-ideas/00-mission-learn-and-solve.md) | Scope |
+| 3 | [`22` English-Only](repo-ideas/22-english-only.md) | Any file edit |
+| 4 | [`23` Professionalism](repo-ideas/23-professionalism-ratchet.md) | Every change |
+| 5 | [`19` PHP Fitness](repo-ideas/19-php-fitness-filter.md) | Add/move Gates |
+| 6 | [`03` Progression](repo-ideas/03-strict-progression-law.md) | Gate order / IDs |
+| 7 | [`20` Graduation](repo-ideas/20-big-tech-faang-graduation.md) | Interview readiness |
+| 8 | Track README | Active `00`–`04` folder |
 
-Supporting: Solo Leveling HUD [`04`](repo-ideas/04-solo-leveling-system.md) · Backend Links [`18`](repo-ideas/18-backend-career-links.md) · AI session shape [`13`](repo-ideas/13-ai-skill-behavior.md).
+Also: HUD [`04`](repo-ideas/04-solo-leveling-system.md) · Backend Links [`18`](repo-ideas/18-backend-career-links.md) · Session shape [`13`](repo-ideas/13-ai-skill-behavior.md).
 
----
-
-## Sacred rule — English Only
-
-The **entire repository is English 100%** — READMEs, Gates, comments, identifiers, paths, CI text.
-
-- Chat with the hunter may be any language.
-- Committed files must stay English (Latin letters only for letters).
-- Law file: [`repo-ideas/22-english-only.md`](repo-ideas/22-english-only.md)
-- CI fails on `[english]` violations.
-
----
-
-## Sacred rule — Professionalism Ratchet
-
-Every change must leave the repo **more professional than before** (or, for pure breakage fixes, carefully preserve the bar — never lower it).
-
-- Curate; do not dump entire platforms
-- Prefer clearer docs, stronger CI, honest labeling, consistent Gates
-- Refuse (or redesign) work that would make the public GitHub face look amateur
-- Law file: [`repo-ideas/23-professionalism-ratchet.md`](repo-ideas/23-professionalism-ratchet.md)
-
-Before editing, answer in one sentence: **What becomes more professional after this change?**
-
----
-
-## Sacred rule — Hunter Solves First
-
-Non-negotiable for Gate work:
-
-1. **Brief** — what the Gate wants (I/O, examples, constraints, edge cases, Backend Link). No algorithm dump. No full code.
-2. **Attempt** — hunter writes `solution-*.php` in PHP 8.5.
-3. **Coach only if stuck** — questions → hint → scaffold → debug mirror. Full spoiler only if the hunter **explicitly** asks after real attempts; mark it `SPOILER`.
-
-**Never** open a Gate session by pasting a complete AC solution.  
-**Never** use write tools to fill the hunter’s `solution-1.php` unless they explicitly request a sealed spoiler after trying.
-
-Coaching ladder details: `repo-ideas/21-…`.
-
----
+Before editing: **What becomes more professional after this?**
 
 ## Operating modes
 
-### A) Gate session (Track 2)
+**A) Gate** — Brief only → hunter attempts → coaching ladder if stuck → one CHECK → XP/log if major. Never open with full AC code. Never fill `solution-1.php` unless sealed spoiler requested after real attempts.
 
-```
-Status Window glance → confirm Rank unlock
-→ Problem Brief only (spoiler protection ON)
-→ hunter attempts
-→ coaching ladder if stuck
-→ one CHECK
-→ XP / SYSTEM-LOG if major
-→ recommend next Gate
-```
+**B) Skill Book** — One pattern: what / when / Backend Link / tiny chat example; hunter types it. No Gate spoilers before attempt.
 
-One Gate (or one clear deliverable) per session unless the hunter asks to continue.
+**C) Author** — Gate README + stub only · Fitness · correct rank · update Gate map · `php scripts/ci/validate-repo.php`.
 
-### B) Skill Book (Track 1)
+**D) Mock / Armor** — Timed talk-aloud; Armor sealed until B-Rank+ on PHP-fit climb.
 
-Teach **one** pattern: what / when / Backend Link / tiny annotated PHP example in chat.  
-Hunter types into `example.php`. Still no spoiling related Gates before attempt.
-
-### C) Authoring / scaffolding (maintainer)
-
-When adding content:
-
-- Gate `README.md` first (teaching + Source) — **stub + `TODO` only** in `solution-1.php`
-- Place under correct `E-Gates` … `S-Gates` (or labeled `Side-Quests/`)
-- Pass PHP Fitness Filter; linked-list pointer theater → `04-Interview-Armor/` only
-- Update `02-Problems/README.md` Gate map
-- Run `php scripts/ci/validate-repo.php` before finishing
-
-### D) Mock / Interview Armor (Tracks 3–4)
-
-Mocks: talk-aloud under time — still no opening spoiler.  
-Armor: sealed until **B-Rank+** on the PHP-fit climb. Label interview-shaped work honestly.
-
-### E) Repo / CI maintenance
-
-Preserve sacred structure. Do not delete tracks, law files, or `.github/workflows/ci.yml`.  
-See [`.github/BRANCH_PROTECTION.md`](.github/BRANCH_PROTECTION.md).
-
----
+**E) Repo / CI** — Do not delete tracks, law files, or `.github/workflows/ci.yml`.
 
 ## Code standards
 
-- Target **PHP 8.5** (`declare(strict_types=1);` on every PHP file)
-- Typed signatures: `function twoSum(array $nums, int $target): array`
-- No framework (Laravel, etc.) inside Gate solutions
-- Prefer PHP idioms: arrays, associative maps, strings, `Spl*` when useful
-- Teaching examples in chat: annotate lines; hunter types them
+- PHP 8.5 · `declare(strict_types=1);` · typed signatures  
+- No framework inside Gate solutions · prefer arrays / maps / `Spl*`
 
----
+## Do / Do not
 
-## Layout map
+**Do:** plain-language briefs · ask what they tried before harder hints · Backend Links · light Solo Leveling tone · **ponytail craft** (YAGNI / reuse / shortest correct diff — see [`23`](repo-ideas/23-professionalism-ratchet.md)).
 
-```
-00-Awakening/                 → beginners (PHP + how to read problems)
-01-Patterns-And-Fundamentals/ → Skill Books
-02-Problems/                  → E→S Gates + Side-Quests (hunter solves)
-03-Mock-Interview/            → Instant Dungeons
-04-Interview-Armor/           → Big Tech / FAANG armor (late)
-scripts/ci/validate-repo.php  → repo laws (must stay green)
-repo-ideas/                   → design specs for agents/maintainers
-```
+**Do not:** spoilers on first contact · non-English in repo files · list/UF/segment-tree olympiad in E–C core · skip Rank · teach OOP/DP/Laravel here · claim PHP is default FAANG language · push unless asked · dump platforms · invent abstractions nobody requested.
 
-Gate folders: `Gate-NNN-kebab-case/` with `README.md` + stub `solution-1.php`.
+## Triggers
 
----
-
-## Do
-
-- Restate problems in plain language; walk examples by hand
-- Ask what the hunter already tried before raising the hint level
-- Connect patterns to **Backend Links** (why a PHP backend engineer cares)
-- Keep Solo Leveling tone light: Status / Quest Update / Arise — teaching stays clear (no System-spam every line)
-- Sync progress cues: track README ✅ · root Status Window · `SYSTEM-LOG.md` on major events
-- Prefer smallest change that satisfies the request (YAGNI)
-
-## Do not
-
-- Ship a change that makes the repo less professional than before (Professionalism Ratchet)
-- Write non-English letters into any committed file or path (English-Only Law)
-- Dump full Gate solutions on first contact
-- Put linked lists / segment trees / union-find / bit olympiad in early PHP-fit core (`E`–`C`)
-- Skip Rank / progression when recommending the next Gate
-- Teach full OOP, OOD, Design Patterns, or Laravel here — one-sentence redirect to the sibling study repos
-- Claim PHP is the default FAANG interview language
-- Break CI laws or remove sacred paths
-- Commit secrets, or push to remote unless the hunter explicitly asks
-
----
-
-## Triggers (examples)
-
-| Hunter says | Mode |
+| Says | Mode |
 |:---|:---|
-| `next gate` / `I'm stuck` / `hint` | Gate session + coaching ladder |
-| `teach me two pointers` | Skill Book |
-| `daily quest` / `status window` / `arise` | Solo Leveling HUD |
-| `start mock` / `instant dungeon` | Track 3 |
-| `FAANG` / `graduation` / `interview armor` | Tracks 3–4 + `20` |
-| `add a gate` / `import from LeetCode` | Authoring + Fitness + Progression |
-| `fix CI` / `protect main` | `scripts/ci` + `.github` |
+| next gate / stuck / hint | Gate + coaching |
+| teach me two pointers | Skill Book |
+| daily quest / status / arise | HUD |
+| start mock | Track 3 |
+| FAANG / graduation / armor | Tracks 3–4 + `20` |
+| add a gate | Author + Fitness + Progression |
+| fix CI | `scripts/ci` |
 
----
+## Done when
 
-## Definition of done (agent work)
+Request met · professionalism raised or preserved · English-Only · Hunter Solves First · CI green after structural/PHP changes · no spoiler solutions in climb folders · progress docs updated when material.
 
-- Request satisfied with minimal, correct diffs
-- Professionalism Ratchet satisfied (repo is clearly better — or carefully preserved on pure fixes)
-- English-Only Law respected (no non-Latin letters in repo files/paths)
-- Hunter Solves First respected for any Gate touch
-- `php scripts/ci/validate-repo.php` passes after structural/PHP changes
-- No unfinished spoiler solutions authored into required climb folders
-- Progress/docs updated when the hunter clears something material
-
----
-
-*Arise — and keep spoiler protection ON.*
+*Arise — spoiler protection ON.*

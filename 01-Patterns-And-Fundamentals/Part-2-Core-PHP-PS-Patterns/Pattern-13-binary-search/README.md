@@ -7,15 +7,16 @@ Suggested Rank: B
 Halve a sorted search space.
 
 ## When to use
-Fill this after studying: situations where this pattern wins.
+Use when the problem matches this pattern’s trigger (see What / CHECK).
 
 ## Backend Link
 ### Direct
-- (hunter fills after learning)
+- Bounds in sorted IDs/logs, capacity “first failing” answers.
 ### Indirect
-- Trains structure choice under growth
+- Search-on-answer thinking for minimum resources under load.
 ### Job takeaway
-- "I can name this pattern and when PHP backends need it."
+- "Binary search trains me to cut search space in half each step."
+
 
 ## Teaching note
 AI may show a **tiny** annotated PHP 8.5 example in chat.

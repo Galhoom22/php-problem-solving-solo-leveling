@@ -7,15 +7,16 @@ Suggested Rank: A
 Store answers so you do not recompute.
 
 ## When to use
-Fill this after studying: situations where this pattern wins.
+Use when the problem matches this pattern’s trigger (see What / CHECK).
 
 ## Backend Link
 ### Direct
-- (hunter fills after learning)
+- Cache repeated subcomputations in expensive reports.
 ### Indirect
-- Trains structure choice under growth
+- Same culture as Redis/app cache: don’t recompute blindly.
 ### Job takeaway
-- "I can name this pattern and when PHP backends need it."
+- "Memoization teaches me to store answers I will need again."
+
 
 ## Teaching note
 AI may show a **tiny** annotated PHP 8.5 example in chat.

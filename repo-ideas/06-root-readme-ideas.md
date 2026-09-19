@@ -1,32 +1,50 @@
-# 06 — Root README Ideas
+# 06 — Root README Guide
 
-> AI load this when writing the public root README overview sections.
+> AI load this when writing or revising the public root `README.md`.
+> Live README is the source of truth; this file is the checklist + outline.
 
-## 4. Ideas from the Root README (Repo Overview)
+## Required signals (CI)
 
-Reuse these sections almost as-is, but with Solo Leveling + Learn/Solve PS+DSA content:
+Root `README.md` must keep these phrases: `STATUS WINDOW`, `Hunter Rank`, `Arise`, `00-Awakening`, `Hunter Solves First`.
 
-1. **Badges**: PHP 8.5, Gate count, **Level**, **Hunter Rank**, progress percentage.
-2. **Status Window**: Level, Rank, Job, Title, XP bar, Fatigue, Streak, Stats, Shadow Army.
-3. **Hunter Rank Ladder**: E → Monarch Candidate with lock/unlock state.
-4. **Quest Board**: Daily Quest + Recommended Gates.
-5. **Purpose**: Learn + Solve PHP PS/DSA; graduate **Big Tech / FAANG interview-ready**.
-6. **Who This Is For**: beginners; PHP hunters; polyglots aiming at large companies / FAANG.
-7. **Learning Path**: Awakening → Skill Books → PHP-fit Gates → Mock Gauntlet → Interview Armor.
-8. **Graduation Badges**: PHP Hunter → Big Tech Ready → FAANG Ready (`20`).
-9. **How to Start**: Awakening or E-Rank / Level 1.
-10. **Repository Structure**: includes `04-Interview-Armor/`.
-11. **Requirements**: PHP 8.5; willingness to learn from zero; optional second language for Transfer Sprint.
-12. **Official Sources**: multi-platform index + PHP Manual.
-13. **Strict Progression Law** + **PHP Fitness Filter** (core) + **Interview Armor** (late graduation).
-14. **FAANG honesty box** + Transfer Sprint.
-15. **Backend Career Links**.
-16. **Graduation checklist** link to `20`.
+## Section checklist
 
-### Progress Sync Rule
-- Progress is updated in the root `README.md` **and** in the track `README.md`.
-- Same note as the current repo: update both files together when a Gate/pattern is cleared.
-- Also update the **Status Window** (Level / Rank / XP / Stats / Shadows) whenever a quest completes.
-- Append major events to `SYSTEM-LOG.md` (level-up, rank-up, Job Change, Arise).
+1. Badges (PHP 8.5, Gate count, Spoilers Off, English, CI)
+2. One-line pitch + System Notice
+3. **At a glance** (what / how / order / start / laws)
+4. Repository map (tracks `00`→`04`)
+5. How to start (3 minutes)
+6. Status Window
+7. Tracks table + Gate ranks
+8. Hunter Rank Ladder
+9. Daily Quest
+10. Sacred rules
+11. Graduation badges + FAANG honesty
+12. What this is / is not (include DSA patterns vs GoF boundary)
+13. CI / quality bar
+14. Docs by audience
+15. Progress sync note
 
----
+## Proposed outline (shape)
+
+```markdown
+# PHP Problem Solving — Solo Leveling Edition
+## At a glance
+## Repository map
+## How to start
+## Status Window
+## Tracks
+## Hunter Rank Ladder
+## Daily Quest
+## Sacred rules
+## Graduation badges
+## What this repo is / is not
+## CI and quality bar
+## Docs by audience
+## Progress sync
+```
+
+## Progress sync rule
+
+- Update root Status Window **and** the track / Gate map when a Gate clears
+- Append major events to `SYSTEM-LOG.md`

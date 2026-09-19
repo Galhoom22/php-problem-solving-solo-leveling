@@ -7,15 +7,16 @@ Suggested Rank: A
 Adjacency lists in PHP arrays.
 
 ## When to use
-Fill this after studying: situations where this pattern wins.
+Use when the problem matches this pattern’s trigger (see What / CHECK).
 
 ## Backend Link
 ### Direct
-- (hunter fills after learning)
+- Service dependencies, permissions, reachability.
 ### Indirect
-- Trains structure choice under growth
+- BFS/DFS and cycle awareness for related entities.
 ### Job takeaway
-- "I can name this pattern and when PHP backends need it."
+- "Graphs model “who connects to whom” in backend domains."
+
 
 ## Teaching note
 AI may show a **tiny** annotated PHP 8.5 example in chat.

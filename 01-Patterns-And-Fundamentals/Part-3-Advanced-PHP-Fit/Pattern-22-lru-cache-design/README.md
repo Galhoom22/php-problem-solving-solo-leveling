@@ -7,15 +7,16 @@ Suggested Rank: B
 Capacity + recent-use eviction — backend gold.
 
 ## When to use
-Fill this after studying: situations where this pattern wins.
+Use when the problem matches this pattern’s trigger (see What / CHECK).
 
 ## Backend Link
 ### Direct
-- (hunter fills after learning)
+- Hot-key retention, eviction intuition for in-memory caches.
 ### Indirect
-- Trains structure choice under growth
+- Capacity + recency trade-offs show up in Redis TTL design.
 ### Job takeaway
-- "I can name this pattern and when PHP backends need it."
+- "LRU trains me to design caches that stay bounded."
+
 
 ## Teaching note
 AI may show a **tiny** annotated PHP 8.5 example in chat.

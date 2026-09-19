@@ -7,15 +7,16 @@ Suggested Rank: B
 Sort + merge/overlap for schedules.
 
 ## When to use
-Fill this after studying: situations where this pattern wins.
+Use when the problem matches this pattern’s trigger (see What / CHECK).
 
 ## Backend Link
 ### Direct
-- (hunter fills after learning)
+- Bookings, maintenance windows, pricing periods.
 ### Indirect
-- Trains structure choice under growth
+- Merge/overlap thinking prevents double-booking bugs.
 ### Job takeaway
-- "I can name this pattern and when PHP backends need it."
+- "Intervals train conflict detection in scheduling features."
+
 
 ## Teaching note
 AI may show a **tiny** annotated PHP 8.5 example in chat.

@@ -4,14 +4,18 @@ Min Hunter Rank: **C-Rank**
 
 Easy → early Medium pattern pressure.
 
-Wave 2 adds W3Schools early-Medium array/string Gates (054–060).
+**ID range:** Gate **095–132**.
 
+## Pattern categories
 
-Wave 4 adds Codewars ~6 kyu Gates (092–098).
+| # | Folder |
+|:---:|:---|
+| 01 | [`01-Sliding-Window/`](01-Sliding-Window/) |
+| 02 | [`02-Two-Pointers/`](02-Two-Pointers/) |
+| 03 | [`03-Hashing/`](03-Hashing/) |
+| 04 | [`04-Stack/`](04-Stack/) |
+| 05 | [`05-Arrays/`](05-Arrays/) |
+| 06 | [`06-Nested-Arrays/`](06-Nested-Arrays/) |
+| 07 | [`07-Strings/`](07-Strings/) |
 
-
-Wave 7 adds w3resource basic-algorithm Gate 121.
-
-
-Wave 8 adds Exercism Flatten Array (135).
-
+Full map: [`../README.md`](../README.md)

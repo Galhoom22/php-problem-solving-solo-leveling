@@ -1,5 +1,7 @@
 # Track 0 — Awakening
 
+> **You are here:** Track 0 of 4 · Next → [`01-Patterns-And-Fundamentals/`](../01-Patterns-And-Fundamentals/)
+
 > Association clearance: **E-Rank** · Absolute beginners start here.
 > Soft-skip allowed if you already write basic PHP and can read a problem statement.
 

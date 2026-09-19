@@ -10,7 +10,8 @@
 3. **No rank skipping** in the recommended path (E → D → C → B → A → S).
 4. **Dependencies first**: hashing before problems that assume hashing fluency, etc.
 5. **New imports must be insertion-sorted** by difficulty, not appended randomly at the end of an early folder.
-6. Optional side quests are labeled `Side Quest` / `Hidden Quest` and must still show Min Hunter Rank.
+6. **Gate IDs follow rank order globally**: all E IDs < all D IDs < all C < B < A < S < Side < Armor. No Easy Gate may carry a higher ID than a harder climb Gate.
+7. Optional side quests are labeled `Side Quest` / `Hidden Quest` and must still show Min Hunter Rank.
 
 ### Ordering Checklist (run before adding any Gate)
 ```

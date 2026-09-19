@@ -56,6 +56,18 @@ A change **fails** the ratchet if it:
 3. Prefer improving templates, maps, CI, and law docs over piling low-signal files.  
 4. After structural/content changes, run `php scripts/ci/validate-repo.php`.  
 
+### Ponytail craft (lazy = efficient)
+
+Same bar as a senior who ships the **smallest correct** change:
+
+1. YAGNI — do we need this Gate / doc / script at all?  
+2. Reuse — Fitness, CI, Gate template, catalog already exist; don’t reinvent.  
+3. Curate — deletion and merge beat another dump folder.  
+4. Shortest working diff that still obeys `21` / `22` / Fitness / Progression.  
+5. No new abstractions, frameworks, or boilerplate nobody asked for.  
+
+Not lazy about: spoiler protection, English-Only, honest FAANG claims, CI green.
+
 ---
 
 ## Relation to other laws

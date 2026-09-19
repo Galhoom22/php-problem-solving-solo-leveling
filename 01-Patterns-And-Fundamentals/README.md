@@ -1,8 +1,16 @@
 # Track 1 — Skill Books (Patterns & Fundamentals)
 
+> **You are here:** Track 1 of 4 · Prev [`00-Awakening/`](../00-Awakening/) · Next [`02-Problems/`](../02-Problems/)
+
 > Learn-first DSA **the PHP way**. Extract mastered patterns into your Shadow Army.
 
+**At a glance:** [`PATTERN-CATALOG.md`](PATTERN-CATALOG.md) — every Skill Book pattern in one table.
+
 **Association gates:** Part 1 → E/D · Part 2 → C/B · Part 3 → A+
+
+> **Not a Design Patterns course.**  
+> “Pattern” here means **DSA / problem-solving moves** (Two Pointers, Sliding Window…).  
+> Gang-of-Four / SOLID / OOD → sibling study repos (one-sentence redirect). See catalog boundary.
 
 ---
 

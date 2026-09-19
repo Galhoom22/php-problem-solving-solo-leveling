@@ -7,15 +7,16 @@ Suggested Rank: B
 SplPriorityQueue for priority.
 
 ## When to use
-Fill this after studying: situations where this pattern wins.
+Use when the problem matches this pattern’s trigger (see What / CHECK).
 
 ## Backend Link
 ### Direct
-- (hunter fills after learning)
+- Top-K dashboards, priority jobs, leaderboards.
 ### Indirect
-- Trains structure choice under growth
+- Keep only the best K instead of full sorts when possible.
 ### Job takeaway
-- "I can name this pattern and when PHP backends need it."
+- "Heaps help me answer top-K questions efficiently."
+
 
 ## Teaching note
 AI may show a **tiny** annotated PHP 8.5 example in chat.

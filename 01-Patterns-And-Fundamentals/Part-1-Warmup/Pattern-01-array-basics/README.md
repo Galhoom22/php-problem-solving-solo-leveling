@@ -7,15 +7,16 @@ Suggested Rank: E
 Index, push, loop, count.
 
 ## When to use
-Fill this after studying: situations where this pattern wins.
+Use when the problem matches this pattern’s trigger (see What / CHECK).
 
 ## Backend Link
 ### Direct
-- (hunter fills after learning)
+- Batch DTOs, CSV/API payloads, list scans in PHP services.
 ### Indirect
-- Trains structure choice under growth
+- Comfort walking collections without nested-loop panic.
 ### Job takeaway
-- "I can name this pattern and when PHP backends need it."
+- "I can process a list of records cleanly in backend code."
+
 
 ## Teaching note
 AI may show a **tiny** annotated PHP 8.5 example in chat.

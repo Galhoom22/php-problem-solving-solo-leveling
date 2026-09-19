@@ -7,15 +7,16 @@ Suggested Rank: B
 JSON-like arrays/objects; BFS/DFS.
 
 ## When to use
-Fill this after studying: situations where this pattern wins.
+Use when the problem matches this pattern’s trigger (see What / CHECK).
 
 ## Backend Link
 ### Direct
-- (hunter fills after learning)
+- Menus, comment threads, nested JSON configs.
 ### Indirect
-- Trains structure choice under growth
+- DFS/BFS habits for walking hierarchical data.
 ### Job takeaway
-- "I can name this pattern and when PHP backends need it."
+- "I can walk nested structures without losing the parent context."
+
 
 ## Teaching note
 AI may show a **tiny** annotated PHP 8.5 example in chat.

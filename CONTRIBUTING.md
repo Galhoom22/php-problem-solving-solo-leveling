@@ -1,63 +1,52 @@
-# Contributing / Hunter Guide
+# Contributing
 
-## Push this repo to GitHub (first time)
+How to change this gym. Chat may be any language; **committed files stay English**.
 
-```bash
-cd problem-solving-PHP-LeetCode
-git init
-git add .
-git commit -m "Initial commit: Solo Leveling PHP problem-solving gym"
+## Quick map
 
-# Create an empty repo on GitHub, then:
-git branch -M main
-git remote add origin https://github.com/<YOUR_USER>/<YOUR_REPO>.git
-git push -u origin main
-```
+| Want to… | Go here |
+|:---|:---|
+| Solve Gates | [`02-Problems/E-Gates/`](02-Problems/E-Gates/) Gate **001** |
+| Learn a DSA pattern | [`01-Patterns-And-Fundamentals/PATTERN-CATALOG.md`](01-Patterns-And-Fundamentals/PATTERN-CATALOG.md) |
+| Add a Gate | Checklist below |
+| Publish to GitHub | Section below |
+| Repo laws / AI | [`AGENTS.md`](AGENTS.md) · [`repo-ideas/`](repo-ideas/) |
+| Protect `main` | [`.github/BRANCH_PROTECTION.md`](.github/BRANCH_PROTECTION.md) |
 
-Or use GitHub CLI:
+## Adding a Gate
 
-```bash
-gh repo create <YOUR_REPO> --public --source=. --remote=origin --push
-```
+1. Pass PHP Fitness Filter — [`repo-ideas/19`](repo-ideas/19-php-fitness-filter.md)
+2. Place under `E-Gates` … `S-Gates` or `Side-Quests/` (Armor for list/TreeNode theater)
+3. Folder: `Gate-NNN-kebab-case/` — ID must keep lane order (E→…→Armor)
+4. `README.md`: System Brief · Learn First · Backend Link · Source (no algorithm dump)
+5. `solution-1.php`: stub + `TODO` + `declare(strict_types=1);`
+6. Update [`02-Problems/README.md`](02-Problems/README.md) (or run `php scripts/rebuild-gate-map.php`)
+7. `php scripts/ci/validate-repo.php`
 
-## Adding a new Gate
+Before every change: **What becomes more professional after this?**
 
-1. Pass the **PHP Fitness Filter** (`repo-ideas/19-php-fitness-filter.md`)
-2. Place it in the correct `E-Gates` … `S-Gates` folder (ascending difficulty)
-3. Write `README.md` with System Brief, Learn First, Backend Link, Source URL
-4. Ship a **stub only** (`solution-1.php` with `TODO`) — no finished answer
-5. Update the Gate map in `02-Problems/README.md`
-
-## Sacred rule
-
-Hunter solves first. No spoiler solutions as the default path.
-See `repo-ideas/21-hunter-solves-first-no-direct-answers.md`.
-
-## English-Only Law
-
-The repository must stay **English 100%** (docs, code comments, Gate briefs, paths).
-Chat may be any language; committed content must be English.
-See `repo-ideas/22-english-only.md`. CI fails on non-Latin letters in scanned files.
-
-## Professionalism Ratchet
-
-Every change must make the repo **more professional** than the current state (curation, clarity, CI, honesty — never sloppy dumps).
-See `repo-ideas/23-professionalism-ratchet.md`.
-
-## CI / protecting `main`
-
-Before opening a PR (or after local edits):
+## CI
 
 ```bash
 php scripts/ci/validate-repo.php
 ```
 
-GitHub Actions runs the same validator on every PR to `main`.
+Optional: `php scripts/audit-hunter-ready.php`
 
-**You must also enable branch protection** so CI cannot be skipped:
-see [`.github/BRANCH_PROTECTION.md`](.github/BRANCH_PROTECTION.md).
+Required PR checks: `Repo Laws + PHP Lint` · `Sacred Structure Guard`
 
-Required checks:
+## Publish to GitHub (first time)
 
-- `Repo Laws + PHP Lint`
-- `Sacred Structure Guard`
+Suggested **name:** `php-problem-solving-solo-leveling`  
+
+**Description:**  
+`PHP 8.5 Learn+Solve gym: DSA the PHP way, Solo Leveling Gates, no spoilers. Path to Big Tech / FAANG-ready patterns.`
+
+**Topics:** `php` `php85` `dsa` `leetcode` `problem-solving` `interview-prep` `algorithms` `solo-leveling`
+
+```bash
+# from a clean main (all changes committed; .cursor/ is gitignored)
+gh repo create php-problem-solving-solo-leveling --public --source=. --remote=origin --push
+```
+
+Then enable branch protection: [`.github/BRANCH_PROTECTION.md`](.github/BRANCH_PROTECTION.md)

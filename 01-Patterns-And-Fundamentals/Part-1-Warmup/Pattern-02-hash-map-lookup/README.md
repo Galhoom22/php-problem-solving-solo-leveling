@@ -7,15 +7,16 @@ Suggested Rank: D
 Associative array key → value in O(1) feel.
 
 ## When to use
-Fill this after studying: situations where this pattern wins.
+Use when the problem matches this pattern’s trigger (see What / CHECK).
 
 ## Backend Link
 ### Direct
-- (hunter fills after learning)
+- Caches, ID→entity maps, rate-limit counters, idempotency keys.
 ### Indirect
-- Trains structure choice under growth
+- Replace O(n) scans with O(1) lookups before APIs time out.
 ### Job takeaway
-- "I can name this pattern and when PHP backends need it."
+- "Hash maps teach me fast keyed lookup instead of scanning lists."
+
 
 ## Teaching note
 AI may show a **tiny** annotated PHP 8.5 example in chat.

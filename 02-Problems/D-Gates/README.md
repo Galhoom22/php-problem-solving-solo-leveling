@@ -4,14 +4,16 @@ Min Hunter Rank: **D-Rank**
 
 Core Easy — hashing and string scans.
 
-Wave 2 adds W3Schools hashing/array/string Gates (046–053).
+**ID range:** Gate **050–094**.
 
+## Pattern categories
 
-Wave 4 adds Codewars ~7 kyu Gates (084–091).
+| # | Folder |
+|:---:|:---|
+| 01 | [`01-Arrays-Hashing/`](01-Arrays-Hashing/) |
+| 02 | [`02-Strings/`](02-Strings/) |
+| 03 | [`03-Numbers/`](03-Numbers/) |
+| 04 | [`04-JSON/`](04-JSON/) |
+| 05 | [`05-Date/`](05-Date/) |
 
-
-Wave 7 adds w3resource JSON/Date/regex drills (117–120).
-
-
-Wave 8 adds Exercism D classics (126–134, 136).
-
+Full map: [`../README.md`](../README.md)

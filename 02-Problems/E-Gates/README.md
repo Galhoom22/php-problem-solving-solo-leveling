@@ -4,20 +4,17 @@ Min Hunter Rank: **E-Rank**
 
 Warmups for PHP confidence. Clear these before D-Gates.
 
-Also see Wave 2 W3Schools warmups under `03-Control-Flow/`, `04-Numbers/`, and extended string/array Gates.
+**ID range:** Gate **001–049** (first on the global ladder).
 
+## Pattern categories
 
-Wave 3 adds Edabit Very Easy Gates (062–079) under arrays/strings/numbers.
+| # | Folder |
+|:---:|:---|
+| 01 | [`01-PHP-Arrays-Basics/`](01-PHP-Arrays-Basics/) |
+| 02 | [`02-Strings/`](02-Strings/) |
+| 03 | [`03-Control-Flow/`](03-Control-Flow/) |
+| 04 | [`04-Numbers/`](04-Numbers/) |
 
+Gates from Edabit / Codewars / HackerRank / Exercism / W3Schools / w3resource live **inside** these pattern folders (sorted by Gate ID). Platform notes: [`../../SOURCES.md`](../../SOURCES.md).
 
-Wave 4 adds Codewars ~8 kyu Gates (080–083).
-
-
-Wave 6 maps HackerRank PHP (Basic) competencies (Gates 106–111 + Awakening L05–L06).
-
-
-Wave 7 adds curated w3resource E drills (112–116).
-
-
-Wave 8 adds Exercism E drills (123–125).
-
+Full map: [`../README.md`](../README.md)

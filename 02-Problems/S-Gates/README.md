@@ -2,4 +2,14 @@
 
 Min Hunter Rank: **S-Rank+**
 
-Prestige PHP-fit Hard. Empty in Wave 1 — fill later.
+Prestige PHP-fit Hard.
+
+**ID range:** Gate **184–186**.
+
+## Pattern categories
+
+| # | Folder |
+|:---:|:---|
+| 01 | [`01-Hard-PHP-Fit/`](01-Hard-PHP-Fit/) |
+
+Full map: [`../README.md`](../README.md)

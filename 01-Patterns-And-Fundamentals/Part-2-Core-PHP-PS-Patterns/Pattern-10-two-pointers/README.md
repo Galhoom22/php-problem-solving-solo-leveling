@@ -7,15 +7,16 @@ Suggested Rank: C
 Two indices walking an array/string.
 
 ## When to use
-Fill this after studying: situations where this pattern wins.
+Use when the problem matches this pattern’s trigger (see What / CHECK).
 
 ## Backend Link
 ### Direct
-- (hunter fills after learning)
+- Merging sorted feeds, pairwise scans without O(n²).
 ### Indirect
-- Trains structure choice under growth
+- Two indices keep memory tight while walking data once.
 ### Job takeaway
-- "I can name this pattern and when PHP backends need it."
+- "Two pointers help me avoid nested loops on ordered data."
+
 
 ## Teaching note
 AI may show a **tiny** annotated PHP 8.5 example in chat.
