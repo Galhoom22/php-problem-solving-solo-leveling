@@ -18,3 +18,6 @@ Wave 6 maps HackerRank PHP (Basic) competencies (Gates 106–111 + Awakening L05
 
 Wave 7 adds curated w3resource E drills (112–116).
 
+
+Wave 8 adds Exercism E drills (123–125).
+

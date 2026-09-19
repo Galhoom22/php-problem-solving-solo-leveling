@@ -13,7 +13,7 @@
 | [Codewars (PHP)](https://www.codewars.com/kata/search/php) | Warmups + kata (**Wave 4** ~8/7/6 kyu curated) |
 | [HackerRank](https://www.hackerrank.com/) | Arrays/strings + interview sets |
 | [HackerRank — PHP (Basic) skill](https://www.hackerrank.com/skills-directory/php_basic) | Competency map → Awakening + E drills (**Wave 6**) |
-| [Exercism — PHP](https://exercism.org/tracks/php) | Mentored fluency (E/D) |
+| [Exercism — PHP](https://exercism.org/tracks/php) | Mentored fluency (**Wave 8** curated classics) |
 | [Edabit — PHP](https://edabit.com/challenges/php) | Early-rank volume (**Wave 3** Very Easy curated) |
 | [W3Schools — Practice PHP](https://www.w3schools.com/php/exercise.asp) | E/D warmups + curated C Gates (Wave 2) |
 | [w3resource — PHP Exercises](https://www.w3resource.com/php-exercises/) | Arrays/JSON/Date drills (**Wave 7** curated; not full dump) |

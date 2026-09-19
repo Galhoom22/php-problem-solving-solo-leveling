@@ -189,6 +189,30 @@ Hub: [PHP Exercises, Practice, Solution](https://www.w3resource.com/php-exercise
 
 **Skipped on purpose:** OOP/Classes (sibling OOP repo), Cookies/Sessions, full File Handling packs, entire Basic 102 dump.
 
+### Wave 8 — Exercism PHP track (curated)
+
+Hub: [Exercism PHP track](https://exercism.org/tracks/php) · [Exercises](https://exercism.org/tracks/php/exercises)  
+Mentored fluency style — curated, not the full track dump.
+
+| Gate | Title | Rank | Slug | XP | Status |
+|:---|:---|:---:|:---|:---:|:---:|
+| 123 | Two Fer | E | `two-fer` | 25 | ☐ |
+| 124 | Resistor Color | E | `resistor-color` | 25 | ☐ |
+| 125 | Difference of Squares | E | `difference-of-squares` | 25 | ☐ |
+| 126 | Raindrops | D | `raindrops` | 40 | ☐ |
+| 127 | Bob | D | `bob` | 40 | ☐ |
+| 128 | Hamming Distance | D | `hamming` | 40 | ☐ |
+| 129 | Isogram | D | `isogram` | 40 | ☐ |
+| 130 | Pangram | D | `pangram` | 40 | ☐ |
+| 131 | RNA Transcription | D | `rna-transcription` | 40 | ☐ |
+| 132 | Acronym | D | `acronym` | 40 | ☐ |
+| 133 | Scrabble Score | D | `scrabble-score` | 40 | ☐ |
+| 134 | High Scores | D | `high-scores` | 40 | ☐ |
+| 135 | Flatten Array | C | `flatten-array` | 60 | ☐ |
+| 136 | Gigasecond | D | `gigasecond` | 40 | ☐ |
+
+**Skipped as duplicates:** Reverse String, Leap, Anagram, Word Count (already covered earlier).
+
 More Gates land in later waves — see `repo-ideas/11-core-curriculum.md`.
 
 ## Session cycle

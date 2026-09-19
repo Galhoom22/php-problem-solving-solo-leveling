@@ -12,3 +12,6 @@ Wave 4 adds Codewars ~6 kyu Gates (092–098).
 
 Wave 7 adds w3resource basic-algorithm Gate 121.
 
+
+Wave 8 adds Exercism Flatten Array (135).
+
