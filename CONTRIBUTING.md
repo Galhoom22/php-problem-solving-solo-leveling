@@ -37,7 +37,7 @@ Required PR checks: `Repo Laws + PHP Lint` · `Sacred Structure Guard`
 
 ## Publish to GitHub (first time)
 
-Suggested **name:** `php-problem-solving-solo-leveling-style`  
+Suggested **name:** `php-problem-solving-solo-leveling`  
 
 **Description:**  
 `PHP 8.5 Learn+Solve gym: the 20% DSA patterns that matter, Solo Leveling Gates, no spoilers. Path to Big Tech / FAANG-ready thinking.`
@@ -46,7 +46,7 @@ Suggested **name:** `php-problem-solving-solo-leveling-style`
 
 ```bash
 # from a clean main (all changes committed; .cursor/ is gitignored)
-gh repo create php-problem-solving-solo-leveling-style --public --source=. --remote=origin --push
+gh repo create php-problem-solving-solo-leveling --public --source=. --remote=origin --push
 ```
 
 `ci.yml` starts under [`.github/pending-workflows/`](.github/pending-workflows/) so the first push works without the OAuth `workflow` scope. Activate Actions:
