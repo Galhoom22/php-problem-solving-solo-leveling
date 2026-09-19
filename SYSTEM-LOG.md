@@ -19,6 +19,7 @@ Objective: Clear Gates. Absorb Patterns. Level Up Alone.
 
 | Date | Event | Details |
 |:---|:---|:---|
+| 2026-09-19 | Consistency audit | Full-repo path/link sync to `01-E`…`07-Side`; AGENTS/CI/design docs aligned; `scripts/audit-consistency.php` |
 | 2026-09-19 | Rank folder prefix | `01-E-Gates`…`07-Side-Quests` so explorer/GitHub sort matches climb order |
 | 2026-09-19 | Root README | Plain-language rewrite for normal readers; removed confusing `.github/README` meta face |
 | 2026-09-19 | Gate folder order | Categories + IDs remapped easiest→harder within each rank (E Numbers→…→Arrays; C Strings→…→Window; Side Quests prefixed) |
