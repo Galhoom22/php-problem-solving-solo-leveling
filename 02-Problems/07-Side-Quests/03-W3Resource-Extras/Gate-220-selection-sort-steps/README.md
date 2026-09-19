@@ -34,5 +34,5 @@ Classic selection sort.
 Mark ✅ in `02-Problems/README.md` (Side Quest section if applicable) after a clean clear.
 
 ## Source
-Source: w3resource — PHP Searching and Sorting Algorithm — Selection Sort Steps — https://www.w3resource.com/php-exercises/php-searching-and-sorting-algorithm-exercises.php
+Source: w3resource — PHP Searching and Sorting Algorithm — Selection Sort (exercise list; paraphrased Side Quest) — https://www.w3resource.com/php-exercises/searching-and-sorting-algorithm/index.php
 Hub: https://www.w3resource.com/php-exercises/

@@ -151,6 +151,7 @@ $requiredDirs = [
     '00-Awakening/Part-01-PHP-Basics',
     '00-Awakening/Part-02-Problem-Solving-Intro',
     '01-Patterns-And-Fundamentals/Part-4-Milestones',
+    '.github/workflows',
     '.github/pending-workflows',
 ];
 foreach ($requiredDirs as $d) {
@@ -185,8 +186,8 @@ foreach (['01-E-Gates', 'Gate-001-sum-two-numbers', 'STATUS WINDOW', 'Hunter Sol
 }
 
 $agents = (string) file_get_contents($root . '/AGENTS.md');
-if (!str_contains($agents, 'pending-workflows')) {
-    $warnings[] = '[agents] AGENTS.md should mention pending-workflows while CI is parked';
+if (!str_contains($agents, '.github/workflows/ci.yml') && !str_contains($agents, 'workflows/ci.yml')) {
+    $warnings[] = '[agents] AGENTS.md should point at live .github/workflows/ci.yml';
 }
 
 echo "=== Consistency audit ===\n";

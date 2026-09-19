@@ -65,8 +65,10 @@ Pattern tag: …
 Mark ✅ in `02-Problems/README.md` and update the Status Window only after you can explain and clear it cleanly.
 
 ## Source
-Source: … — https://…
+Source: Platform — Problem title — <full https URL>
 ```
+
+Use a real canonical URL (no ellipsis placeholders). Briefs are paraphrased; the Source line is provenance.
 
 Sibling boundaries (do **not** merge into this gym):
 

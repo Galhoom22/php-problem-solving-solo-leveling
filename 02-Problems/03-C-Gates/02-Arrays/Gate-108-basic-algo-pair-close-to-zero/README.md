@@ -36,5 +36,5 @@ Search pairs; track best abs sum.
 Mark ✅ in `02-Problems/README.md` (Side Quest section if applicable) after a clean clear.
 
 ## Source
-Source: w3resource — PHP Basic Algorithm — Pair Closest to Zero Sum — https://www.w3resource.com/php-exercises/php-basic-algorithm-exercises.php
+Source: w3resource — PHP Basic Algorithm (hub) — Pair Closest to Zero Sum (paraphrased drill) — https://www.w3resource.com/php-exercises/basic-algorithm/index.php
 Hub: https://www.w3resource.com/php-exercises/

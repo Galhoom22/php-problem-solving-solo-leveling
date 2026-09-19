@@ -28,3 +28,4 @@ scratch/
 
 # Logs
 *.log
+scripts/tmp-link-report.txt

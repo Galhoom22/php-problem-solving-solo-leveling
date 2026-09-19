@@ -19,6 +19,7 @@ Objective: Clear Gates. Absorb Patterns. Level Up Alone.
 
 | Date | Event | Details |
 |:---|:---|:---|
+| 2026-09-19 | Sources / links audit | Fixed w3resource 404s (Gate-108, Gate-220); SOURCES attribution table; audit treats LeetCode/CF/Exercism 403 as bot-block WARN; AGENTS points at live `workflows/ci.yml` |
 | 2026-09-19 | Root README trim | Cut TOC / duplicate tables / structure tree; face file is start-path only (CI needles kept) |
 | 2026-09-19 | NeetCode PHP+Backend wave | +8 B-rank stubs (Moving Average · TinyURL · Auth Manager · First Bad Version · Ship Capacity · Task Scheduler · Car Pooling · My Calendar I); bank **238**; skipped non–PHP-fit All buckets |
 | 2026-09-19 | GitHub 100 path | Live Actions `workflows/ci.yml` · stronger Protect-main ruleset · filled 12 thin LeetCode briefs · CI badge |
