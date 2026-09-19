@@ -23,14 +23,17 @@ Never ship finished answers as default Gate files. Never open a session with a f
 
 Side Quests: `02-Problems/07-Side-Quests/` (optional).  
 Rank folder numbers exist so explorer/GitHub sort matches the climb (E→…→Side).  
-List/TreeNode theater: `04-Interview-Armor/` only.
+List/TreeNode theater: `04-Interview-Armor/` only.  
+Author scaffold (copy-paste): [`CONTRIBUTING.md`](../CONTRIBUTING.md#gate-folder-template).
 
 ## Gate README (required fields)
 
 - Metadata: Status · Gate Rank · Min Hunter Rank · XP · related skill  
 - `## System Brief`  
+- `## What This Gate Is Testing`  
 - `## Learn First`  
 - `## Backend Link`  
+- `## Clear Rule`  
 - `## Source` (URL or `(original …)`)  
 
 Optional after attempt: notes, Walkthrough, FAANG transfer line.  

@@ -10,6 +10,7 @@
 |:---|:---|:---|
 | [LeetCode-DSA-Pareto-Set](https://github.com/Galhoom22/LeetCode-DSA-Pareto-Set) (hunter’s C++ set) | 20/80 focus · Brute→tighten discipline · checklist honesty | C++ solution dumps · required flowcharts · multi-file answers per problem |
 | [technical-interview-questions](https://github.com/Galhoom22/technical-interview-questions) | Clear is/is-not pitch · section legend · study-order counts · sibling links | Verbal answer-bank model (spoilers) · Laravel curriculum |
+| [php-oop-documentation](https://github.com/Galhoom22/php-oop-documentation) | Numbered tracks · TOC · repo structure tree · Requirements · per-item folder template | OOP lecture curriculum · progress grids for every unit · framework-free OOP course content |
 | NeetCode / Blind 75 / Pareto-style lists | Pattern coverage ideas for Gate selection | Whole lists as required climb without Fitness |
 
 ## Primary

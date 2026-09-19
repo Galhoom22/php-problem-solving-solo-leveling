@@ -22,6 +22,23 @@ Command waiting: Arise.
 
 ---
 
+## 📑 Contents
+
+| | Section | What’s inside |
+|:---:|:---|:---|
+| 🧭 | [Who this is for](#-who-this-is-for) | Where to start |
+| 📦 | [What this is / is not](#-what-this-is--is-not) | Gym identity |
+| 📜 | [Gate README](#-how-to-read-a-gate-readme) | Section template |
+| 🚀 | [Quick start](#-quick-start-3-minutes) | First 3 minutes |
+| ⚔️ | [How to solve](#️-how-to-solve-one-gate) | Brief → Brute → Tighten → Talk |
+| 🗺️ | [Climb map](#️-climb-map-study-order) | Tracks + ranks |
+| 🖥️ | [Progress](#️-your-progress-panel) | Status Window |
+| 📁 | [Structure](#-repository-structure) | Folder tree |
+| ⚙️ | [Requirements](#️-requirements) | PHP 8.5+ |
+| 🔗 | [Siblings](#-sibling-study-repos) | Related study repos |
+
+---
+
 ## 🧭 Who this is for
 
 | You are… | Start here |
@@ -47,17 +64,19 @@ Command waiting: Arise.
 
 ## 📜 How to read a Gate README
 
-Same sections in every Gate (read in this order):
+Same template in every Gate folder (read in this order):
 
 | | Section | What to do |
 |:---:|:---|:---|
 | 🧾 | **System Brief** | Problem in plain words + examples |
+| 🎯 | **What This Gate Is Testing** | The one skill under the microscope |
 | 🎓 | **Learn First** | Ideas to know before you code |
 | 💼 | **Backend Link** | Why this shows up in real PHP work |
-| 🔗 | **Source** | Where the problem came from |
 | ✅ | **Clear Rule** | When you may mark the Gate done |
+| 🔗 | **Source** | Where the problem came from |
 
-Then open `solution-1.php` and clear it yourself.
+Folder shape: `Rank / Category / Gate-NNN-kebab/` → `README.md` + empty `solution-1.php`.  
+You write the answer — the stub ships with `TODO` only.
 
 ---
 
@@ -165,11 +184,47 @@ Details: [`repo-ideas/20-big-tech-faang-graduation.md`](repo-ideas/20-big-tech-f
 
 ---
 
+## 📁 Repository structure
+
+```
+php-problem-solving-solo-leveling/
+├── README.md                 ← start here
+├── playground.php            ← scratch pad
+├── 00-Awakening/             ← Track 0 · PHP + how to read a problem
+├── 01-Patterns-And-Fundamentals/  ← Track 1 · DSA Skill Books
+├── 02-Problems/              ← Track 2 · Gate bank
+│   ├── README.md             ← Gate map + ✅ checklist
+│   ├── 01-E-Gates/ … 06-S-Gates/
+│   └── 07-Side-Quests/       ← optional
+├── 03-Mock-Interview/        ← Track 3 · timed talk-aloud
+├── 04-Interview-Armor/       ← Track 4 · list / tree form (late)
+├── scripts/ci/               ← repo laws
+└── SOURCES.md · CONTRIBUTING.md · AGENTS.md
+```
+
+Naming: tracks `00`–`04` · ranks `01-E`…`07-Side` · Gates `Gate-NNN-kebab/` so explorer/GitHub sort matches climb order.
+
+---
+
+## ⚙️ Requirements
+
+| | Need |
+|:---:|:---|
+| 🐘 | **PHP 8.5+** (`php -v`) |
+| 📖 | Basic PHP — variables, functions, arrays, loops (or start in [`00-Awakening/`](00-Awakening/)) |
+| 💻 | Local PHP to run `solution-1.php` / `playground.php` |
+| 🚫 | No framework · no Composer required for the climb |
+
+Trusted references: [`SOURCES.md`](SOURCES.md) · [PHP Manual](https://www.php.net/manual/en/)
+
+---
+
 ## 🔗 Sibling study repos
 
 | Repo | Role next to this gym |
 |:---|:---|
-| [technical-interview-questions](https://github.com/Galhoom22/technical-interview-questions) | Verbal PHP / Laravel **answer bank** (theory interviews) |
+| [php-oop-documentation](https://github.com/Galhoom22/php-oop-documentation) | OOP **lectures** path (classes → project) — not DSA Gates |
+| [technical-interview-questions](https://github.com/Galhoom22/technical-interview-questions) | Verbal PHP / Laravel **answer bank** |
 | [LeetCode-DSA-Pareto-Set](https://github.com/Galhoom22/LeetCode-DSA-Pareto-Set) | Earlier C++ Pareto **solutions** practice |
 | **This repo** | PHP DSA **stubs** — you solve; no spoilers |
 

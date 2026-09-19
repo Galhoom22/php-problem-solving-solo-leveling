@@ -18,12 +18,60 @@ How to change this gym. Chat may be any language; **committed files stay English
 1. Pass PHP Fitness Filter — [`repo-ideas/19`](repo-ideas/19-php-fitness-filter.md)
 2. Place under `01-E-Gates` … `06-S-Gates` or `07-Side-Quests/` (Armor for list/TreeNode theater)  
 3. Folder: `Gate-NNN-kebab-case/` — ID must keep lane order (E→…→Armor) 
-4. `README.md`: System Brief · Learn First · Backend Link · Source · Clear Rule (same legend as root README — no algorithm dump)
-5. `solution-1.php`: stub + `TODO` + `declare(strict_types=1);`
-6. Update [`02-Problems/README.md`](02-Problems/README.md) (or run `php scripts/rebuild-gate-map.php`)
-7. `php scripts/ci/validate-repo.php`
+4. Fill the **Gate template** below (no algorithm dump)
+5. Update [`02-Problems/README.md`](02-Problems/README.md) (or run `php scripts/rebuild-gate-map.php`)
+6. `php scripts/ci/validate-repo.php`
 
-Verbal theory Q&A lives in the sibling [technical-interview-questions](https://github.com/Galhoom22/technical-interview-questions) bank — do not turn this gym into an answer dump.
+### Gate folder template
+
+```
+02-Problems/{01-E|02-D|03-C|04-B|05-A|06-S}-Gates/{NN-Category}/Gate-NNN-kebab/
+├── README.md          ← brief only (sections below)
+└── solution-1.php     ← declare(strict_types=1); + typed stub + TODO
+```
+
+### Gate README template (required)
+
+```markdown
+# Gate NNN — Title
+
+Status: Not cleared
+Related skill: Pattern-NN-…
+Difficulty: …
+Gate Rank: E|D|C|B|A|S
+Min Hunter Rank: …-Rank
+XP Reward: …
+Source Platform: …
+Pattern tag: …
+
+## System Brief
+…
+
+## What This Gate Is Testing
+…
+
+## Learn First (System Tutorial)
+- …
+
+## Backend Link (Why this matters at work)
+### Direct
+- …
+### Indirect
+- …
+### Job takeaway
+- …
+
+## Clear Rule
+Mark ✅ in `02-Problems/README.md` and update the Status Window only after you can explain and clear it cleanly.
+
+## Source
+Source: … — https://…
+```
+
+Sibling boundaries (do **not** merge into this gym):
+
+- OOP lectures → [php-oop-documentation](https://github.com/Galhoom22/php-oop-documentation)
+- Verbal theory Q&A → [technical-interview-questions](https://github.com/Galhoom22/technical-interview-questions)
 
 Before every change: **What becomes more professional after this?**
 
