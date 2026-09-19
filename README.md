@@ -95,6 +95,11 @@ Failure: Fatigue +15 → soft Penalty Quest tomorrow
 
 Full coaching ladder: [`repo-ideas/21-hunter-solves-first-no-direct-answers.md`](repo-ideas/21-hunter-solves-first-no-direct-answers.md)
 
+## English-Only Law
+
+This repository is **English 100%** — docs, Gates, comments, and paths.
+CI rejects non-Latin letters in scanned files. Details: [`repo-ideas/22-english-only.md`](repo-ideas/22-english-only.md)
+
 ---
 
 ## Purpose
@@ -236,7 +241,7 @@ When you clear a Gate / pattern:
 
 Every PR to `main` must pass GitHub Actions:
 
-- **Repo Laws + PHP Lint** — structure, Gate metadata, PHP Fitness bans, no open spoilers, `strict_types`, syntax
+- **Repo Laws + PHP Lint** — structure, Gate metadata, PHP Fitness bans, no open spoilers, English-only, `strict_types`, syntax
 - **Sacred Structure Guard** — blocks deleting tracks / law files / CI itself
 
 Local check:

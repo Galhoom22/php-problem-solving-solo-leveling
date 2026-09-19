@@ -33,6 +33,12 @@ gh repo create <YOUR_REPO> --public --source=. --remote=origin --push
 Hunter solves first. No spoiler solutions as the default path.
 See `repo-ideas/21-hunter-solves-first-no-direct-answers.md`.
 
+## English-Only Law
+
+The repository must stay **English 100%** (docs, code comments, Gate briefs, paths).
+Chat may be any language; committed content must be English.
+See `repo-ideas/22-english-only.md`. CI fails on non-Latin letters in scanned files.
+
 ## CI / protecting `main`
 
 Before opening a PR (or after local edits):

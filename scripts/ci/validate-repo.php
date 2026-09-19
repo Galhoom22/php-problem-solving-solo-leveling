@@ -15,6 +15,7 @@ declare(strict_types=1);
  * - PHP Fitness Filter bans in early core climb (E/D/C)
  * - Hunter Solves First: no sealed-spoiler dumps in default Gate paths
  * - Sacred root files must exist
+ * - English-only law: all tracked prose/code letters must be Latin (English repo)
  */
 
 final class RepoValidator
@@ -71,6 +72,19 @@ final class RepoValidator
         'DisjointSet',
     ];
 
+    /** @var list<string> */
+    private const ENGLISH_SCAN_EXTENSIONS = [
+        'md', 'php', 'yml', 'yaml', 'txt', 'json', 'xml', 'html', 'css', 'js', 'ts', 'sh', 'ps1',
+    ];
+
+    /** @var list<string> */
+    private const ENGLISH_SCAN_BASENAMES = [
+        'LICENSE',
+        'CODEOWNERS',
+        'Dockerfile',
+        'Makefile',
+    ];
+
     public function __construct(string $root)
     {
         $this->root = rtrim($root, '/\\');
@@ -85,6 +99,7 @@ final class RepoValidator
         $this->checkGates();
         $this->checkNoOpenSpoilers();
         $this->checkRepoIdeasBootFiles();
+        $this->checkEnglishOnly();
 
         $this->printReport();
 
@@ -306,11 +321,106 @@ final class RepoValidator
             'repo-ideas/19-php-fitness-filter.md',
             'repo-ideas/20-big-tech-faang-graduation.md',
             'repo-ideas/03-strict-progression-law.md',
+            'repo-ideas/22-english-only.md',
         ] as $file) {
             if (!is_file($this->root . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, $file))) {
                 $this->errors[] = "[design] Missing law file: {$file}";
             }
         }
+    }
+
+    /**
+     * English-only law: every Unicode letter in scanned files must be Latin script.
+     * Symbols, emoji, box-drawing, digits, and punctuation are allowed.
+     * Chat may be any language; committed repo content must stay English.
+     */
+    private function checkEnglishOnly(): void
+    {
+        $iterator = new RecursiveIteratorIterator(
+            new RecursiveDirectoryIterator($this->root, FilesystemIterator::SKIP_DOTS)
+        );
+
+        $maxHits = 25;
+        $hitCount = 0;
+
+        foreach ($iterator as $fileInfo) {
+            /** @var SplFileInfo $fileInfo */
+            if (!$fileInfo->isFile()) {
+                continue;
+            }
+
+            $path = $fileInfo->getPathname();
+            if (str_contains($path, DIRECTORY_SEPARATOR . '.git' . DIRECTORY_SEPARATOR)) {
+                continue;
+            }
+            if (str_contains($path, DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR)) {
+                continue;
+            }
+
+            $base = $fileInfo->getFilename();
+            $ext = strtolower($fileInfo->getExtension());
+            $scan = in_array($base, self::ENGLISH_SCAN_BASENAMES, true)
+                || in_array($ext, self::ENGLISH_SCAN_EXTENSIONS, true);
+            if (!$scan) {
+                continue;
+            }
+
+            $rel = $this->rel($path);
+
+            // Paths/filenames must also stay English (Latin letters only if any letters)
+            if ($this->containsNonLatinLetter($rel)) {
+                $this->errors[] = "[english] Non-English letter(s) in path: {$rel}";
+                $hitCount++;
+                if ($hitCount >= $maxHits) {
+                    $this->errors[] = "[english] Further English-law path violations truncated…";
+                    break;
+                }
+            }
+
+            $content = (string) file_get_contents($path);
+            if (!$this->containsNonLatinLetter($content)) {
+                continue;
+            }
+
+            $sample = $this->firstNonLatinLetter($content);
+            $this->errors[] = "[english] Non-English letter(s) in file: {$rel}"
+                . ($sample !== null ? " (example: \"{$sample}\")" : '');
+            $hitCount++;
+            if ($hitCount >= $maxHits) {
+                $this->errors[] = "[english] Further English-law file violations truncated…";
+                break;
+            }
+        }
+    }
+
+    private function containsNonLatinLetter(string $text): bool
+    {
+        if (preg_match_all('/\p{L}/u', $text, $matches) === false || $matches[0] === []) {
+            return false;
+        }
+
+        foreach ($matches[0] as $letter) {
+            if (preg_match('/\p{Latin}/u', $letter) !== 1) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private function firstNonLatinLetter(string $text): ?string
+    {
+        if (preg_match_all('/\p{L}/u', $text, $matches) === false) {
+            return null;
+        }
+
+        foreach ($matches[0] as $letter) {
+            if (preg_match('/\p{Latin}/u', $letter) !== 1) {
+                return $letter;
+            }
+        }
+
+        return null;
     }
 
     /** @return list<string> */

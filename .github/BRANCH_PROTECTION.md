@@ -34,6 +34,7 @@ Enable:
 | No ListNode / heavy CP in E–C | PHP Fitness Filter |
 | No open `spoilers/` under `02-Problems` | Hunter Solves First |
 | `declare(strict_types=1)` + `php -l` | PHP 8.5 standards |
+| Letters are Latin-script only in scanned files/paths | English-Only Law (`22`) |
 | Design law files present | Mission / graduation / coaching |
 | Sacred paths not deleted in PRs | Protect main from accidental wipe |
 

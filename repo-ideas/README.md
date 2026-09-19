@@ -16,9 +16,10 @@
 
 1. `00-mission-learn-and-solve.md`
 2. `21-hunter-solves-first-no-direct-answers.md`
-3. `20-big-tech-faang-graduation.md`
-4. `19-php-fitness-filter.md`
-5. Track file for the current task
+3. `22-english-only.md`
+4. `20-big-tech-faang-graduation.md`
+5. `19-php-fitness-filter.md`
+6. Track file for the current task
 
 ## Index
 
@@ -46,9 +47,11 @@
 | PHP Fitness | [`19-php-fitness-filter.md`](19-php-fitness-filter.md) |
 | Graduation | [`20-big-tech-faang-graduation.md`](20-big-tech-faang-graduation.md) |
 | No spoilers | [`21-hunter-solves-first-no-direct-answers.md`](21-hunter-solves-first-no-direct-answers.md) |
+| English-Only Law | [`22-english-only.md`](22-english-only.md) |
 
 ## Non-negotiables
 
 - No spoiler solutions before hunter attempt  
+- **English 100%** in all committed repo content (`22`)  
 - Exit = Big Tech / FAANG Ready  
 - PHP-fit core · Learn + Solve · Backend Links · Solo Leveling · strict progression  

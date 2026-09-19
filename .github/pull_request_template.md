@@ -4,6 +4,7 @@
 
 ### Intent
 - [ ] What does this PR change? (Gates / Skill Books / docs / CI)
+- [ ] All new/edited content is **English only** (no Arabic or other non-Latin letters in files/paths)
 - [ ] I did **not** push a full spoiler solution as the default Gate answer
 
 ### Gate authoring (if adding/editing Gates)

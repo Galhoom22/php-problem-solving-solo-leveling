@@ -5,11 +5,13 @@
 
 **Start learning:** [`README.md`](README.md)  
 **Design pack:** [`repo-ideas/README.md`](repo-ideas/README.md)  
-**No spoilers:** [`repo-ideas/21-hunter-solves-first-no-direct-answers.md`](repo-ideas/21-hunter-solves-first-no-direct-answers.md)
+**No spoilers:** [`repo-ideas/21-hunter-solves-first-no-direct-answers.md`](repo-ideas/21-hunter-solves-first-no-direct-answers.md)  
+**English only:** [`repo-ideas/22-english-only.md`](repo-ideas/22-english-only.md)
 
 ### AI boot order
 1. `repo-ideas/00-mission-learn-and-solve.md`
 2. `repo-ideas/21-hunter-solves-first-no-direct-answers.md`
-3. `repo-ideas/20-big-tech-faang-graduation.md`
-4. `repo-ideas/19-php-fitness-filter.md`
-5. Track file for the current task
+3. `repo-ideas/22-english-only.md`
+4. `repo-ideas/20-big-tech-faang-graduation.md`
+5. `repo-ideas/19-php-fitness-filter.md`
+6. Track file for the current task

@@ -23,12 +23,24 @@ It is **not** an OOP course, Laravel course, Design Patterns course, or a soluti
 |:---:|:---|:---|
 | 1 | [`repo-ideas/21-hunter-solves-first-no-direct-answers.md`](repo-ideas/21-hunter-solves-first-no-direct-answers.md) | **Every** Gate / solving session |
 | 2 | [`repo-ideas/00-mission-learn-and-solve.md`](repo-ideas/00-mission-learn-and-solve.md) | Session start / scope questions |
-| 3 | [`repo-ideas/19-php-fitness-filter.md`](repo-ideas/19-php-fitness-filter.md) | Adding or moving Gates |
-| 4 | [`repo-ideas/03-strict-progression-law.md`](repo-ideas/03-strict-progression-law.md) | Ordering Gates |
-| 5 | [`repo-ideas/20-big-tech-faang-graduation.md`](repo-ideas/20-big-tech-faang-graduation.md) | Graduation / interview readiness |
-| 6 | Track README for the active folder | `00`–`04` |
+| 3 | [`repo-ideas/22-english-only.md`](repo-ideas/22-english-only.md) | Any file create/edit (language) |
+| 4 | [`repo-ideas/19-php-fitness-filter.md`](repo-ideas/19-php-fitness-filter.md) | Adding or moving Gates |
+| 5 | [`repo-ideas/03-strict-progression-law.md`](repo-ideas/03-strict-progression-law.md) | Ordering Gates |
+| 6 | [`repo-ideas/20-big-tech-faang-graduation.md`](repo-ideas/20-big-tech-faang-graduation.md) | Graduation / interview readiness |
+| 7 | Track README for the active folder | `00`–`04` |
 
 Supporting: Solo Leveling HUD [`04`](repo-ideas/04-solo-leveling-system.md) · Backend Links [`18`](repo-ideas/18-backend-career-links.md) · AI session shape [`13`](repo-ideas/13-ai-skill-behavior.md).
+
+---
+
+## Sacred rule — English Only
+
+The **entire repository is English 100%** — READMEs, Gates, comments, identifiers, paths, CI text.
+
+- Chat with the hunter may be any language.
+- Committed files must stay English (Latin letters only for letters).
+- Law file: [`repo-ideas/22-english-only.md`](repo-ideas/22-english-only.md)
+- CI fails on `[english]` violations.
 
 ---
 
@@ -127,6 +139,7 @@ Gate folders: `Gate-NNN-kebab-case/` with `README.md` + stub `solution-1.php`.
 
 ## Do not
 
+- Write non-English letters into any committed file or path (English-Only Law)
 - Dump full Gate solutions on first contact
 - Put linked lists / segment trees / union-find / bit olympiad in early PHP-fit core (`E`–`C`)
 - Skip Rank / progression when recommending the next Gate
@@ -154,6 +167,7 @@ Gate folders: `Gate-NNN-kebab-case/` with `README.md` + stub `solution-1.php`.
 ## Definition of done (agent work)
 
 - Request satisfied with minimal, correct diffs
+- English-Only Law respected (no non-Latin letters in repo files/paths)
 - Hunter Solves First respected for any Gate touch
 - `php scripts/ci/validate-repo.php` passes after structural/PHP changes
 - No unfinished spoiler solutions authored into required climb folders
