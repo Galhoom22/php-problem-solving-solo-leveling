@@ -28,3 +28,6 @@ Mark a lesson ✅ only after you can explain it in your own words and run a tiny
 ## Session recipe
 
 One lesson per session. Do not rush into D-Gates before E-Gates feel easy.
+
+HackerRank PHP (Basic) environment/variables competencies: Lessons 05–06 in Part-0-PHP-Basics.
+

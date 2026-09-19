@@ -8,5 +8,7 @@ Target: **PHP 8.5** with `declare(strict_types=1);`
 | [`Lesson-02-arrays-lists-maps`](Lesson-02-arrays-lists-maps/) | List vs associative array | ☐ |
 | [`Lesson-03-strings-and-loops`](Lesson-03-strings-and-loops/) | Strings + `foreach` / `for` | ☐ |
 | [`Lesson-04-functions-and-types`](Lesson-04-functions-and-types/) | Typed functions | ☐ |
+| [`Lesson-05-php-cli-environment`](Lesson-05-php-cli-environment/) | CLI PHP for this gym (HackerRank env competency) | ☐ |
+| [`Lesson-06-superglobals-as-maps`](Lesson-06-superglobals-as-maps/) | Superglobals as assoc arrays | ☐ |
 
 Open each folder’s `README.md`, then write practice in `practice.php`.

@@ -148,7 +148,25 @@ Curated classic beginner problem-codes that are PHP-solvable + PHP-fit:
 
 Folder: [`Side-Quests/CodeChef/`](Side-Quests/CodeChef/)
 
-**Skipped as required climb:** FLOW001 / FLOW002 near-duplicates of Edabit sum/remainder Gates; heavy CP packs.
+### Wave 6 — HackerRank PHP (Basic) competencies
+
+Skill page: [PHP (Basic) Skills Directory](https://www.hackerrank.com/skills-directory/php_basic)  
+This page lists **competencies**, not a kata dump. Mapped into Awakening + E-Gates (curated).
+
+| Item | Title | Place | Competency | Status |
+|:---|:---|:---|:---|:---:|
+| L05 | PHP CLI Environment | `00-Awakening/.../Lesson-05-…` | PHP Environment | ☐ |
+| L06 | Superglobals as Maps | `00-Awakening/.../Lesson-06-…` | Variables / predefined arrays | ☐ |
+| 106 | Grade Decision | E | Decision-making | ☐ |
+| 107 | Sum With a Loop | E | Loops | ☐ |
+| 108 | Associative Value Sum | E | Associative arrays | ☐ |
+| 109 | 2D Matrix Sum | E | Multi-dimensional arrays | ☐ |
+| 110 | String Concat Parts | E | Strings | ☐ |
+| 111 | Length and Uppercase | E | String manipulation | ☐ |
+
+Pointer: [`E-Gates/07-HackerRank-PHP-Basic/`](E-Gates/07-HackerRank-PHP-Basic/)
+
+**Not imported:** full LAMP/MySQL install tracks (out of this PS gym’s required climb).
 
 More Gates land in later waves — see `repo-ideas/11-core-curriculum.md`.
 
