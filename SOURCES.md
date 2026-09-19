@@ -23,7 +23,7 @@
 | [GeeksforGeeks — PHP](https://www.geeksforgeeks.org/php/php-exercises-practice-questions-and-solutions/) | Pattern warmups |
 | [HackerEarth](https://www.hackerearth.com/) | Extra practice |
 | [Codeforces](https://codeforces.com/) | **Side Quests only** after fitness filter |
-| [CodeChef](https://www.codechef.com/) | Optional Side Quests |
+| [CodeChef](https://www.codechef.com/practice/php) | **Side Quests only** (Wave 5) — contest-first; hub listing is sparse |
 | [Advent of Code](https://adventofcode.com/) | Seasonal raids if PHP-fit |
 | [CodeCrafters — PHP](https://app.codecrafters.io/tracks/php) | Late Boss Projects |
 | NeetCode / Blind 75 | Filter through PHP Fitness before required climb |

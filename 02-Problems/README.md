@@ -130,6 +130,26 @@ Imported from [Codewars PHP kata search](https://www.codewars.com/kata/search/ph
 | 097 | Who Likes It | C | Strings / Branching | Codewars ~6 kyu | 60 | ☐ |
 | 098 | Bit Counting | C | Bits (light) | Codewars ~6 kyu | 60 | ☐ |
 
+### Wave 5 — CodeChef (Side Quests only)
+
+Hub: [CodeChef Practice PHP](https://www.codechef.com/practice/php) (listing is sparse / app-rendered).  
+**Policy:** CodeChef stays **optional Side Quests** — not required for graduation.  
+Curated classic beginner problem-codes that are PHP-solvable + PHP-fit:
+
+| Gate | Title | Code | Feel | Pattern | XP | Status |
+|:---|:---|:---|:---:|:---|:---:|:---:|
+| 099 | First and Last Digit | FLOW004 | E | Digits | 25 | ☐ |
+| 100 | Sum of Digits | FLOW006 | E | Digits / Loops | 25 | ☐ |
+| 101 | Reverse The Number | FLOW007 | E | Digits | 25 | ☐ |
+| 102 | Lucky Four | LUCKFOUR | E | Digits / Count | 25 | ☐ |
+| 103 | Chef and Operators | CHOPRT | E | Conditions | 25 | ☐ |
+| 104 | Second Largest of Three | FLOW017 | D | Compare | 40 | ☐ |
+| 105 | ATM Withdrawal | HS08TEST | D | Conditions / Money | 40 | ☐ |
+
+Folder: [`Side-Quests/CodeChef/`](Side-Quests/CodeChef/)
+
+**Skipped as required climb:** FLOW001 / FLOW002 near-duplicates of Edabit sum/remainder Gates; heavy CP packs.
+
 More Gates land in later waves — see `repo-ideas/11-core-curriculum.md`.
 
 ## Session cycle
