@@ -14,6 +14,7 @@
 | [HackerRank](https://www.hackerrank.com/) | Arrays/strings + interview sets |
 | [Exercism — PHP](https://exercism.org/tracks/php) | Mentored fluency (E/D) |
 | [Edabit — PHP](https://edabit.com/challenges/php) | Early-rank volume |
+| [W3Schools — Practice PHP](https://www.w3schools.com/php/exercise.asp) | E/D warmups + curated C Gates (Wave 2) |
 
 ## Additional
 
@@ -36,9 +37,9 @@
 
 | This repo | Rough source mapping |
 |:---|:---|
-| E-Gate | Edabit Very Easy/Easy, Codewars 8–7kyu, Exercism intro |
-| D-Gate | LeetCode Easy (simple), Codewars 7–6kyu, HR Easy |
-| C-Gate | Easy → early Medium |
+| E-Gate | Edabit Very Easy/Easy, Codewars 8–7kyu, Exercism intro, **W3Schools Easy (~20 XP)** |
+| D-Gate | LeetCode Easy (simple), Codewars 7–6kyu, HR Easy, **W3Schools Medium-light (~50 XP)** |
+| C-Gate | Easy → early Medium, **stronger W3Schools Medium/Hard if PHP-fit** |
 | B-Gate | Medium core |
 | A-Gate | Harder Medium / light Hard |
 | S-Gate | Hard / prestige |
