@@ -10,7 +10,7 @@
 | Platform | Use in this repo |
 |:---|:---|
 | [LeetCode](https://leetcode.com/) | Core interview Gates |
-| [Codewars (PHP)](https://www.codewars.com/?language=php) | Warmups, PHP-flavor kata |
+| [Codewars (PHP)](https://www.codewars.com/kata/search/php) | Warmups + kata (**Wave 4** ~8/7/6 kyu curated) |
 | [HackerRank](https://www.hackerrank.com/) | Arrays/strings + interview sets |
 | [Exercism — PHP](https://exercism.org/tracks/php) | Mentored fluency (E/D) |
 | [Edabit — PHP](https://edabit.com/challenges/php) | Early-rank volume (**Wave 3** Very Easy curated) |

@@ -102,6 +102,34 @@ Imported from [Edabit PHP Challenges](https://edabit.com/challenges/php) (Very E
 | 078 | First Array Element | E | Arrays | Edabit | 25 | ☐ |
 | 079 | Reverse an Array | E | Arrays | Edabit | 25 | ☐ |
 
+### Wave 4 — Codewars PHP (curated)
+
+Imported from [Codewars PHP kata search](https://www.codewars.com/kata/search/php) after the PHP Fitness Filter.  
+**Rank map:** ~8 kyu → E · ~7 kyu → D · ~6 kyu → C.  
+**Not imported:** debug-only “fix the code” katas, heavy cipher/OOP theater (e.g. Vigenère), massacre game variants, and near-duplicates.
+
+| Gate | Title | Rank | Pattern | Platform | XP | Status |
+|:---|:---|:---:|:---|:---|:---:|:---:|
+| 080 | Convert a String to an Array | E | Strings / Arrays | Codewars ~8 kyu | 25 | ☐ |
+| 081 | Remove String Spaces | E | Strings | Codewars ~8 kyu | 25 | ☐ |
+| 082 | Keep Up the Hoop | E | Conditions | Codewars ~8 kyu | 25 | ☐ |
+| 083 | Multiplication Table for Number | E | Loops / Strings | Codewars ~8 kyu | 25 | ☐ |
+| 084 | Two Oldest Ages | D | Arrays | Codewars ~7 kyu | 40 | ☐ |
+| 085 | Small Enough | D | Arrays / Validation | Codewars ~7 kyu | 40 | ☐ |
+| 086 | Breaking Chocolate Problem | D | Math | Codewars ~7 kyu | 40 | ☐ |
+| 087 | Descending Order | D | Digits / Sort | Codewars ~7 kyu | 40 | ☐ |
+| 088 | Highest and Lowest | D | Strings / Parse | Codewars ~7 kyu | 40 | ☐ |
+| 089 | Square Every Digit | D | Digits | Codewars ~7 kyu | 40 | ☐ |
+| 090 | Disemvowel Trolls | D | Strings / Filter | Codewars ~7 kyu | 40 | ☐ |
+| 091 | Lost Number in Sequence | D | Arrays | Codewars ~7 kyu | 40 | ☐ |
+| 092 | Equal Sides Of An Array | C | Prefix / Arrays | Codewars ~6 kyu | 60 | ☐ |
+| 093 | Find the Odd Int | C | Hashing | Codewars ~6 kyu | 60 | ☐ |
+| 094 | Array Diff | C | Arrays / Sets | Codewars ~6 kyu | 60 | ☐ |
+| 095 | Stop Spinning My Words | C | Strings | Codewars ~6 kyu | 60 | ☐ |
+| 096 | Create Phone Number | C | Formatting | Codewars ~6 kyu | 60 | ☐ |
+| 097 | Who Likes It | C | Strings / Branching | Codewars ~6 kyu | 60 | ☐ |
+| 098 | Bit Counting | C | Bits (light) | Codewars ~6 kyu | 60 | ☐ |
+
 More Gates land in later waves — see `repo-ideas/11-core-curriculum.md`.
 
 ## Session cycle
