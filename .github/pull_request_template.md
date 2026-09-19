@@ -4,6 +4,7 @@
 
 ### Intent
 - [ ] What does this PR change? (Gates / Skill Books / docs / CI)
+- [ ] **Professionalism Ratchet:** after this PR the repo is more professional than before (state how in 1 sentence)
 - [ ] All new/edited content is **English only** (no Arabic or other non-Latin letters in files/paths)
 - [ ] I did **not** push a full spoiler solution as the default Gate answer
 
@@ -29,3 +30,5 @@
 ---
 
 **Sacred rule:** Explain what the Gate wants → hunter tries alone → coach with hints if stuck — no full solution dump first.
+
+**Professionalism Ratchet:** every merge must raise (or carefully preserve) repo craft — see `repo-ideas/23-professionalism-ratchet.md`.

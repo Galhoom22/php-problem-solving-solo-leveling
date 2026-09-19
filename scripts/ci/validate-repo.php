@@ -322,6 +322,7 @@ final class RepoValidator
             'repo-ideas/20-big-tech-faang-graduation.md',
             'repo-ideas/03-strict-progression-law.md',
             'repo-ideas/22-english-only.md',
+            'repo-ideas/23-professionalism-ratchet.md',
         ] as $file) {
             if (!is_file($this->root . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, $file))) {
                 $this->errors[] = "[design] Missing law file: {$file}";

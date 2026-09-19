@@ -39,6 +39,11 @@ The repository must stay **English 100%** (docs, code comments, Gate briefs, pat
 Chat may be any language; committed content must be English.
 See `repo-ideas/22-english-only.md`. CI fails on non-Latin letters in scanned files.
 
+## Professionalism Ratchet
+
+Every change must make the repo **more professional** than the current state (curation, clarity, CI, honesty — never sloppy dumps).
+See `repo-ideas/23-professionalism-ratchet.md`.
+
 ## CI / protecting `main`
 
 Before opening a PR (or after local edits):

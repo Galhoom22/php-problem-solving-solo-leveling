@@ -100,6 +100,11 @@ Full coaching ladder: [`repo-ideas/21-hunter-solves-first-no-direct-answers.md`]
 This repository is **English 100%** — docs, Gates, comments, and paths.
 CI rejects non-Latin letters in scanned files. Details: [`repo-ideas/22-english-only.md`](repo-ideas/22-english-only.md)
 
+## Professionalism Ratchet
+
+Every change must leave this repo **more professional than before** (clarity, curation, CI, honesty).  
+Details: [`repo-ideas/23-professionalism-ratchet.md`](repo-ideas/23-professionalism-ratchet.md)
+
 ---
 
 ## Purpose

@@ -75,6 +75,7 @@ jobs:
             "repo-ideas/03-strict-progression-law.md"
             "repo-ideas/20-big-tech-faang-graduation.md"
             "repo-ideas/22-english-only.md"
+            "repo-ideas/23-professionalism-ratchet.md"
             "scripts/ci/validate-repo.php"
             ".github/workflows/ci.yml"
           )

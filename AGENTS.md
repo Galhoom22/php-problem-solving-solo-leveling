@@ -24,10 +24,11 @@ It is **not** an OOP course, Laravel course, Design Patterns course, or a soluti
 | 1 | [`repo-ideas/21-hunter-solves-first-no-direct-answers.md`](repo-ideas/21-hunter-solves-first-no-direct-answers.md) | **Every** Gate / solving session |
 | 2 | [`repo-ideas/00-mission-learn-and-solve.md`](repo-ideas/00-mission-learn-and-solve.md) | Session start / scope questions |
 | 3 | [`repo-ideas/22-english-only.md`](repo-ideas/22-english-only.md) | Any file create/edit (language) |
-| 4 | [`repo-ideas/19-php-fitness-filter.md`](repo-ideas/19-php-fitness-filter.md) | Adding or moving Gates |
-| 5 | [`repo-ideas/03-strict-progression-law.md`](repo-ideas/03-strict-progression-law.md) | Ordering Gates |
-| 6 | [`repo-ideas/20-big-tech-faang-graduation.md`](repo-ideas/20-big-tech-faang-graduation.md) | Graduation / interview readiness |
-| 7 | Track README for the active folder | `00`–`04` |
+| 4 | [`repo-ideas/23-professionalism-ratchet.md`](repo-ideas/23-professionalism-ratchet.md) | **Every** change — must raise professionalism |
+| 5 | [`repo-ideas/19-php-fitness-filter.md`](repo-ideas/19-php-fitness-filter.md) | Adding or moving Gates |
+| 6 | [`repo-ideas/03-strict-progression-law.md`](repo-ideas/03-strict-progression-law.md) | Ordering Gates |
+| 7 | [`repo-ideas/20-big-tech-faang-graduation.md`](repo-ideas/20-big-tech-faang-graduation.md) | Graduation / interview readiness |
+| 8 | Track README for the active folder | `00`–`04` |
 
 Supporting: Solo Leveling HUD [`04`](repo-ideas/04-solo-leveling-system.md) · Backend Links [`18`](repo-ideas/18-backend-career-links.md) · AI session shape [`13`](repo-ideas/13-ai-skill-behavior.md).
 
@@ -41,6 +42,19 @@ The **entire repository is English 100%** — READMEs, Gates, comments, identifi
 - Committed files must stay English (Latin letters only for letters).
 - Law file: [`repo-ideas/22-english-only.md`](repo-ideas/22-english-only.md)
 - CI fails on `[english]` violations.
+
+---
+
+## Sacred rule — Professionalism Ratchet
+
+Every change must leave the repo **more professional than before** (or, for pure breakage fixes, carefully preserve the bar — never lower it).
+
+- Curate; do not dump entire platforms
+- Prefer clearer docs, stronger CI, honest labeling, consistent Gates
+- Refuse (or redesign) work that would make the public GitHub face look amateur
+- Law file: [`repo-ideas/23-professionalism-ratchet.md`](repo-ideas/23-professionalism-ratchet.md)
+
+Before editing, answer in one sentence: **What becomes more professional after this change?**
 
 ---
 
@@ -139,6 +153,7 @@ Gate folders: `Gate-NNN-kebab-case/` with `README.md` + stub `solution-1.php`.
 
 ## Do not
 
+- Ship a change that makes the repo less professional than before (Professionalism Ratchet)
 - Write non-English letters into any committed file or path (English-Only Law)
 - Dump full Gate solutions on first contact
 - Put linked lists / segment trees / union-find / bit olympiad in early PHP-fit core (`E`–`C`)
@@ -167,6 +182,7 @@ Gate folders: `Gate-NNN-kebab-case/` with `README.md` + stub `solution-1.php`.
 ## Definition of done (agent work)
 
 - Request satisfied with minimal, correct diffs
+- Professionalism Ratchet satisfied (repo is clearly better — or carefully preserved on pure fixes)
 - English-Only Law respected (no non-Latin letters in repo files/paths)
 - Hunter Solves First respected for any Gate touch
 - `php scripts/ci/validate-repo.php` passes after structural/PHP changes

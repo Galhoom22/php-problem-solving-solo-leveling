@@ -35,7 +35,7 @@ Enable:
 | No open `spoilers/` under `02-Problems` | Hunter Solves First |
 | `declare(strict_types=1)` + `php -l` | PHP 8.5 standards |
 | Letters are Latin-script only in scanned files/paths | English-Only Law (`22`) |
-| Design law files present | Mission / graduation / coaching |
+| Design law files present (incl. professionalism ratchet `23`) | Mission / graduation / coaching / craft bar |
 | Sacred paths not deleted in PRs | Protect main from accidental wipe |
 
 Local run:
