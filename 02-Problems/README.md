@@ -15,7 +15,7 @@
 | **Optional** | [`07-Side-Quests/`](07-Side-Quests/) — not graduation-critical |
 | **Armor** | Linked lists / TreeNode → [`../04-Interview-Armor/`](../04-Interview-Armor/) (after S on the ID ladder) |
 
-**How to clear one Gate:** open its `README.md` → **Brief → Brute → Tighten → Talk** (see root [How to solve one Gate](../README.md#-how-to-solve-one-gate)) → fill `solution-1.php` → mark ✅ below → update root Status Window.  
+**How to clear one Gate:** open its `README.md` → **Brief → Brute → Tighten → Talk** (see root [Quick start](../README.md#quick-start)) → fill `solution-1.php` → mark ✅ below → update root Status Window.  
 
 **Folder name:** `Gate-NNN-kebab-case/` under `Rank/Category/` (example: `02-D-Gates/05-Arrays-Hashing/Gate-080-contains-duplicate/`).
 
