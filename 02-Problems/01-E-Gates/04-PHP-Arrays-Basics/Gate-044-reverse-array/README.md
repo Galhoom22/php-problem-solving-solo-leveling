@@ -1,4 +1,4 @@
-# Gate 044 — Reverse an Array
+# Gate 044 🌱 — Reverse an Array
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

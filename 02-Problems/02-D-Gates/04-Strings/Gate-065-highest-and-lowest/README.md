@@ -1,4 +1,4 @@
-# Gate 065 — Highest and Lowest
+# Gate 065 📗 — Highest and Lowest
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

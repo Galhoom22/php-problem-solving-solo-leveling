@@ -1,4 +1,4 @@
-# Gate 119 — Longest Consecutive Sequence
+# Gate 119 ⚔️ — Longest Consecutive Sequence
 
 Status: Not cleared  
 Related skill: Pattern-02-hash-map-lookup  

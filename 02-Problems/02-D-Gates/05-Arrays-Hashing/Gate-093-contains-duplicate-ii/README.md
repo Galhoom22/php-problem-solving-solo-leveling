@@ -1,4 +1,4 @@
-# Gate 093 — Contains Duplicate II
+# Gate 093 📗 — Contains Duplicate II
 
 Status: Not cleared  
 Related skill: Pattern-02-hash-map-lookup  

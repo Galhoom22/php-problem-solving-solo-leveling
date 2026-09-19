@@ -1,4 +1,4 @@
-# Gate 144 — Valid Sudoku
+# Gate 144 🔥 — Valid Sudoku
 
 Status: Not cleared  
 Related skill: Pattern-02-hash-map-lookup  

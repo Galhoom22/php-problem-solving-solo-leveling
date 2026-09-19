@@ -1,4 +1,4 @@
-# Gate 229 — Swap Nodes in Pairs
+# Gate 229 🛡️ — Swap Nodes in Pairs
 
 Status: Not cleared  
 **Lane:** Interview Armor (sealed until B-Rank+ on PHP-fit climb)

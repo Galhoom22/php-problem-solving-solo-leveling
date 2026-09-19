@@ -3,10 +3,53 @@
 declare(strict_types=1);
 
 /**
- * Rebuild 02-Problems/README.md Gate map in Strict Progression order (by rank).
+ * Rebuild 02-Problems/README.md Gate map + sync difficulty emoji on every Gate H1.
+ *
+ * Emoji tracks climb difficulty (lane), not LeetCode Easy/Medium labels:
+ *   E 🌱 · D 📗 · C ⚔️ · B 🔥 · A 💎 · S 🌑 · Side 🧭 · Armor 🛡️
+ *
+ * php scripts/rebuild-gate-map.php
  */
 
 $root = dirname(__DIR__);
+
+/** @return array{E:string,D:string,C:string,B:string,A:string,S:string,Side:string,Armor:string} */
+function difficultyEmojiMap(): array
+{
+    return [
+        'E' => '🌱',
+        'D' => '📗',
+        'C' => '⚔️',
+        'B' => '🔥',
+        'A' => '💎',
+        'S' => '🌑',
+        'Side' => '🧭',
+        'Armor' => '🛡️',
+    ];
+}
+
+function laneFromPath(string $path): ?string
+{
+    $n = str_replace('\\', '/', $path);
+    return match (true) {
+        str_contains($n, '/01-E-Gates/') => 'E',
+        str_contains($n, '/02-D-Gates/') => 'D',
+        str_contains($n, '/03-C-Gates/') => 'C',
+        str_contains($n, '/04-B-Gates/') => 'B',
+        str_contains($n, '/05-A-Gates/') => 'A',
+        str_contains($n, '/06-S-Gates/') => 'S',
+        str_contains($n, '/07-Side-Quests/') => 'Side',
+        str_contains($n, '/04-Interview-Armor/') => 'Armor',
+        default => null,
+    };
+}
+
+function emojiForPath(string $path): string
+{
+    $lane = laneFromPath($path);
+    $map = difficultyEmojiMap();
+    return $lane !== null ? ($map[$lane] ?? '❓') : '❓';
+}
 
 function gateTitle(string $readmePath, string $fallback): string
 {
@@ -14,7 +57,8 @@ function gateTitle(string $readmePath, string $fallback): string
         return $fallback;
     }
     $text = (string) file_get_contents($readmePath);
-    if (preg_match('/^#\s+Gate\s+\d{3}\s+[—-]\s+(.+)$/mu', $text, $m)) {
+    // Allow optional difficulty emoji between ID and em dash
+    if (preg_match('/^#\s+Gate\s+\d{3}(?:\s+\S+)?\s+[—-]\s+(.+)$/mu', $text, $m)) {
         return trim($m[1]);
     }
     return $fallback;
@@ -30,6 +74,50 @@ function gateField(string $readmePath, string $label): string
         return trim($m[1]);
     }
     return '';
+}
+
+/** Sync `# Gate NNN EMOJI — Title` on every Gate README. @return int changed count */
+function syncGateTitleEmojis(string $root): int
+{
+    $changed = 0;
+    foreach (['02-Problems', '04-Interview-Armor'] as $base) {
+        $baseDir = $root . '/' . $base;
+        if (!is_dir($baseDir)) {
+            continue;
+        }
+        $it = new RecursiveIteratorIterator(
+            new RecursiveDirectoryIterator($baseDir, FilesystemIterator::SKIP_DOTS)
+        );
+        foreach ($it as $file) {
+            if (!$file->isFile() || $file->getFilename() !== 'README.md') {
+                continue;
+            }
+            if (!str_contains($file->getPathname(), 'Gate-')) {
+                continue;
+            }
+            $path = $file->getPathname();
+            $emoji = emojiForPath($path);
+            $text = (string) file_get_contents($path);
+            if (!preg_match('/^#\s+Gate\s+(\d{3})(?:\s+\S+)?\s+[—-]\s+(.+)$/mu', $text, $m)) {
+                continue;
+            }
+            $id = $m[1];
+            $title = trim($m[2]);
+            $newH1 = "# Gate {$id} {$emoji} — {$title}";
+            $newText = preg_replace(
+                '/^#\s+Gate\s+\d{3}(?:\s+\S+)?\s+[—-]\s+.+$/mu',
+                $newH1,
+                $text,
+                1,
+                $count
+            );
+            if ($count === 1 && $newText !== $text) {
+                file_put_contents($path, $newText);
+                $changed++;
+            }
+        }
+    }
+    return $changed;
 }
 
 function collectGates(string $baseDir): array
@@ -60,7 +148,6 @@ function collectGates(string $baseDir): array
             $t = (string) file_get_contents($readme);
             if (preg_match('/^Source:\s*(.+)$/mi', $t, $sm)) {
                 $source = trim($sm[1]);
-                // shorten
                 if (preg_match('#https?://([^/\s]+)#', $source, $hm)) {
                     $host = $hm[1];
                     $source = match (true) {
@@ -97,11 +184,17 @@ function collectGates(string $baseDir): array
             'source' => $source,
             'category' => $category,
             'path' => $file->getPathname(),
+            'emoji' => emojiForPath($file->getPathname()),
         ];
     }
     usort($out, static fn($a, $b) => $a['num'] <=> $b['num']);
     return $out;
 }
+
+$emojiSynced = syncGateTitleEmojis($root);
+echo "Synced difficulty emoji on {$emojiSynced} Gate README titles\n";
+
+$emoji = difficultyEmojiMap();
 
 $sections = [
     'E' => ['dir' => '02-Problems/01-E-Gates', 'label' => '01-E-Gates', 'intent' => 'Survive — PHP confidence'],
@@ -141,7 +234,7 @@ $md[] = '| **Layout** | `Rank-folder / Pattern-category / Gate-NNN-kebab/` |';
 $md[] = '| **Optional** | [`07-Side-Quests/`](07-Side-Quests/) — not graduation-critical |';
 $md[] = '| **Armor** | Linked lists / TreeNode → [`../04-Interview-Armor/`](../04-Interview-Armor/) (after S on the ID ladder) |';
 $md[] = '';
-$md[] = '**How to clear one Gate:** open its `README.md` → **Brief → Brute → Tighten → Talk** (see root [Clear method](../README.md#clear-method-interview-mirror)) → fill `solution-1.php` → mark ✅ below → update root Status Window.  ';
+$md[] = '**How to clear one Gate:** open its `README.md` → **Brief → Brute → Tighten → Talk** (see root [Quick start](../README.md#quick-start)) → fill `solution-1.php` → mark ✅ below → update root Status Window.  ';
 $md[] = '';
 $md[] = '**Folder name:** `Gate-NNN-kebab-case/` under `Rank/Category/` (example: `02-D-Gates/05-Arrays-Hashing/Gate-080-contains-duplicate/`).';
 $md[] = '';
@@ -149,10 +242,27 @@ $md[] = '**Category order:** within each rank, numbered folders ascend by skill 
 $md[] = '';
 $md[] = '---';
 $md[] = '';
+$md[] = '## Difficulty emoji';
+$md[] = '';
+$md[] = 'Every Gate title and map row carries a rank emoji (climb heat, not platform labels):';
+$md[] = '';
+$md[] = '| Emoji | Lane | Feel |';
+$md[] = '|:---:|:---|:---|';
+$md[] = '| ' . $emoji['E'] . ' | E-Gates | Survive — warmups |';
+$md[] = '| ' . $emoji['D'] . ' | D-Gates | Core Easy |';
+$md[] = '| ' . $emoji['C'] . ' | C-Gates | Easy → early Medium |';
+$md[] = '| ' . $emoji['B'] . ' | B-Gates | Main Medium |';
+$md[] = '| ' . $emoji['A'] . ' | A-Gates | Stretch |';
+$md[] = '| ' . $emoji['S'] . ' | S-Gates | Prestige |';
+$md[] = '| ' . $emoji['Side'] . ' | Side Quests | Optional detour |';
+$md[] = '| ' . $emoji['Armor'] . ' | Interview Armor | Lists / trees (late) |';
+$md[] = '';
+$md[] = '---';
+$md[] = '';
 $md[] = '## Gate ranks';
 $md[] = '';
-$md[] = '| Folder | Min Hunter Rank | Intent | ID range |';
-$md[] = '|:---|:---|:---|:---|';
+$md[] = '| | Folder | Min Hunter Rank | Intent | ID range |';
+$md[] = '|:---:|:---|:---|:---|:---|';
 
 foreach ($sections as $code => $meta) {
     $list = collectGates($root . '/' . $meta['dir']);
@@ -161,7 +271,8 @@ foreach ($sections as $code => $meta) {
         $range = sprintf('%03d–%03d', $list[0]['num'], $list[array_key_last($list)]['num']);
     }
     $md[] = sprintf(
-        '| [`%s/`](%s/) | %s | %s | %s |',
+        '| %s | [`%s/`](%s/) | %s | %s | %s |',
+        $emoji[$code] ?? '❓',
         $meta['label'],
         $meta['label'],
         $code === 'Side' ? 'any' : $code,
@@ -171,7 +282,8 @@ foreach ($sections as $code => $meta) {
 }
 if ($armorGates !== []) {
     $md[] = sprintf(
-        '| [`../04-Interview-Armor/`](../04-Interview-Armor/) | B+ | Interview lists/trees | %03d–%03d |',
+        '| %s | [`../04-Interview-Armor/`](../04-Interview-Armor/) | B+ | Interview lists/trees | %03d–%03d |',
+        $emoji['Armor'],
         $armorGates[0]['num'],
         $armorGates[array_key_last($armorGates)]['num']
     );
@@ -188,15 +300,16 @@ $md[] = '';
 
 foreach ($sections as $code => $meta) {
     $list = collectGates($root . '/' . $meta['dir']);
-    $md[] = '### ' . $meta['label'] . ' (' . count($list) . ')';
+    $md[] = '### ' . ($emoji[$code] ?? '') . ' ' . $meta['label'] . ' (' . count($list) . ')';
     $md[] = '';
     if ($code === 'Side') {
         $md[] = '| Gate | Title | Folder | Platform | XP | Status |';
         $md[] = '|:---|:---|:---|:---|:---:|:---:|';
         foreach ($list as $g) {
             $md[] = sprintf(
-                '| %03d | %s | `%s` | %s | %s | ☐ |',
+                '| %03d %s | %s | `%s` | %s | %s | ☐ |',
                 $g['num'],
+                $g['emoji'],
                 $g['title'],
                 $g['category'],
                 $g['source'] !== '' ? $g['source'] : '—',
@@ -208,8 +321,9 @@ foreach ($sections as $code => $meta) {
         $md[] = '|:---|:---|:---|:---|:---:|:---:|';
         foreach ($list as $g) {
             $md[] = sprintf(
-                '| %03d | %s | `%s` | %s | %s | ☐ |',
+                '| %03d %s | %s | `%s` | %s | %s | ☐ |',
                 $g['num'],
+                $g['emoji'],
                 $g['title'],
                 $g['category'],
                 $g['source'] !== '' ? $g['source'] : '—',
@@ -220,7 +334,7 @@ foreach ($sections as $code => $meta) {
     $md[] = '';
 }
 
-$md[] = '### Interview Armor (' . count($armorGates) . ')';
+$md[] = '### ' . $emoji['Armor'] . ' Interview Armor (' . count($armorGates) . ')';
 $md[] = '';
 $md[] = '> Sealed until **B-Rank+** on the PHP-fit climb. IDs follow Side Quests on the global ladder.';
 $md[] = '';
@@ -228,8 +342,9 @@ $md[] = '| Gate | Title | Part | Platform | XP | Status |';
 $md[] = '|:---|:---|:---|:---|:---:|:---:|';
 foreach ($armorGates as $g) {
     $md[] = sprintf(
-        '| %03d | %s | `%s` | %s | %s | ☐ |',
+        '| %03d %s | %s | `%s` | %s | %s | ☐ |',
         $g['num'],
+        $g['emoji'],
         $g['title'],
         $g['category'],
         $g['source'] !== '' ? $g['source'] : 'LeetCode',

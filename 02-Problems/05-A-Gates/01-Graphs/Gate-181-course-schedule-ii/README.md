@@ -1,4 +1,4 @@
-# Gate 181 — Course Schedule II
+# Gate 181 💎 — Course Schedule II
 
 Status: Not cleared
 Related skill: Pattern-20-simple-graphs

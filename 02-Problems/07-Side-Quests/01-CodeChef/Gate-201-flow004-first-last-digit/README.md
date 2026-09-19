@@ -1,4 +1,4 @@
-# Gate 201 — First and Last Digit
+# Gate 201 🧭 — First and Last Digit
 
 Status: Not cleared
 **Lane:** Side Quest (not required for graduation)

@@ -1,4 +1,4 @@
-# Gate 011 — Maximum Triangle Edge
+# Gate 011 🌱 — Maximum Triangle Edge
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

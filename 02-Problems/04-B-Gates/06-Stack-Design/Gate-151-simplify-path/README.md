@@ -1,4 +1,4 @@
-# Gate 151 — Simplify Path
+# Gate 151 🔥 — Simplify Path
 
 Status: Not cleared  
 Related skill: Pattern-12-stack-queue  

@@ -1,4 +1,4 @@
-# Gate 103 — Longest Streak
+# Gate 103 ⚔️ — Longest Streak
 
 Status: Not cleared
 Related skill: Pattern-11-sliding-window

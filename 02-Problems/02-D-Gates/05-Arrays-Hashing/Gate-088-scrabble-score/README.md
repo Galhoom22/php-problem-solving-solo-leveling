@@ -1,4 +1,4 @@
-# Gate 088 — Scrabble Score
+# Gate 088 📗 — Scrabble Score
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

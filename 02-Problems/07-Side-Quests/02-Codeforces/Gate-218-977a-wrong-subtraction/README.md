@@ -1,4 +1,4 @@
-# Gate 218 — Wrong Subtraction
+# Gate 218 🧭 — Wrong Subtraction
 
 Status: Not cleared  
 **Lane:** Side Quest (not required for graduation)  

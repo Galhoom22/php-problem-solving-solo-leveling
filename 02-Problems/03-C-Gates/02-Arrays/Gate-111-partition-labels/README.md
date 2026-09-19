@@ -1,4 +1,4 @@
-# Gate 111 — Partition Labels
+# Gate 111 ⚔️ — Partition Labels
 
 Status: Not cleared  
 Related skill: Pattern-16-intervals  

@@ -1,4 +1,4 @@
-# Gate 176 — Task Scheduler
+# Gate 176 🔥 — Task Scheduler
 
 Status: Not cleared
 Related skill: Pattern-15-heap-topk

@@ -1,4 +1,4 @@
-# Gate 021 — Keep Up the Hoop
+# Gate 021 🌱 — Keep Up the Hoop
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

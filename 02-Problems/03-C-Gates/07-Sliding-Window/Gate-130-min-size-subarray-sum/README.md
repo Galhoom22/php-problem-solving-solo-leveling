@@ -1,4 +1,4 @@
-# Gate 130 — Minimum Size Subarray Sum
+# Gate 130 ⚔️ — Minimum Size Subarray Sum
 
 Status: Not cleared  
 Related skill: Pattern-11-sliding-window  

@@ -1,4 +1,4 @@
-# Gate 080 — Contains Duplicate
+# Gate 080 📗 — Contains Duplicate
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

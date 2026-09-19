@@ -1,4 +1,4 @@
-# Gate 228 — Add Two Numbers
+# Gate 228 🛡️ — Add Two Numbers
 
 Status: Not cleared  
 **Lane:** Interview Armor (sealed until B-Rank+ on PHP-fit climb)

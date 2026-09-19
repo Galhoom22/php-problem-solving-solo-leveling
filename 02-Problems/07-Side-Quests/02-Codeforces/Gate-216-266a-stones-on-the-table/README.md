@@ -1,4 +1,4 @@
-# Gate 216 — Stones on the Table
+# Gate 216 🧭 — Stones on the Table
 
 Status: Not cleared  
 **Lane:** Side Quest (not required for graduation)  

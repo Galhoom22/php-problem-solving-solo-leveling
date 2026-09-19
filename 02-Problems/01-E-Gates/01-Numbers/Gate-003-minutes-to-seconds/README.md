@@ -1,4 +1,4 @@
-# Gate 003 — Minutes to Seconds
+# Gate 003 🌱 — Minutes to Seconds
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

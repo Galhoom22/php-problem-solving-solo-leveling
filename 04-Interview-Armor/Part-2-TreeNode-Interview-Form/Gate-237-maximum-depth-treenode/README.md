@@ -1,4 +1,4 @@
-# Gate 237 — Maximum Depth of Binary Tree
+# Gate 237 🛡️ — Maximum Depth of Binary Tree
 
 Status: Not cleared  
 **Lane:** Interview Armor (sealed until B-Rank+ on PHP-fit climb)

@@ -1,4 +1,4 @@
-# Gate 178 — My Calendar I
+# Gate 178 🔥 — My Calendar I
 
 Status: Not cleared
 Related skill: Pattern-16-intervals

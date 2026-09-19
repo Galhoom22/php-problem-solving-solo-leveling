@@ -1,4 +1,4 @@
-# Gate 148 — Insert Interval
+# Gate 148 🔥 — Insert Interval
 
 Status: Not cleared  
 Related skill: Pattern-16-intervals  

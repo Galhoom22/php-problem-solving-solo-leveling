@@ -1,4 +1,4 @@
-# Gate 236 — Lowest Common Ancestor of a Binary Tree
+# Gate 236 🛡️ — Lowest Common Ancestor of a Binary Tree
 
 Status: Not cleared  
 **Lane:** Interview Armor (sealed until B-Rank+ on PHP-fit climb)

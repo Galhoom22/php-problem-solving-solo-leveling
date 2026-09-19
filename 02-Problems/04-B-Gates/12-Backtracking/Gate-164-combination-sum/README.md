@@ -1,4 +1,4 @@
-# Gate 164 — Combination Sum
+# Gate 164 🔥 — Combination Sum
 
 Status: Not cleared  
 Related skill: Pattern-21-memoization-dp-intro  

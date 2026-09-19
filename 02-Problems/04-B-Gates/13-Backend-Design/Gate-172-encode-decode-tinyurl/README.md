@@ -1,4 +1,4 @@
-# Gate 172 — Encode and Decode TinyURL
+# Gate 172 🔥 — Encode and Decode TinyURL
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

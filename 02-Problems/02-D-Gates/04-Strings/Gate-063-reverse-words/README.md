@@ -1,4 +1,4 @@
-# Gate 063 — Reverse Words
+# Gate 063 📗 — Reverse Words
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

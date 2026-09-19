@@ -1,4 +1,4 @@
-# Gate 132 — Maximum Average Subarray I
+# Gate 132 ⚔️ — Maximum Average Subarray I
 
 Status: Not cleared  
 Related skill: Pattern-11-sliding-window  

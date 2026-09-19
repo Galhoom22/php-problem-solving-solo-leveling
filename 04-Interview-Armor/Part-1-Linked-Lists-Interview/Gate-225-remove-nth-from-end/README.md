@@ -1,4 +1,4 @@
-# Gate 225 — Remove Nth Node From End of List
+# Gate 225 🛡️ — Remove Nth Node From End of List
 
 Status: Not cleared  
 **Lane:** Interview Armor (sealed until B-Rank+ on PHP-fit climb)

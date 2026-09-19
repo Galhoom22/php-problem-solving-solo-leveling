@@ -1,4 +1,4 @@
-# Gate 027 — Count Vowels
+# Gate 027 🌱 — Count Vowels
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

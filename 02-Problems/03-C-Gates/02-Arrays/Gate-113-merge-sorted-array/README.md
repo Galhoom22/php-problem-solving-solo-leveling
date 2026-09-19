@@ -1,4 +1,4 @@
-# Gate 113 — Merge Sorted Array
+# Gate 113 ⚔️ — Merge Sorted Array
 
 Status: Not cleared  
 Related skill: Pattern-10-two-pointers  

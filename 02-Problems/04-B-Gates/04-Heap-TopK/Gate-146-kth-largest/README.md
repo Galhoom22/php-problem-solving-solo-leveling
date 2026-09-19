@@ -1,4 +1,4 @@
-# Gate 146 — Kth Largest Element in an Array
+# Gate 146 🔥 — Kth Largest Element in an Array
 
 Status: Not cleared  
 Related skill: Pattern-14-heap-priority-queue  

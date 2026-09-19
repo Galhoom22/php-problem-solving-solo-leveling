@@ -1,4 +1,4 @@
-# Gate 049 — Resistor Color
+# Gate 049 🌱 — Resistor Color
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

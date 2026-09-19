@@ -1,4 +1,4 @@
-# Gate 126 — Two Sum II - Input Array Is Sorted
+# Gate 126 ⚔️ — Two Sum II - Input Array Is Sorted
 
 Status: Not cleared  
 Related skill: Pattern-10-two-pointers  

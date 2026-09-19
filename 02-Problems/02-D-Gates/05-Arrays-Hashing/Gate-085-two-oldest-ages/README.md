@@ -1,4 +1,4 @@
-# Gate 085 — Two Oldest Ages
+# Gate 085 📗 — Two Oldest Ages
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

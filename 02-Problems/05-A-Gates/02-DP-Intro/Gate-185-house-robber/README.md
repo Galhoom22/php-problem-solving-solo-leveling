@@ -1,4 +1,4 @@
-# Gate 185 — House Robber
+# Gate 185 💎 — House Robber
 
 Status: Not cleared  
 Related skill: Pattern-21-memoization-dp-intro  

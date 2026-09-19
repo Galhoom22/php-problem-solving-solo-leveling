@@ -1,4 +1,4 @@
-# Gate 045 — Associative Value Sum
+# Gate 045 🌱 — Associative Value Sum
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

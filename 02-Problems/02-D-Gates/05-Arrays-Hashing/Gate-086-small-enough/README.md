@@ -1,4 +1,4 @@
-# Gate 086 — Small Enough
+# Gate 086 📗 — Small Enough
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

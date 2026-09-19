@@ -1,4 +1,4 @@
-# Gate 084 — Running Sum
+# Gate 084 📗 — Running Sum
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

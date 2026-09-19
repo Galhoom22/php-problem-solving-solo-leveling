@@ -1,4 +1,4 @@
-# Gate 226 — Linked List Cycle II
+# Gate 226 🛡️ — Linked List Cycle II
 
 Status: Not cleared  
 **Lane:** Interview Armor (sealed until B-Rank+ on PHP-fit climb)

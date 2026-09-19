@@ -1,4 +1,4 @@
-# Gate 069 — Bob
+# Gate 069 📗 — Bob
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

@@ -1,4 +1,4 @@
-# Gate 099 — Zigzag Conversion
+# Gate 099 ⚔️ — Zigzag Conversion
 
 Status: Not cleared  
 Related skill: Pattern-03-string-scan  

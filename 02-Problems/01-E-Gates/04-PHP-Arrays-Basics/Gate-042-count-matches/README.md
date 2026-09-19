@@ -1,4 +1,4 @@
-# Gate 042 — Count Matches
+# Gate 042 🌱 — Count Matches
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

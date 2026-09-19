@@ -1,4 +1,4 @@
-# Gate 094 — Find Pivot Index
+# Gate 094 📗 — Find Pivot Index
 
 Status: Not cleared  
 Related skill: Pattern-01-array-basics  

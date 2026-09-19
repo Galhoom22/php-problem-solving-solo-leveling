@@ -1,4 +1,4 @@
-# Gate 124 — Sort Colors
+# Gate 124 ⚔️ — Sort Colors
 
 Status: Not cleared  
 Related skill: Pattern-10-two-pointers  

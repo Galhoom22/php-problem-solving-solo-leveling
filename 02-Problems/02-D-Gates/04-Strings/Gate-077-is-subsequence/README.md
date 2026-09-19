@@ -1,4 +1,4 @@
-# Gate 077 — Is Subsequence
+# Gate 077 📗 — Is Subsequence
 
 Status: Not cleared  
 Related skill: Pattern-10-two-pointers  

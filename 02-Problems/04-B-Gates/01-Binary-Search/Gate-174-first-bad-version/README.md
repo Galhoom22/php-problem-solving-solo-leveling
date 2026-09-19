@@ -1,4 +1,4 @@
-# Gate 174 — First Bad Version
+# Gate 174 🔥 — First Bad Version
 
 Status: Not cleared
 Related skill: Pattern-13-binary-search

@@ -1,4 +1,4 @@
-# Gate 206 — Second Largest of Three
+# Gate 206 🧭 — Second Largest of Three
 
 Status: Not cleared
 **Lane:** Side Quest (not required for graduation)

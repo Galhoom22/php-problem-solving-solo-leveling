@@ -1,4 +1,4 @@
-# Gate 223 — Merge Two Sorted Lists
+# Gate 223 🛡️ — Merge Two Sorted Lists
 
 Status: Not cleared  
 **Lane:** Interview Armor (sealed until B-Rank+ on PHP-fit climb)

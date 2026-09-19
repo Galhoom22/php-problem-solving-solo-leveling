@@ -1,4 +1,4 @@
-# Gate 067 — Digits Only Check
+# Gate 067 📗 — Digits Only Check
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

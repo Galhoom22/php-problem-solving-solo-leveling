@@ -1,4 +1,4 @@
-# Gate 204 — Lucky Four
+# Gate 204 🧭 — Lucky Four
 
 Status: Not cleared
 **Lane:** Side Quest (not required for graduation)

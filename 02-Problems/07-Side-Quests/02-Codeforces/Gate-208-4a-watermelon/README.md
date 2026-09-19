@@ -1,4 +1,4 @@
-# Gate 208 — Watermelon
+# Gate 208 🧭 — Watermelon
 
 Status: Not cleared  
 **Lane:** Side Quest (not required for graduation)  

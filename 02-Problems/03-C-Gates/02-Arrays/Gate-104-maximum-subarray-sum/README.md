@@ -1,4 +1,4 @@
-# Gate 104 — Maximum Subarray Sum
+# Gate 104 ⚔️ — Maximum Subarray Sum
 
 Status: Not cleared
 Related skill: Pattern-11-sliding-window

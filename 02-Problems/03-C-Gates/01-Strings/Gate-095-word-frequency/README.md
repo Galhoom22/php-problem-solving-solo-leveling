@@ -1,4 +1,4 @@
-# Gate 095 — Word Frequency
+# Gate 095 ⚔️ — Word Frequency
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

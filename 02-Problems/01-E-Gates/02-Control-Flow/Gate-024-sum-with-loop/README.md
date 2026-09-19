@@ -1,4 +1,4 @@
-# Gate 024 — Sum With a Loop
+# Gate 024 🌱 — Sum With a Loop
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

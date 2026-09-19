@@ -1,4 +1,4 @@
-# Gate 177 — Car Pooling
+# Gate 177 🔥 — Car Pooling
 
 Status: Not cleared
 Related skill: Pattern-16-intervals

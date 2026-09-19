@@ -1,4 +1,4 @@
-# Gate 032 — Concatenate Name
+# Gate 032 🌱 — Concatenate Name
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

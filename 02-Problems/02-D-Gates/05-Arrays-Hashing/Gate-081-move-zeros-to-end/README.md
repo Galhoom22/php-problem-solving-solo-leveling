@@ -1,4 +1,4 @@
-# Gate 081 — Move Zeros to End
+# Gate 081 📗 — Move Zeros to End
 
 Status: Not cleared
 Related skill: Pattern-10-two-pointers

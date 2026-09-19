@@ -1,4 +1,4 @@
-# Gate 141 — Koko Eating Bananas
+# Gate 141 🔥 — Koko Eating Bananas
 
 Status: Not cleared  
 Related skill: Pattern-13-binary-search  

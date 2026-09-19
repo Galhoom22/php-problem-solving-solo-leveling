@@ -1,4 +1,4 @@
-# Gate 102 — Merge Sorted Lists
+# Gate 102 ⚔️ — Merge Sorted Lists
 
 Status: Not cleared
 Related skill: Pattern-10-two-pointers

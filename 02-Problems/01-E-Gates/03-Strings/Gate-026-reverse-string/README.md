@@ -1,4 +1,4 @@
-# Gate 026 — Reverse String
+# Gate 026 🌱 — Reverse String
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

@@ -1,4 +1,4 @@
-# Gate 147 — Merge Intervals
+# Gate 147 🔥 — Merge Intervals
 
 Status: Not cleared
 Related skill: Pattern-16-intervals

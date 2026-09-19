@@ -1,4 +1,4 @@
-# Gate 233 — Binary Tree Level Order Traversal
+# Gate 233 🛡️ — Binary Tree Level Order Traversal
 
 Status: Not cleared  
 **Lane:** Interview Armor (sealed until B-Rank+ on PHP-fit climb)

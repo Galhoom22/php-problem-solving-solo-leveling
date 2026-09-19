@@ -1,4 +1,4 @@
-# Gate 037 — String Stats
+# Gate 037 🌱 — String Stats
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

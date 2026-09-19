@@ -1,4 +1,4 @@
-# Gate 096 — Stop Spinning My Words
+# Gate 096 ⚔️ — Stop Spinning My Words
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

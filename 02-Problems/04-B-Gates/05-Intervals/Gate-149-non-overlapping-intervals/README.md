@@ -1,4 +1,4 @@
-# Gate 149 — Non-overlapping Intervals
+# Gate 149 🔥 — Non-overlapping Intervals
 
 Status: Not cleared  
 Related skill: Pattern-16-intervals  

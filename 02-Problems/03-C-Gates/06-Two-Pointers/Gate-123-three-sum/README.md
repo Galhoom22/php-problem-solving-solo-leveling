@@ -1,4 +1,4 @@
-# Gate 123 — 3Sum
+# Gate 123 ⚔️ — 3Sum
 
 Status: Not cleared  
 Related skill: Pattern-10-two-pointers  

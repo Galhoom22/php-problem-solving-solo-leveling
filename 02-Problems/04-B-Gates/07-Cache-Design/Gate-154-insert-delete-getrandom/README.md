@@ -1,4 +1,4 @@
-# Gate 154 — Insert Delete GetRandom O(1)
+# Gate 154 🔥 — Insert Delete GetRandom O(1)
 
 Status: Not cleared  
 Related skill: Pattern-15-cache-design  

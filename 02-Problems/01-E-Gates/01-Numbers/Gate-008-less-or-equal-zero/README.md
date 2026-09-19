@@ -1,4 +1,4 @@
-# Gate 008 — Less Than or Equal to Zero
+# Gate 008 🌱 — Less Than or Equal to Zero
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

@@ -1,4 +1,4 @@
-# Gate 136 — Search in Rotated Sorted Array
+# Gate 136 🔥 — Search in Rotated Sorted Array
 
 Status: Not cleared  
 Related skill: Pattern-13-binary-search  

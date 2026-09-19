@@ -1,4 +1,4 @@
-# Gate 159 — Rotate Image
+# Gate 159 🔥 — Rotate Image
 
 Status: Not cleared  
 Related skill: Pattern-01-array-basics  

@@ -1,4 +1,4 @@
-# Gate 118 — Group Anagrams
+# Gate 118 ⚔️ — Group Anagrams
 
 Status: Not cleared  
 Related skill: Pattern-02-hash-map-lookup  

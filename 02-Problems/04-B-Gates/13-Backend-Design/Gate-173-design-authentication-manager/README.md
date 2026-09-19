@@ -1,4 +1,4 @@
-# Gate 173 — Design Authentication Manager
+# Gate 173 🔥 — Design Authentication Manager
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

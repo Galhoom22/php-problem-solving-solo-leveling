@@ -1,4 +1,4 @@
-# Gate 212 — Domino piling
+# Gate 212 🧭 — Domino piling
 
 Status: Not cleared  
 **Lane:** Side Quest (not required for graduation)  

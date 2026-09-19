@@ -1,4 +1,4 @@
-# Gate 198 — Minimum Window Substring
+# Gate 198 🌑 — Minimum Window Substring
 
 Status: Not cleared  
 Related skill: Pattern-11-sliding-window  

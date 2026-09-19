@@ -1,4 +1,4 @@
-# Gate 105 — Equal Sides Of An Array
+# Gate 105 ⚔️ — Equal Sides Of An Array
 
 Status: Not cleared
 Related skill: Pattern-11-sliding-window

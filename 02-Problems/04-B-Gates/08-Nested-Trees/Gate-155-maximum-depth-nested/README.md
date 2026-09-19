@@ -1,4 +1,4 @@
-# Gate 155 — Maximum Depth (Nested Structure)
+# Gate 155 🔥 — Maximum Depth (Nested Structure)
 
 Status: Not cleared
 Related skill: Pattern-14-nested-trees

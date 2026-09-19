@@ -1,4 +1,4 @@
-# Gate 022 — Multiplication Table for Number
+# Gate 022 🌱 — Multiplication Table for Number
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

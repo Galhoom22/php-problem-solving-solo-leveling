@@ -1,4 +1,4 @@
-# Gate 142 — Next Permutation
+# Gate 142 🔥 — Next Permutation
 
 Status: Not cleared  
 Related skill: Pattern-10-two-pointers  

@@ -1,4 +1,4 @@
-# Gate 203 — Reverse The Number
+# Gate 203 🧭 — Reverse The Number
 
 Status: Not cleared
 **Lane:** Side Quest (not required for graduation)

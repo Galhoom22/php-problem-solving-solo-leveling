@@ -1,4 +1,4 @@
-# Gate 196 — Trapping Rain Water
+# Gate 196 💎 — Trapping Rain Water
 
 Status: Not cleared  
 Related skill: Pattern-10-two-pointers  

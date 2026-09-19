@@ -1,4 +1,4 @@
-# Gate 050 — Leap Year
+# Gate 050 📗 — Leap Year
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

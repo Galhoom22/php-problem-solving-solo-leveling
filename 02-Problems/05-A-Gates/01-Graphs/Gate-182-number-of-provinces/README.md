@@ -1,4 +1,4 @@
-# Gate 182 — Number of Provinces
+# Gate 182 💎 — Number of Provinces
 
 Status: Not cleared  
 Related skill: Pattern-20-simple-graphs  

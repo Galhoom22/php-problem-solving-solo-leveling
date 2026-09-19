@@ -1,4 +1,4 @@
-# Gate 033 — Convert a String to an Array
+# Gate 033 🌱 — Convert a String to an Array
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

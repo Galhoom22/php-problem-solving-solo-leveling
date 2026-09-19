@@ -1,4 +1,4 @@
-# Gate 138 — Find First and Last Position of Element in Sorted Array
+# Gate 138 🔥 — Find First and Last Position of Element in Sorted Array
 
 Status: Not cleared  
 Related skill: Pattern-13-binary-search  

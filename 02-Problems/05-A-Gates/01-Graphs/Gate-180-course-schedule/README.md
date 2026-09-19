@@ -1,4 +1,4 @@
-# Gate 180 — Course Schedule
+# Gate 180 💎 — Course Schedule
 
 Status: Not cleared  
 Related skill: Pattern-20-simple-graphs  

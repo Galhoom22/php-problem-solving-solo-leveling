@@ -33,7 +33,7 @@ How to change this gym. Chat may be any language; **committed files stay English
 ### Gate README template (required)
 
 ```markdown
-# Gate NNN — Title
+# Gate NNN 🌱 — Title
 
 Status: Not cleared
 Related skill: Pattern-NN-…
@@ -69,6 +69,8 @@ Source: Platform — Problem title — <full https URL>
 ```
 
 Use a real canonical URL (no ellipsis placeholders). Briefs are paraphrased; the Source line is provenance.
+
+Difficulty emoji on the H1 (synced by `php scripts/rebuild-gate-map.php`): 🌱 E · 📗 D · ⚔️ C · 🔥 B · 💎 A · 🌑 S · 🧭 Side · 🛡️ Armor.
 
 Sibling boundaries (do **not** merge into this gym):
 

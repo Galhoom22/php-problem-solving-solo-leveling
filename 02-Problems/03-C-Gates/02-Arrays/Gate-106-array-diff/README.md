@@ -1,4 +1,4 @@
-# Gate 106 — Array Diff
+# Gate 106 ⚔️ — Array Diff
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

@@ -1,4 +1,4 @@
-# Gate 171 — Moving Average from Data Stream
+# Gate 171 🔥 — Moving Average from Data Stream
 
 Status: Not cleared
 Related skill: Pattern-11-sliding-window

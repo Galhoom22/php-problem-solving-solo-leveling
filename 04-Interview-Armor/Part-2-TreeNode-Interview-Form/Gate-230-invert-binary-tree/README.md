@@ -1,4 +1,4 @@
-# Gate 230 — Invert Binary Tree
+# Gate 230 🛡️ — Invert Binary Tree
 
 Status: Not cleared  
 **Lane:** Interview Armor (sealed until B-Rank+ on PHP-fit climb)

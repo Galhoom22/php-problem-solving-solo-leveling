@@ -1,4 +1,4 @@
-# Gate 188 — Unique Paths
+# Gate 188 💎 — Unique Paths
 
 Status: Not cleared  
 Related skill: Pattern-21-memoization-dp-intro  

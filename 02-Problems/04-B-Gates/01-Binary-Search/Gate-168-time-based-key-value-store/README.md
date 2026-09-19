@@ -1,4 +1,4 @@
-# Gate 168 — Time Based Key-Value Store
+# Gate 168 🔥 — Time Based Key-Value Store
 
 Status: Not cleared
 Related skill: Pattern-13-binary-search

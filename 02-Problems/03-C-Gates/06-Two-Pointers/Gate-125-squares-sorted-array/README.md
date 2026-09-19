@@ -1,4 +1,4 @@
-# Gate 125 — Squares of a Sorted Array
+# Gate 125 ⚔️ — Squares of a Sorted Array
 
 Status: Not cleared  
 Related skill: Pattern-10-two-pointers  

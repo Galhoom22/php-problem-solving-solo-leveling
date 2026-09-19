@@ -1,4 +1,4 @@
-# Gate 047 — Array Values Product
+# Gate 047 🌱 — Array Values Product
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

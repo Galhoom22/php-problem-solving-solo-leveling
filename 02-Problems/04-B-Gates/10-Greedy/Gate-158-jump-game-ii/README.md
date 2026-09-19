@@ -1,4 +1,4 @@
-# Gate 158 — Jump Game II
+# Gate 158 🔥 — Jump Game II
 
 Status: Not cleared  
 Related skill: Pattern-16-intervals  

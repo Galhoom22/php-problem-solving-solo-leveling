@@ -1,4 +1,4 @@
-# Gate 056 — Reverse Integer
+# Gate 056 📗 — Reverse Integer
 
 Status: Not cleared  
 Related skill: Pattern-04-big-o-plain-talk  

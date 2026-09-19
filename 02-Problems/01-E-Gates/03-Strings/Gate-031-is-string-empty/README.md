@@ -1,4 +1,4 @@
-# Gate 031 — Is the String Empty
+# Gate 031 🌱 — Is the String Empty
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

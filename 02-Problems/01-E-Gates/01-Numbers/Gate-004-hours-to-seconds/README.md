@@ -1,4 +1,4 @@
-# Gate 004 — Hours to Seconds
+# Gate 004 🌱 — Hours to Seconds
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

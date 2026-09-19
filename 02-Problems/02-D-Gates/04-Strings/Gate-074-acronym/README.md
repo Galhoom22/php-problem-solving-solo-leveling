@@ -1,4 +1,4 @@
-# Gate 074 — Acronym
+# Gate 074 📗 — Acronym
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

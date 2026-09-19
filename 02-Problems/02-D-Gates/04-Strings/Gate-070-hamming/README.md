@@ -1,4 +1,4 @@
-# Gate 070 — Hamming Distance
+# Gate 070 📗 — Hamming Distance
 
 Status: Not cleared
 Related skill: Pattern-10-two-pointers

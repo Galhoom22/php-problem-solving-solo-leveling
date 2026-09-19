@@ -1,4 +1,4 @@
-# Gate 029 — First and Last Character
+# Gate 029 🌱 — First and Last Character
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

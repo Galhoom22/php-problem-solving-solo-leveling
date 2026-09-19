@@ -1,4 +1,4 @@
-# Gate 054 — Square Every Digit
+# Gate 054 📗 — Square Every Digit
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

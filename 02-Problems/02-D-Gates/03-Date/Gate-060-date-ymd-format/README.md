@@ -1,4 +1,4 @@
-# Gate 060 — Format Date Y-m-d
+# Gate 060 📗 — Format Date Y-m-d
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

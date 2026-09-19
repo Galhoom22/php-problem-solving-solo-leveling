@@ -1,4 +1,4 @@
-# Gate 100 — Remove Duplicates Keep Order
+# Gate 100 ⚔️ — Remove Duplicates Keep Order
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

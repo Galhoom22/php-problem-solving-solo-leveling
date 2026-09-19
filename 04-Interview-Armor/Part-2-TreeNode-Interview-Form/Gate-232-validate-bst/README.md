@@ -1,4 +1,4 @@
-# Gate 232 — Validate Binary Search Tree
+# Gate 232 🛡️ — Validate Binary Search Tree
 
 Status: Not cleared  
 **Lane:** Interview Armor (sealed until B-Rank+ on PHP-fit climb)

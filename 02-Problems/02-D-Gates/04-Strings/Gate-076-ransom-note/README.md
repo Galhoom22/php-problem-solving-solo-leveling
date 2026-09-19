@@ -1,4 +1,4 @@
-# Gate 076 — Ransom Note
+# Gate 076 📗 — Ransom Note
 
 Status: Not cleared  
 Related skill: Pattern-02-hash-map-lookup  

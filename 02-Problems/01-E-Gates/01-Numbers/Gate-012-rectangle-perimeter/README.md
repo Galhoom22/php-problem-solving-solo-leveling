@@ -1,4 +1,4 @@
-# Gate 012 — Rectangle Perimeter
+# Gate 012 🌱 — Rectangle Perimeter
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

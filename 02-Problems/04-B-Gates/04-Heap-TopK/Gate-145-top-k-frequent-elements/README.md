@@ -1,4 +1,4 @@
-# Gate 145 — Top K Frequent Elements
+# Gate 145 🔥 — Top K Frequent Elements
 
 Status: Not cleared
 Related skill: Pattern-15-heap-topk

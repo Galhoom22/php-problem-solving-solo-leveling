@@ -1,4 +1,4 @@
-# Gate 179 — Number of Islands
+# Gate 179 💎 — Number of Islands
 
 Status: Not cleared
 Related skill: Pattern-20-simple-graphs

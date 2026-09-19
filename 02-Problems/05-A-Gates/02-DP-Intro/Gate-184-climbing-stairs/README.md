@@ -1,4 +1,4 @@
-# Gate 184 — Climbing Stairs
+# Gate 184 💎 — Climbing Stairs
 
 Status: Not cleared
 Related skill: Pattern-21-memoization-dp-intro

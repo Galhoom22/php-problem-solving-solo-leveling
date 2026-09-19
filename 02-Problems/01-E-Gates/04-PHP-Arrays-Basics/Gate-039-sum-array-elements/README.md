@@ -1,4 +1,4 @@
-# Gate 039 — Sum Array Elements
+# Gate 039 🌱 — Sum Array Elements
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

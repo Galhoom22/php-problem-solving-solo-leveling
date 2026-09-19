@@ -1,4 +1,4 @@
-# Gate 058 — JSON Encode User Map
+# Gate 058 📗 — JSON Encode User Map
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

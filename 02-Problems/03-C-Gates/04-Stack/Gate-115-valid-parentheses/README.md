@@ -1,4 +1,4 @@
-# Gate 115 — Valid Parentheses
+# Gate 115 ⚔️ — Valid Parentheses
 
 Status: Not cleared
 Related skill: Pattern-12-stack-queue

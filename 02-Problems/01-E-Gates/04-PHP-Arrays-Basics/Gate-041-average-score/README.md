@@ -1,4 +1,4 @@
-# Gate 041 — Average Score
+# Gate 041 🌱 — Average Score
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

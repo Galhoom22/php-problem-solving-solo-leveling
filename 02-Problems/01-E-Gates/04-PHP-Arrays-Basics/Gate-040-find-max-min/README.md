@@ -1,4 +1,4 @@
-# Gate 040 — Find Max and Min
+# Gate 040 🌱 — Find Max and Min
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

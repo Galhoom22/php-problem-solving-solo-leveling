@@ -1,4 +1,4 @@
-# Gate 062 — Valid Palindrome
+# Gate 062 📗 — Valid Palindrome
 
 Status: Not cleared
 Related skill: Pattern-10-two-pointers

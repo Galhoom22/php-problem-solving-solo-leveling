@@ -1,4 +1,4 @@
-# Gate 089 — High Scores
+# Gate 089 📗 — High Scores
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

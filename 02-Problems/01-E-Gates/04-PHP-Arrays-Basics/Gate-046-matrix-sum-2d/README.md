@@ -1,4 +1,4 @@
-# Gate 046 — 2D Matrix Sum
+# Gate 046 🌱 — 2D Matrix Sum
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

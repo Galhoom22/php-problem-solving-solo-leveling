@@ -1,4 +1,4 @@
-# Gate 019 — Even or Odd
+# Gate 019 🌱 — Even or Odd
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

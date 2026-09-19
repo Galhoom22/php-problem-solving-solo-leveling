@@ -1,4 +1,4 @@
-# Gate 048 — Unique Then Sort
+# Gate 048 🌱 — Unique Then Sort
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

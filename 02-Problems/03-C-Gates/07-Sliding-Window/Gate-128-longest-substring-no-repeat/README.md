@@ -1,4 +1,4 @@
-# Gate 128 — Longest Substring Without Repeating Characters
+# Gate 128 ⚔️ — Longest Substring Without Repeating Characters
 
 Status: Not cleared  
 Related skill: Pattern-11-sliding-window  

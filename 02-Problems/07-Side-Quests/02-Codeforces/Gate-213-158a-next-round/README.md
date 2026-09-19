@@ -1,4 +1,4 @@
-# Gate 213 — Next Round
+# Gate 213 🧭 — Next Round
 
 Status: Not cleared  
 **Lane:** Side Quest (not required for graduation)  

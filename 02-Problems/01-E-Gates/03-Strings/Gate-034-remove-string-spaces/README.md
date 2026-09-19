@@ -1,4 +1,4 @@
-# Gate 034 — Remove String Spaces
+# Gate 034 🌱 — Remove String Spaces
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

@@ -1,4 +1,4 @@
-# Gate 107 — Bit Counting
+# Gate 107 ⚔️ — Bit Counting
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

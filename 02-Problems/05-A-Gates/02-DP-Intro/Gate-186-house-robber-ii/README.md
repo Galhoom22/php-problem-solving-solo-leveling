@@ -1,4 +1,4 @@
-# Gate 186 — House Robber II
+# Gate 186 💎 — House Robber II
 
 Status: Not cleared
 Related skill: Pattern-21-memoization-dp-intro

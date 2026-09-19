@@ -1,4 +1,4 @@
-# Gate 116 — Daily Temperatures
+# Gate 116 ⚔️ — Daily Temperatures
 
 Status: Not cleared  
 Related skill: Pattern-12-stack-queue  

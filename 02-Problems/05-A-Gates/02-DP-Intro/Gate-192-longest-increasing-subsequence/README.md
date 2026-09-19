@@ -1,4 +1,4 @@
-# Gate 192 — Longest Increasing Subsequence
+# Gate 192 💎 — Longest Increasing Subsequence
 
 Status: Not cleared  
 Related skill: Pattern-21-memoization-dp-intro  

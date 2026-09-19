@@ -1,4 +1,4 @@
-# Gate 043 — First Array Element
+# Gate 043 🌱 — First Array Element
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

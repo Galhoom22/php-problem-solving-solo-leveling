@@ -1,4 +1,4 @@
-# Gate 224 — Linked List Cycle
+# Gate 224 🛡️ — Linked List Cycle
 
 Status: Not cleared  
 **Lane:** Interview Armor (sealed until B-Rank+ on PHP-fit climb)

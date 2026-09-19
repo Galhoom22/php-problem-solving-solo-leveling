@@ -1,4 +1,4 @@
-# Gate 134 — Search Insert Position
+# Gate 134 🔥 — Search Insert Position
 
 Status: Not cleared  
 Related skill: Pattern-13-binary-search  

@@ -1,4 +1,4 @@
-# Gate 101 — Rotate Left
+# Gate 101 ⚔️ — Rotate Left
 
 Status: Not cleared
 Related skill: Pattern-10-two-pointers

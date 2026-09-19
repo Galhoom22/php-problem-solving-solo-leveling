@@ -1,4 +1,4 @@
-# Gate 202 — Sum of Digits
+# Gate 202 🧭 — Sum of Digits
 
 Status: Not cleared
 **Lane:** Side Quest (not required for graduation)

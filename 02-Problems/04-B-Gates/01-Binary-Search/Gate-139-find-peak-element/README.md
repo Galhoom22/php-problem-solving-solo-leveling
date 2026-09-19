@@ -1,4 +1,4 @@
-# Gate 139 — Find Peak Element
+# Gate 139 🔥 — Find Peak Element
 
 Status: Not cleared  
 Related skill: Pattern-13-binary-search  

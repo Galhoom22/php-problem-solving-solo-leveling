@@ -1,4 +1,4 @@
-# Gate 211 — Bit++
+# Gate 211 🧭 — Bit++
 
 Status: Not cleared  
 **Lane:** Side Quest (not required for graduation)  

@@ -1,4 +1,4 @@
-# Gate 193 — Longest Common Subsequence
+# Gate 193 💎 — Longest Common Subsequence
 
 Status: Not cleared  
 Related skill: Pattern-21-memoization-dp-intro  

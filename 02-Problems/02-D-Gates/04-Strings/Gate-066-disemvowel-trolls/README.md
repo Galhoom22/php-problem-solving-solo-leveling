@@ -1,4 +1,4 @@
-# Gate 066 — Disemvowel Trolls
+# Gate 066 📗 — Disemvowel Trolls
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

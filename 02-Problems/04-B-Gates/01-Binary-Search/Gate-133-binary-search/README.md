@@ -1,4 +1,4 @@
-# Gate 133 — Binary Search
+# Gate 133 🔥 — Binary Search
 
 Status: Not cleared
 Related skill: Pattern-13-binary-search

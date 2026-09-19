@@ -1,4 +1,4 @@
-# Gate 052 — Breaking Chocolate Problem
+# Gate 052 📗 — Breaking Chocolate Problem
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

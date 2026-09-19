@@ -1,4 +1,4 @@
-# Gate 194 — Partition Equal Subset Sum
+# Gate 194 💎 — Partition Equal Subset Sum
 
 Status: Not cleared  
 Related skill: Pattern-21-memoization-dp-intro  

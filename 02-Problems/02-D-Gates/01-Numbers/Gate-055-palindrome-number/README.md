@@ -1,4 +1,4 @@
-# Gate 055 — Palindrome Number
+# Gate 055 📗 — Palindrome Number
 
 Status: Not cleared  
 Related skill: Pattern-04-big-o-plain-talk  

@@ -1,4 +1,4 @@
-# Gate 098 — Who Likes It
+# Gate 098 ⚔️ — Who Likes It
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

@@ -1,4 +1,4 @@
-# Gate 137 — Find Minimum in Rotated Sorted Array
+# Gate 137 🔥 — Find Minimum in Rotated Sorted Array
 
 Status: Not cleared  
 Related skill: Pattern-13-binary-search  

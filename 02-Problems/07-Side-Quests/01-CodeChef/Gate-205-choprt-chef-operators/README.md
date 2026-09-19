@@ -1,4 +1,4 @@
-# Gate 205 — Chef and Operators
+# Gate 205 🧭 — Chef and Operators
 
 Status: Not cleared
 **Lane:** Side Quest (not required for graduation)

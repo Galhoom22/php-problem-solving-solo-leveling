@@ -1,4 +1,4 @@
-# Gate 162 — Subsets
+# Gate 162 🔥 — Subsets
 
 Status: Not cleared  
 Related skill: Pattern-21-memoization-dp-intro  

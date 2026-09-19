@@ -1,4 +1,4 @@
-# Gate 073 — RNA Transcription
+# Gate 073 📗 — RNA Transcription
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

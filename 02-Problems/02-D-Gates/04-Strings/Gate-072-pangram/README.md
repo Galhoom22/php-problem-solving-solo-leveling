@@ -1,4 +1,4 @@
-# Gate 072 — Pangram
+# Gate 072 📗 — Pangram
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

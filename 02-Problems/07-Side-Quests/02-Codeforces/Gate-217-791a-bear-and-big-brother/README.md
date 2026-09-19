@@ -1,4 +1,4 @@
-# Gate 217 — Bear and Big Brother
+# Gate 217 🧭 — Bear and Big Brother
 
 Status: Not cleared  
 **Lane:** Side Quest (not required for graduation)  

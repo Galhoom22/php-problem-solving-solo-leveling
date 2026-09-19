@@ -1,4 +1,4 @@
-# Gate 010 — Area of a Triangle
+# Gate 010 🌱 — Area of a Triangle
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

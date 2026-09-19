@@ -1,4 +1,4 @@
-# Gate 187 — Coin Change
+# Gate 187 💎 — Coin Change
 
 Status: Not cleared  
 Related skill: Pattern-21-memoization-dp-intro  

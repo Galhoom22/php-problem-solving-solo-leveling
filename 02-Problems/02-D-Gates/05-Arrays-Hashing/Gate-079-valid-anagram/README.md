@@ -1,4 +1,4 @@
-# Gate 079 — Valid Anagram
+# Gate 079 📗 — Valid Anagram
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

@@ -1,4 +1,4 @@
-# Gate 195 — Coin Change II
+# Gate 195 💎 — Coin Change II
 
 Status: Not cleared  
 Related skill: Pattern-21-memoization-dp-intro  

@@ -1,4 +1,4 @@
-# Gate 112 — Counting Bits
+# Gate 112 ⚔️ — Counting Bits
 
 Status: Not cleared  
 Related skill: Pattern-21-memoization-dp-intro  

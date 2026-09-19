@@ -1,4 +1,4 @@
-# Gate 059 — JSON Decode Sum Scores
+# Gate 059 📗 — JSON Decode Sum Scores
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

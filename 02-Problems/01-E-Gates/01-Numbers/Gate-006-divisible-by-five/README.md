@@ -1,4 +1,4 @@
-# Gate 006 — Divisible by Five
+# Gate 006 🌱 — Divisible by Five
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

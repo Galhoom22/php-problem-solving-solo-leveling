@@ -1,4 +1,4 @@
-# Gate 166 — Letter Combinations of a Phone Number
+# Gate 166 🔥 — Letter Combinations of a Phone Number
 
 Status: Not cleared  
 Related skill: Pattern-21-memoization-dp-intro  

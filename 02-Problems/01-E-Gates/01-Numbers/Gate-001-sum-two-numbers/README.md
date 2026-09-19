@@ -1,4 +1,4 @@
-# Gate 001 — Sum of Two Numbers
+# Gate 001 🌱 — Sum of Two Numbers
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

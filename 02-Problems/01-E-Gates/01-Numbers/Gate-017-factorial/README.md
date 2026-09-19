@@ -1,4 +1,4 @@
-# Gate 017 — Factorial
+# Gate 017 🌱 — Factorial
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

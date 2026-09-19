@@ -1,4 +1,4 @@
-# Gate 057 — Plus One
+# Gate 057 📗 — Plus One
 
 Status: Not cleared  
 Related skill: Pattern-01-array-basics  

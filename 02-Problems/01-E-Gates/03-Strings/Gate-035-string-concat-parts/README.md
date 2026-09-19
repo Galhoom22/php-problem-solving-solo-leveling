@@ -1,4 +1,4 @@
-# Gate 035 — String Concat Parts
+# Gate 035 🌱 — String Concat Parts
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

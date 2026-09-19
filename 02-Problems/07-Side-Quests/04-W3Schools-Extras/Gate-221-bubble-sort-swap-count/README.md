@@ -1,4 +1,4 @@
-# Gate 221 — Bubble Sort Swap Count
+# Gate 221 🧭 — Bubble Sort Swap Count
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

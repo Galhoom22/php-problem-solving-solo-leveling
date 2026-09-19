@@ -1,4 +1,4 @@
-# Gate 061 — Gigasecond
+# Gate 061 📗 — Gigasecond
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

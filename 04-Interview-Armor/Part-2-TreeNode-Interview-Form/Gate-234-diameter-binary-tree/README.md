@@ -1,4 +1,4 @@
-# Gate 234 — Diameter of Binary Tree
+# Gate 234 🛡️ — Diameter of Binary Tree
 
 Status: Not cleared  
 **Lane:** Interview Armor (sealed until B-Rank+ on PHP-fit climb)

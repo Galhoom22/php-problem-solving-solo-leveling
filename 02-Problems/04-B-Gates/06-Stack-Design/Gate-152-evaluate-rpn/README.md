@@ -1,4 +1,4 @@
-# Gate 152 — Evaluate Reverse Polish Notation
+# Gate 152 🔥 — Evaluate Reverse Polish Notation
 
 Status: Not cleared  
 Related skill: Pattern-12-stack-queue  

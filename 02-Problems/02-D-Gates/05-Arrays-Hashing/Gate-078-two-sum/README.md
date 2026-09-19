@@ -1,4 +1,4 @@
-# Gate 078 — Two Sum
+# Gate 078 📗 — Two Sum
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

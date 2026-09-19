@@ -1,4 +1,4 @@
-# Gate 170 — Asteroid Collision
+# Gate 170 🔥 — Asteroid Collision
 
 Status: Not cleared
 Related skill: Pattern-12-stack-queue

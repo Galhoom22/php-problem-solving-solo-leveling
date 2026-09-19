@@ -1,4 +1,4 @@
-# Gate 214 — Beautiful Matrix
+# Gate 214 🧭 — Beautiful Matrix
 
 Status: Not cleared  
 **Lane:** Side Quest (not required for graduation)  

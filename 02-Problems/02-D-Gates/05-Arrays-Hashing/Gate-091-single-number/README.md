@@ -1,4 +1,4 @@
-# Gate 091 — Single Number
+# Gate 091 📗 — Single Number
 
 Status: Not cleared  
 Related skill: Pattern-02-hash-map-lookup  

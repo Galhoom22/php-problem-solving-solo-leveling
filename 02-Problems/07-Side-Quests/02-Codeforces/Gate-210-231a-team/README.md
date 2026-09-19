@@ -1,4 +1,4 @@
-# Gate 210 — Team
+# Gate 210 🧭 — Team
 
 Status: Not cleared  
 **Lane:** Side Quest (not required for graduation)  

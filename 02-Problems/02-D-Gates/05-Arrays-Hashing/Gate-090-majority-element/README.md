@@ -1,4 +1,4 @@
-# Gate 090 — Majority Element
+# Gate 090 📗 — Majority Element
 
 Status: Not cleared  
 Related skill: Pattern-02-hash-map-lookup  

@@ -1,4 +1,4 @@
-# Gate 121 — Container With Most Water
+# Gate 121 ⚔️ — Container With Most Water
 
 Status: Not cleared
 Related skill: Pattern-10-two-pointers

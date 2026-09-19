@@ -1,4 +1,4 @@
-# Gate 120 — Subarray Sum Equals K
+# Gate 120 ⚔️ — Subarray Sum Equals K
 
 Status: Not cleared  
 Related skill: Pattern-02-hash-map-lookup  

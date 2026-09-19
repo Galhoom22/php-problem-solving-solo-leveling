@@ -1,4 +1,4 @@
-# Gate 153 — LRU Cache
+# Gate 153 🔥 — LRU Cache
 
 Status: Not cleared
 Related skill: Pattern-22-lru-cache-design

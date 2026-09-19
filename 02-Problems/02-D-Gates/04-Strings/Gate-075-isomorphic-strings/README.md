@@ -1,4 +1,4 @@
-# Gate 075 — Isomorphic Strings
+# Gate 075 📗 — Isomorphic Strings
 
 Status: Not cleared  
 Related skill: Pattern-02-hash-map-lookup  

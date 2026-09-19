@@ -1,4 +1,4 @@
-# Gate 009 — Celsius to Fahrenheit
+# Gate 009 🌱 — Celsius to Fahrenheit
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

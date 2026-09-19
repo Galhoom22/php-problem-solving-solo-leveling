@@ -1,4 +1,4 @@
-# Gate 082 — Letter Frequency
+# Gate 082 📗 — Letter Frequency
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

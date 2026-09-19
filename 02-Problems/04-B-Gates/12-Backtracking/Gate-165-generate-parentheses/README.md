@@ -1,4 +1,4 @@
-# Gate 165 — Generate Parentheses
+# Gate 165 🔥 — Generate Parentheses
 
 Status: Not cleared  
 Related skill: Pattern-21-memoization-dp-intro  

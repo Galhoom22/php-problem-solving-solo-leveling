@@ -1,4 +1,4 @@
-# Gate 025 — Factorial Table Lines
+# Gate 025 🌱 — Factorial Table Lines
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

@@ -1,4 +1,4 @@
-# Gate 183 — Rotting Oranges
+# Gate 183 💎 — Rotting Oranges
 
 Status: Not cleared  
 Related skill: Pattern-20-simple-graphs  

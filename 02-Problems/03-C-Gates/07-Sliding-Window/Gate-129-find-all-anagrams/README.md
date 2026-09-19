@@ -1,4 +1,4 @@
-# Gate 129 — Find All Anagrams in a String
+# Gate 129 ⚔️ — Find All Anagrams in a String
 
 Status: Not cleared  
 Related skill: Pattern-11-sliding-window  

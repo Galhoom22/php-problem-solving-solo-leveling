@@ -1,4 +1,4 @@
-# Gate 002 — Next Number
+# Gate 002 🌱 — Next Number
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

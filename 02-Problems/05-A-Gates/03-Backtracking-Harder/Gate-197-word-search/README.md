@@ -1,4 +1,4 @@
-# Gate 197 — Word Search
+# Gate 197 💎 — Word Search
 
 Status: Not cleared  
 Related skill: Pattern-20-simple-graphs  

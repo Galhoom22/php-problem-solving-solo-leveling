@@ -1,4 +1,4 @@
-# Gate 209 — Way Too Long Words
+# Gate 209 🧭 — Way Too Long Words
 
 Status: Not cleared  
 **Lane:** Side Quest (not required for graduation)  

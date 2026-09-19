@@ -1,4 +1,4 @@
-# Gate 122 — Longest Common Prefix
+# Gate 122 ⚔️ — Longest Common Prefix
 
 Status: Not cleared
 Related skill: Pattern-10-two-pointers

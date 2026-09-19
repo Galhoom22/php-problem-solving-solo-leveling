@@ -1,4 +1,4 @@
-# Gate 109 — Product of Array Except Self
+# Gate 109 ⚔️ — Product of Array Except Self
 
 Status: Not cleared  
 Related skill: Pattern-01-array-basics  

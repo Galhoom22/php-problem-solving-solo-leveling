@@ -1,4 +1,4 @@
-# Gate 014 — The Farm Problem
+# Gate 014 🌱 — The Farm Problem
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

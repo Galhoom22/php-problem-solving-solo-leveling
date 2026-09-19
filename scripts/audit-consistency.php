@@ -171,10 +171,10 @@ $map = (string) file_get_contents($root . '/02-Problems/README.md');
 if (!str_contains($map, '01-E-Gates')) {
     $errors[] = '[map] 02-Problems/README.md missing 01-E-Gates';
 }
-if (!preg_match('/\\|\\s*001\\s*\\|\\s*Sum of Two Numbers\\s*\\|/', $map)) {
+if (!preg_match('/\|\s*001\s+\S+\s*\|\s*Sum of Two Numbers\s*\|/', $map)) {
     $errors[] = '[map] Gate 001 should be Sum of Two Numbers';
 }
-if (!preg_match('/\\|\\s*080\\s*\\|\\s*Contains Duplicate\\s*\\|/', $map)) {
+if (!preg_match('/\|\s*080\s+\S+\s*\|\s*Contains Duplicate\s*\|/', $map)) {
     $errors[] = '[map] Gate 080 should be Contains Duplicate';
 }
 

@@ -1,4 +1,4 @@
-# Gate 015 — Absolute Difference
+# Gate 015 🌱 — Absolute Difference
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

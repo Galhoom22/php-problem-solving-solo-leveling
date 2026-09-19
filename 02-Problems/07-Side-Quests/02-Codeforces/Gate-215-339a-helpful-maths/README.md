@@ -1,4 +1,4 @@
-# Gate 215 — Helpful Maths
+# Gate 215 🧭 — Helpful Maths
 
 Status: Not cleared  
 **Lane:** Side Quest (not required for graduation)  

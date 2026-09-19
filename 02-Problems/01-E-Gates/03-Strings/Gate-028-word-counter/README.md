@@ -1,4 +1,4 @@
-# Gate 028 — Word Counter
+# Gate 028 🌱 — Word Counter
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

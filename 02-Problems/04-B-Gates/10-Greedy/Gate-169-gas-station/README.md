@@ -1,4 +1,4 @@
-# Gate 169 — Gas Station
+# Gate 169 🔥 — Gas Station
 
 Status: Not cleared
 Related skill: Pattern-16-intervals

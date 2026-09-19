@@ -1,4 +1,4 @@
-# Gate 127 — Best Time to Buy and Sell Stock
+# Gate 127 ⚔️ — Best Time to Buy and Sell Stock
 
 Status: Not cleared
 Related skill: Pattern-11-sliding-window

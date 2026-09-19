@@ -1,4 +1,4 @@
-# Gate 231 — Symmetric Tree
+# Gate 231 🛡️ — Symmetric Tree
 
 Status: Not cleared  
 **Lane:** Interview Armor (sealed until B-Rank+ on PHP-fit climb)

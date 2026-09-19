@@ -1,4 +1,4 @@
-# Gate 030 — Return Something to Me
+# Gate 030 🌱 — Return Something to Me
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

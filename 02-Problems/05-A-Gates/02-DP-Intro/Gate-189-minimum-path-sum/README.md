@@ -1,4 +1,4 @@
-# Gate 189 — Minimum Path Sum
+# Gate 189 💎 — Minimum Path Sum
 
 Status: Not cleared  
 Related skill: Pattern-21-memoization-dp-intro  

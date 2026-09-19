@@ -1,4 +1,4 @@
-# Gate 064 — Most Common Character
+# Gate 064 📗 — Most Common Character
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

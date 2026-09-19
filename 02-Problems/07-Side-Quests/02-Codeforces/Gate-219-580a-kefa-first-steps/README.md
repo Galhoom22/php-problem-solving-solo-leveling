@@ -1,4 +1,4 @@
-# Gate 219 — Kefa and First Steps
+# Gate 219 🧭 — Kefa and First Steps
 
 Status: Not cleared  
 **Lane:** Side Quest (not required for graduation)  

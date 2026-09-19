@@ -1,4 +1,4 @@
-# Gate 092 — Happy Number
+# Gate 092 📗 — Happy Number
 
 Status: Not cleared  
 Related skill: Pattern-02-hash-map-lookup  

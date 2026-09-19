@@ -1,4 +1,4 @@
-# Gate 117 — Decode String
+# Gate 117 ⚔️ — Decode String
 
 Status: Not cleared  
 Related skill: Pattern-12-stack-queue  

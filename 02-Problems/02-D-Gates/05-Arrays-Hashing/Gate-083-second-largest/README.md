@@ -1,4 +1,4 @@
-# Gate 083 — Second Largest
+# Gate 083 📗 — Second Largest
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

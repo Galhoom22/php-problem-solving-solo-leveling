@@ -1,4 +1,4 @@
-# Gate 190 — Maximum Product Subarray
+# Gate 190 💎 — Maximum Product Subarray
 
 Status: Not cleared  
 Related skill: Pattern-21-memoization-dp-intro  

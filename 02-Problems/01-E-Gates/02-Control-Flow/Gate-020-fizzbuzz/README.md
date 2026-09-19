@@ -1,4 +1,4 @@
-# Gate 020 — FizzBuzz
+# Gate 020 🌱 — FizzBuzz
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

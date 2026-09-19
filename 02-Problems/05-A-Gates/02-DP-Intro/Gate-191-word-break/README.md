@@ -1,4 +1,4 @@
-# Gate 191 — Word Break
+# Gate 191 💎 — Word Break
 
 Status: Not cleared  
 Related skill: Pattern-21-memoization-dp-intro  

@@ -1,4 +1,4 @@
-# Gate 071 — Isogram
+# Gate 071 📗 — Isogram
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

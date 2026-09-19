@@ -1,4 +1,4 @@
-# Gate 016 — Sum 1 to N
+# Gate 016 🌱 — Sum 1 to N
 
 Status: Not cleared
 Related skill: Pattern-01-array-basics

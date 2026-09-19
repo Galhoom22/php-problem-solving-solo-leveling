@@ -1,4 +1,4 @@
-# Gate 220 — Selection Sort Steps
+# Gate 220 🧭 — Selection Sort Steps
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

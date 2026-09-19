@@ -1,4 +1,4 @@
-# Gate 131 — Longest Repeating Character Replacement
+# Gate 131 ⚔️ — Longest Repeating Character Replacement
 
 Status: Not cleared  
 Related skill: Pattern-11-sliding-window  

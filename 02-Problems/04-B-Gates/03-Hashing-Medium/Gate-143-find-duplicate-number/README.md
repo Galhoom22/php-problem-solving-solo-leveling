@@ -1,4 +1,4 @@
-# Gate 143 — Find the Duplicate Number
+# Gate 143 🔥 — Find the Duplicate Number
 
 Status: Not cleared  
 Related skill: Pattern-02-hash-map-lookup  

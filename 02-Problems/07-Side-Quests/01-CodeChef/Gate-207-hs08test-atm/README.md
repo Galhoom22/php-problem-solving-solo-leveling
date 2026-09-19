@@ -1,4 +1,4 @@
-# Gate 207 — ATM Withdrawal
+# Gate 207 🧭 — ATM Withdrawal
 
 Status: Not cleared
 **Lane:** Side Quest (not required for graduation)

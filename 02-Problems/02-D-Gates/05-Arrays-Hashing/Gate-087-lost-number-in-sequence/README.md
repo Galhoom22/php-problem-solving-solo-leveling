@@ -1,4 +1,4 @@
-# Gate 087 — Lost Number in Sequence
+# Gate 087 📗 — Lost Number in Sequence
 
 Status: Not cleared
 Related skill: Pattern-02-hash-map-lookup

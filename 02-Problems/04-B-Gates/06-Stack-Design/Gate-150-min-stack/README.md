@@ -1,4 +1,4 @@
-# Gate 150 — Min Stack
+# Gate 150 🔥 — Min Stack
 
 Status: Not cleared  
 Related skill: Pattern-12-stack-queue  

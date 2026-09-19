@@ -1,4 +1,4 @@
-# Gate 114 — Flatten Array
+# Gate 114 ⚔️ — Flatten Array
 
 Status: Not cleared
 Related skill: Pattern-14-nested-trees

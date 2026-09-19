@@ -1,4 +1,4 @@
-# Gate 238 — Binary Tree Inorder Traversal
+# Gate 238 🛡️ — Binary Tree Inorder Traversal
 
 Status: Not cleared  
 **Lane:** Interview Armor (sealed until B-Rank+ on PHP-fit climb)

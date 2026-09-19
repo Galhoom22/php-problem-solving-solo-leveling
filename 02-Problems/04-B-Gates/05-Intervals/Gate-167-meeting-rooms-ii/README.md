@@ -1,4 +1,4 @@
-# Gate 167 — Meeting Rooms II
+# Gate 167 🔥 — Meeting Rooms II
 
 Status: Not cleared
 Related skill: Pattern-16-intervals

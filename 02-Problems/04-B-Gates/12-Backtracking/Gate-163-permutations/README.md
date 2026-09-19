@@ -1,4 +1,4 @@
-# Gate 163 — Permutations
+# Gate 163 🔥 — Permutations
 
 Status: Not cleared  
 Related skill: Pattern-21-memoization-dp-intro  

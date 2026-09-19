@@ -1,4 +1,4 @@
-# Gate 053 — Descending Order
+# Gate 053 📗 — Descending Order
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

@@ -1,4 +1,4 @@
-# Gate 036 — Length and Uppercase
+# Gate 036 🌱 — Length and Uppercase
 
 Status: Not cleared
 Related skill: Pattern-03-string-basics

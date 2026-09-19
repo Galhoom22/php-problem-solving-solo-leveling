@@ -1,4 +1,4 @@
-# Gate 156 — Implement Trie (Prefix Tree)
+# Gate 156 🔥 — Implement Trie (Prefix Tree)
 
 Status: Not cleared  
 Related skill: Pattern-15-cache-design  

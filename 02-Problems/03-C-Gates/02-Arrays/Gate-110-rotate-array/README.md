@@ -1,4 +1,4 @@
-# Gate 110 — Rotate Array
+# Gate 110 ⚔️ — Rotate Array
 
 Status: Not cleared  
 Related skill: Pattern-10-two-pointers  

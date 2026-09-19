@@ -1,4 +1,4 @@
-# Gate 018 — Difference of Squares
+# Gate 018 🌱 — Difference of Squares
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

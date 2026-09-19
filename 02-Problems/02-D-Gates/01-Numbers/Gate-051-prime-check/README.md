@@ -1,4 +1,4 @@
-# Gate 051 — Prime Check
+# Gate 051 📗 — Prime Check
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

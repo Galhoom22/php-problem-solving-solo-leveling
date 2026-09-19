@@ -1,4 +1,4 @@
-# Gate 023 — Grade Decision
+# Gate 023 🌱 — Grade Decision
 
 Status: Not cleared
 Related skill: Pattern-04-big-o-plain-talk

@@ -1,4 +1,4 @@
-# Gate 200 — Sliding Window Maximum
+# Gate 200 🌑 — Sliding Window Maximum
 
 Status: Not cleared  
 Related skill: Pattern-11-sliding-window  

@@ -1,4 +1,4 @@
-# Gate 175 — Capacity To Ship Packages Within D Days
+# Gate 175 🔥 — Capacity To Ship Packages Within D Days
 
 Status: Not cleared
 Related skill: Pattern-13-binary-search
