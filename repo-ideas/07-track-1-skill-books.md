@@ -36,6 +36,8 @@ One session = one pattern unless the hunter asks to continue.
 
 ## Milestones
 
+Live folder: [`../01-Patterns-And-Fundamentals/Part-4-Milestones/`](../01-Patterns-And-Fundamentals/Part-4-Milestones/) (after Part 1–3 so explorer order matches the climb).
+
 | # | Gate | Idea |
 |:---:|:---|:---|
 | 1 | D→C | Clear a D hashing Gate with no help |

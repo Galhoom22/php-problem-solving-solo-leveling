@@ -64,7 +64,7 @@ Use one file. Improve it in place — same habit as a strong interview set:
 | Step | What to do |
 |:---|:---|
 | **1. Read** | Constraints, examples, “Learn First” notes in the Gate README |
-| **2. Brute** | Get a correct answer first ([lesson](00-Awakening/Part-0-Problem-Solving-Intro/Lesson-02-brute-force-first/)) |
+| **2. Brute** | Get a correct answer first ([lesson](00-Awakening/Part-02-Problem-Solving-Intro/Lesson-02-brute-force-first/)) |
 | **3. Tighten** | Improve time/space; rewrite the same `solution-1.php` |
 | **4. Talk** | Say Time and Space out loud (required later in [mocks](03-Mock-Interview/)) |
 

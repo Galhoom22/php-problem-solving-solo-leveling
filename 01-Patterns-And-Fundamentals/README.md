@@ -21,7 +21,7 @@
 | [`Part-1-Warmup/`](Part-1-Warmup/) | E–D | 🔓 |
 | [`Part-2-Core-PHP-PS-Patterns/`](Part-2-Core-PHP-PS-Patterns/) | C–B | 🔒 until D→C clearance |
 | [`Part-3-Advanced-PHP-Fit/`](Part-3-Advanced-PHP-Fit/) | A+ | 🔒 until B→A clearance |
-| [`Milestones/`](Milestones/) | Job Change / Association trials | 🔓 |
+| [`Part-4-Milestones/`](Part-4-Milestones/) | Job Change / Association trials | 🔓 |
 
 ## How a Skill Book works
 

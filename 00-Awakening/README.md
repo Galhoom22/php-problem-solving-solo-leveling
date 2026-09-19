@@ -15,8 +15,8 @@ Enough **PHP 8.5** + **problem-solving literacy** to enter `01-E-Gates` without 
 
 | Part | Focus | Status |
 |:---|:---|:---|
-| [`Part-0-PHP-Basics/`](Part-0-PHP-Basics/) | Syntax, types, arrays, strings, loops, functions | 🔓 |
-| [`Part-0-Problem-Solving-Intro/`](Part-0-Problem-Solving-Intro/) | How to read problems, brute force, Big-O plain talk | 🔓 |
+| [`Part-01-PHP-Basics/`](Part-01-PHP-Basics/) | Syntax, types, arrays, strings, loops, functions | 🔓 |
+| [`Part-02-Problem-Solving-Intro/`](Part-02-Problem-Solving-Intro/) | How to read problems, brute force, Big-O plain talk | 🔓 |
 
 ## Clear rule
 
@@ -31,5 +31,5 @@ Mark a lesson ✅ only after you can explain it in your own words and run a tiny
 
 One lesson per session. Do not rush into `02-D-Gates` before `01-E-Gates` feel easy.
 
-HackerRank PHP (Basic) environment/variables competencies: Lessons 05–06 in Part-0-PHP-Basics.
+HackerRank PHP (Basic) environment/variables competencies: Lessons 05–06 in Part-01-PHP-Basics.
 

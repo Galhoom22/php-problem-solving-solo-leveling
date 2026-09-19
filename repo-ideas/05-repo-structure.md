@@ -19,15 +19,15 @@ php-problem-solving-solo-leveling/
 ├── playground.php
 │
 ├── 00-Awakening/                     ← Track 0: PHP + PS literacy
-│   ├── Part-0-PHP-Basics/
-│   └── Part-0-Problem-Solving-Intro/
+│   ├── Part-01-PHP-Basics/
+│   └── Part-02-Problem-Solving-Intro/
 │
 ├── 01-Patterns-And-Fundamentals/     ← Track 1: Skill Books
 │   ├── PATTERN-CATALOG.md            ← DSA pattern index (not GoF Design Patterns)
 │   ├── Part-1-Warmup/
 │   ├── Part-2-Core-PHP-PS-Patterns/
 │   ├── Part-3-Advanced-PHP-Fit/
-│   └── Milestones/
+│   └── Part-4-Milestones/
 │
 ├── 02-Problems/                      ← Track 2: PHP-fit Gates
 │   ├── 01-E-Gates/ … 06-S-Gates/     ← numbered so explorer order = climb order

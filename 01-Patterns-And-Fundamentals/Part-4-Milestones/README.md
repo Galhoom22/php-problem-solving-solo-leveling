@@ -1,4 +1,4 @@
-# Milestones — Job Change / Association Trials
+# Part-4 — Milestones (Job Change / Association Trials)
 
 | Milestone | Rank gate | Status |
 |:---|:---|:---:|

@@ -44,6 +44,10 @@ $staleNeedles = [
     '01-PHP-Arrays-Basics',
     'solo-leveling-style',
     'GitHub meta',
+    'Part-0-PHP-Basics',
+    'Part-0-Problem-Solving-Intro',
+    '](Milestones/',
+    '`Milestones/`',
 ];
 
 $exts = ['md', 'php', 'yml', 'yaml', 'txt', 'json'];
@@ -144,6 +148,9 @@ $requiredDirs = [
     '02-Problems/07-Side-Quests',
     '02-Problems/01-E-Gates/01-Numbers/Gate-001-sum-two-numbers',
     '02-Problems/02-D-Gates/05-Arrays-Hashing/Gate-080-contains-duplicate',
+    '00-Awakening/Part-01-PHP-Basics',
+    '00-Awakening/Part-02-Problem-Solving-Intro',
+    '01-Patterns-And-Fundamentals/Part-4-Milestones',
     '.github/pending-workflows',
 ];
 foreach ($requiredDirs as $d) {
