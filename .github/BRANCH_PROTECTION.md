@@ -2,6 +2,8 @@
 
 CI alone is not enough. Turn on **GitHub Branch Protection** (or Rulesets) so broken / law-breaking changes cannot land on `main` by accident.
 
+Also in this folder: [`pull_request_template.md`](pull_request_template.md) · Actions workflow lives in [`pending-workflows/`](pending-workflows/) until activated (see [`../CONTRIBUTING.md`](../CONTRIBUTING.md)).
+
 ## Required settings (GitHub UI)
 
 **Repo → Settings → Rules → Rulesets → New branch ruleset**  
