@@ -9,3 +9,6 @@ Wave 2 adds W3Schools early-Medium array/string Gates (054–060).
 
 Wave 4 adds Codewars ~6 kyu Gates (092–098).
 
+
+Wave 7 adds w3resource basic-algorithm Gate 121.
+

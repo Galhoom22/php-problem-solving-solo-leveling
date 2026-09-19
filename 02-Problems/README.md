@@ -168,6 +168,27 @@ Pointer: [`E-Gates/07-HackerRank-PHP-Basic/`](E-Gates/07-HackerRank-PHP-Basic/)
 
 **Not imported:** full LAMP/MySQL install tracks (out of this PS gym’s required climb).
 
+### Wave 7 — w3resource PHP Exercises (curated)
+
+Hub: [PHP Exercises, Practice, Solution](https://www.w3resource.com/php-exercises/)  
+**Curated only** (Professionalism Ratchet) — not the full 100+ Basic dump.
+
+| Gate | Title | Rank | Section | XP | Status |
+|:---|:---|:---:|:---|:---:|:---:|
+| 112 | Array Values Product | E | Arrays | 25 | ☐ |
+| 113 | Unique Then Sort | E | Arrays | 25 | ☐ |
+| 114 | Factorial Table Lines | E | For Loop | 25 | ☐ |
+| 115 | Absolute Difference | E | Math | 25 | ☐ |
+| 116 | String Stats | E | String | 25 | ☐ |
+| 117 | JSON Encode User Map | D | JSON | 40 | ☐ |
+| 118 | JSON Decode Sum Scores | D | JSON | 40 | ☐ |
+| 119 | Format Date Y-m-d | D | Date | 40 | ☐ |
+| 120 | Digits Only Check | D | Regex (light) | 40 | ☐ |
+| 121 | Pair Closest to Zero Sum | C | Basic Algorithm | 60 | ☐ |
+| 122 | Selection Sort Steps | Side | Searching & Sorting | 40 | ☐ |
+
+**Skipped on purpose:** OOP/Classes (sibling OOP repo), Cookies/Sessions, full File Handling packs, entire Basic 102 dump.
+
 More Gates land in later waves — see `repo-ideas/11-core-curriculum.md`.
 
 ## Session cycle

@@ -16,6 +16,7 @@
 | [Exercism — PHP](https://exercism.org/tracks/php) | Mentored fluency (E/D) |
 | [Edabit — PHP](https://edabit.com/challenges/php) | Early-rank volume (**Wave 3** Very Easy curated) |
 | [W3Schools — Practice PHP](https://www.w3schools.com/php/exercise.asp) | E/D warmups + curated C Gates (Wave 2) |
+| [w3resource — PHP Exercises](https://www.w3resource.com/php-exercises/) | Arrays/JSON/Date drills (**Wave 7** curated; not full dump) |
 
 ## Additional
 

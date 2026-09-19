@@ -15,3 +15,6 @@ Wave 4 adds Codewars ~8 kyu Gates (080–083).
 
 Wave 6 maps HackerRank PHP (Basic) competencies (Gates 106–111 + Awakening L05–L06).
 
+
+Wave 7 adds curated w3resource E drills (112–116).
+
