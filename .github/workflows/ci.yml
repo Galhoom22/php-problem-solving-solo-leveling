@@ -1,0 +1,97 @@
+name: CI — Protect Main
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  repo-laws:
+    name: Repo Laws + PHP Lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.4"
+          coverage: none
+          ini-values: memory_limit=256M
+
+      - name: Show PHP version
+        run: php -v
+
+      - name: Validate repo laws
+        run: php scripts/ci/validate-repo.php
+
+      - name: Playground smoke
+        run: php playground.php
+
+  structure-guard:
+    name: Sacred Structure Guard
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Block deletion of sacred paths on PRs
+        if: github.event_name == 'pull_request'
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE="${{ github.event.pull_request.base.sha }}"
+          HEAD="${{ github.event.pull_request.head.sha }}"
+
+          SACRED=(
+            "README.md"
+            "SOURCES.md"
+            "SYSTEM-LOG.md"
+            "AGENTS.md"
+            "CONTRIBUTING.md"
+            "playground.php"
+            "00-Awakening"
+            "01-Patterns-And-Fundamentals"
+            "02-Problems"
+            "03-Mock-Interview"
+            "04-Interview-Armor"
+            "repo-ideas/21-hunter-solves-first-no-direct-answers.md"
+            "repo-ideas/19-php-fitness-filter.md"
+            "repo-ideas/03-strict-progression-law.md"
+            "repo-ideas/20-big-tech-faang-graduation.md"
+            "scripts/ci/validate-repo.php"
+            ".github/workflows/ci.yml"
+          )
+
+          DELETED="$(git diff --name-status "$BASE"..."$HEAD" | awk '$1 ~ /^D/ {print $2}')"
+          FAIL=0
+          for path in "${SACRED[@]}"; do
+            while IFS= read -r del; do
+              [ -z "$del" ] && continue
+              if [ "$del" = "$path" ] || [[ "$del" == "$path/"* ]]; then
+                echo "✖ Sacred path deleted: $del"
+                FAIL=1
+              fi
+            done <<< "$DELETED"
+          done
+
+          if [ "$FAIL" -ne 0 ]; then
+            echo "[SYSTEM] Access Denied — sacred structure must not be removed on main."
+            exit 1
+          fi
+          echo "[SYSTEM] Sacred structure intact."

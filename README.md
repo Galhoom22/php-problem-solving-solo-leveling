@@ -231,6 +231,21 @@ When you clear a Gate / pattern:
 
 Boot order for agents: [`repo-ideas/README.md`](repo-ideas/README.md)
 
+## CI — Protecting `main`
+
+Every PR to `main` must pass GitHub Actions:
+
+- **Repo Laws + PHP Lint** — structure, Gate metadata, PHP Fitness bans, no open spoilers, `strict_types`, syntax
+- **Sacred Structure Guard** — blocks deleting tracks / law files / CI itself
+
+Local check:
+
+```bash
+php scripts/ci/validate-repo.php
+```
+
+After the first push to GitHub, lock `main` with required checks — see [`.github/BRANCH_PROTECTION.md`](.github/BRANCH_PROTECTION.md).
+
 ---
 
 *Arise.*

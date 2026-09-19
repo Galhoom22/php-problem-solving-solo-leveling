@@ -32,3 +32,21 @@ gh repo create <YOUR_REPO> --public --source=. --remote=origin --push
 
 Hunter solves first. No spoiler solutions as the default path.
 See `repo-ideas/21-hunter-solves-first-no-direct-answers.md`.
+
+## CI / protecting `main`
+
+Before opening a PR (or after local edits):
+
+```bash
+php scripts/ci/validate-repo.php
+```
+
+GitHub Actions runs the same validator on every PR to `main`.
+
+**You must also enable branch protection** so CI cannot be skipped:
+see [`.github/BRANCH_PROTECTION.md`](.github/BRANCH_PROTECTION.md).
+
+Required checks:
+
+- `Repo Laws + PHP Lint`
+- `Sacred Structure Guard`
