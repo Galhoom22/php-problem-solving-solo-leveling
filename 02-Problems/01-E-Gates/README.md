@@ -1,4 +1,4 @@
-# E-Gates
+# 01-E-Gates
 
 Min Hunter Rank: **E-Rank**
 

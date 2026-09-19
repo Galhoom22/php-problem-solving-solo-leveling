@@ -20,7 +20,7 @@ Theme is light Solo Leveling flavor (ranks, Gates, XP). The goal is real skill �
 | You are… | Start here |
 |:---|:---|
 | New to PHP or problem statements | [`00-Awakening/`](00-Awakening/) |
-| Comfortable with basic PHP | [`02-Problems/E-Gates/`](02-Problems/E-Gates/) — Gate **001** |
+| Comfortable with basic PHP | [`02-Problems/01-E-Gates/`](02-Problems/01-E-Gates/) — Gate **001** |
 | Preparing for backend / Big Tech interviews | Follow tracks `00` → `04` in order |
 
 **Honest note:** PHP is not the usual FAANG live-coding language. The *patterns* (hash maps, two pointers, graphs, …) transfer; the language drill is PHP-first.
@@ -47,7 +47,7 @@ php -v          # need PHP 8.5+
 php playground.php
 ```
 
-1. Open **Gate 001**: [`02-Problems/E-Gates/01-Numbers/Gate-001-sum-two-numbers/`](02-Problems/E-Gates/01-Numbers/Gate-001-sum-two-numbers/)  
+1. Open **Gate 001**: [`02-Problems/01-E-Gates/01-Numbers/Gate-001-sum-two-numbers/`](02-Problems/01-E-Gates/01-Numbers/Gate-001-sum-two-numbers/)  
    *(Absolute beginners: do [`00-Awakening/`](00-Awakening/) first.)*
 2. Read that Gate’s `README.md` (problem brief).
 3. Write your code in `solution-1.php`.
@@ -82,9 +82,12 @@ Work **top to bottom**:
 | 3 | [`03-Mock-Interview/`](03-Mock-Interview/) | Timed talk-aloud sessions |
 | 4 | [`04-Interview-Armor/`](04-Interview-Armor/) | Linked-list / tree interview form (later) |
 
-Inside `02-Problems/`, folders are numbered so you can walk them in order  
-(example: `E-Gates/01-Numbers/` → `02-Control-Flow/` → …).  
-Gate IDs also ascend: **E (001+) → D → C → B → A → S → Side Quests → Armor**.
+Inside `02-Problems/`, rank folders are numbered so the file explorer matches the climb:
+
+`01-E-Gates` → `02-D-Gates` → `03-C-Gates` → `04-B-Gates` → `05-A-Gates` → `06-S-Gates` → `07-Side-Quests`
+
+Inside each rank, category folders are also numbered (example: `01-E-Gates/01-Numbers/` → `02-Control-Flow/` → …).  
+Gate IDs ascend the same way: **E (001+) → D → C → B → A → S → Side → Armor**.
 
 ---
 

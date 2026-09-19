@@ -1,4 +1,4 @@
-# Side Quests
+# 07-Side-Quests
 
 Optional. **Not required for graduation.**
 

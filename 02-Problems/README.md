@@ -10,14 +10,14 @@
 |:---|:---|
 | **Bank size** | 224 Gate stubs (climb + Side Quests + Interview Armor) |
 | **Order law** | Gate IDs ascend with difficulty: **E → D → C → B → A → S → Side → Armor** |
-| **Start** | [`E-Gates/`](E-Gates/) — lowest IDs first |
+| **Start** | [`01-E-Gates/`](01-E-Gates/) — lowest IDs first |
 | **Layout** | `Rank-folder / Pattern-category / Gate-NNN-kebab/` |
-| **Optional** | [`Side-Quests/`](Side-Quests/) — not graduation-critical |
+| **Optional** | [`07-Side-Quests/`](07-Side-Quests/) — not graduation-critical |
 | **Armor** | Linked lists / TreeNode → [`../04-Interview-Armor/`](../04-Interview-Armor/) (after S on the ID ladder) |
 
 **How to clear one Gate:** open its `README.md` → **Brief → Brute → Tighten → Talk** (see root [Clear method](../README.md#clear-method-interview-mirror)) → fill `solution-1.php` → mark ✅ below → update root Status Window.  
 
-**Folder name:** `Gate-NNN-kebab-case/` under `Rank/Category/` (example: `D-Gates/05-Arrays-Hashing/Gate-080-contains-duplicate/`).
+**Folder name:** `Gate-NNN-kebab-case/` under `Rank/Category/` (example: `02-D-Gates/05-Arrays-Hashing/Gate-080-contains-duplicate/`).
 
 **Category order:** within each rank, numbered folders ascend by skill load (easy drills → core patterns). Gate IDs follow that walk.
 
@@ -27,13 +27,13 @@
 
 | Folder | Min Hunter Rank | Intent | ID range |
 |:---|:---|:---|:---|
-| [`E-Gates/`](E-Gates/) | E | Survive — PHP confidence | 001–049 |
-| [`D-Gates/`](D-Gates/) | D | Core Easy | 050–094 |
-| [`C-Gates/`](C-Gates/) | C | Easy → early Medium | 095–132 |
-| [`B-Gates/`](B-Gates/) | B | Main Medium set | 133–166 |
-| [`A-Gates/`](A-Gates/) | A | Stretch | 167–183 |
-| [`S-Gates/`](S-Gates/) | S | Prestige (PHP-fit only) | 184–186 |
-| [`Side-Quests/`](Side-Quests/) | any | Optional — not graduation-critical | 187–207 |
+| [`01-E-Gates/`](01-E-Gates/) | E | Survive — PHP confidence | 001–049 |
+| [`02-D-Gates/`](02-D-Gates/) | D | Core Easy | 050–094 |
+| [`03-C-Gates/`](03-C-Gates/) | C | Easy → early Medium | 095–132 |
+| [`04-B-Gates/`](04-B-Gates/) | B | Main Medium set | 133–166 |
+| [`05-A-Gates/`](05-A-Gates/) | A | Stretch | 167–183 |
+| [`06-S-Gates/`](06-S-Gates/) | S | Prestige (PHP-fit only) | 184–186 |
+| [`07-Side-Quests/`](07-Side-Quests/) | any | Optional — not graduation-critical | 187–207 |
 | [`../04-Interview-Armor/`](../04-Interview-Armor/) | B+ | Interview lists/trees | 208–224 |
 
 ## Gate Source Map (progression order)
@@ -43,7 +43,7 @@
 > Interview-form twins live in `04-Interview-Armor/` (not a second core Gate).  
 > **IDs are sequential by rank** — not by import wave.
 
-### E-Gates (49)
+### 01-E-Gates (49)
 
 | Gate | Title | Category | Platform | XP | Status |
 |:---|:---|:---|:---|:---:|:---:|
@@ -97,7 +97,7 @@
 | 048 | Unique Then Sort | `04-PHP-Arrays-Basics` | w3resource | 25 | ☐ |
 | 049 | Resistor Color | `04-PHP-Arrays-Basics` | Exercism | 25 | ☐ |
 
-### D-Gates (45)
+### 02-D-Gates (45)
 
 | Gate | Title | Category | Platform | XP | Status |
 |:---|:---|:---|:---|:---:|:---:|
@@ -147,7 +147,7 @@
 | 093 | Contains Duplicate II | `05-Arrays-Hashing` | LeetCode | 40 | ☐ |
 | 094 | Find Pivot Index | `05-Arrays-Hashing` | LeetCode | 40 | ☐ |
 
-### C-Gates (38)
+### 03-C-Gates (38)
 
 | Gate | Title | Category | Platform | XP | Status |
 |:---|:---|:---|:---|:---:|:---:|
@@ -190,7 +190,7 @@
 | 131 | Longest Repeating Character Replacement | `07-Sliding-Window` | LeetCode | 60 | ☐ |
 | 132 | Maximum Average Subarray I | `07-Sliding-Window` | LeetCode | 60 | ☐ |
 
-### B-Gates (34)
+### 04-B-Gates (34)
 
 | Gate | Title | Category | Platform | XP | Status |
 |:---|:---|:---|:---|:---:|:---:|
@@ -229,7 +229,7 @@
 | 165 | Generate Parentheses | `12-Backtracking` | LeetCode | 90 | ☐ |
 | 166 | Letter Combinations of a Phone Number | `12-Backtracking` | LeetCode | 90 | ☐ |
 
-### A-Gates (17)
+### 05-A-Gates (17)
 
 | Gate | Title | Category | Platform | XP | Status |
 |:---|:---|:---|:---|:---:|:---:|
@@ -251,7 +251,7 @@
 | 182 | Trapping Rain Water | `02-DP-Intro` | LeetCode | 130 | ☐ |
 | 183 | Word Search | `03-Backtracking-Harder` | LeetCode | 130 | ☐ |
 
-### S-Gates (3)
+### 06-S-Gates (3)
 
 | Gate | Title | Category | Platform | XP | Status |
 |:---|:---|:---|:---|:---:|:---:|
@@ -259,7 +259,7 @@
 | 185 | Edit Distance | `01-Hard-PHP-Fit` | LeetCode | 200 | ☐ |
 | 186 | Sliding Window Maximum | `01-Hard-PHP-Fit` | LeetCode | 200 | ☐ |
 
-### Side-Quests (21)
+### 07-Side-Quests (21)
 
 | Gate | Title | Folder | Platform | XP | Status |
 |:---|:---|:---|:---|:---:|:---:|

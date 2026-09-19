@@ -126,7 +126,7 @@ Avoid teaching that sounds like translated C++ with PHP syntax glued on.
 The required climb in `11-core-curriculum.md` must only list PHP-fit Gates.
 Anything removed from core may:
 1. disappear, or
-2. live under `Side-Quests/` with explicit non-core labeling
+2. live under `07-Side-Quests/` with explicit non-core labeling
 
 ---
 

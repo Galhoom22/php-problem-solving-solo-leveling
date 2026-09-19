@@ -1,4 +1,4 @@
-# B-Gates
+# 04-B-Gates
 
 Min Hunter Rank: **B-Rank**
 

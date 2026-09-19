@@ -1,4 +1,4 @@
-# C-Gates
+# 03-C-Gates
 
 Min Hunter Rank: **C-Rank**
 

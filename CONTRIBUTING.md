@@ -6,7 +6,7 @@ How to change this gym. Chat may be any language; **committed files stay English
 
 | Want to… | Go here |
 |:---|:---|
-| Solve Gates | [`02-Problems/E-Gates/`](02-Problems/E-Gates/) Gate **001** |
+| Solve Gates | [`02-Problems/01-E-Gates/`](02-Problems/01-E-Gates/) Gate **001** |
 | Learn a DSA pattern | [`01-Patterns-And-Fundamentals/PATTERN-CATALOG.md`](01-Patterns-And-Fundamentals/PATTERN-CATALOG.md) |
 | Add a Gate | Checklist below |
 | Publish to GitHub | Section below |
@@ -16,8 +16,8 @@ How to change this gym. Chat may be any language; **committed files stay English
 ## Adding a Gate
 
 1. Pass PHP Fitness Filter — [`repo-ideas/19`](repo-ideas/19-php-fitness-filter.md)
-2. Place under `E-Gates` … `S-Gates` or `Side-Quests/` (Armor for list/TreeNode theater)
-3. Folder: `Gate-NNN-kebab-case/` — ID must keep lane order (E→…→Armor)
+2. Place under `01-E-Gates` … `06-S-Gates` or `07-Side-Quests/` (Armor for list/TreeNode theater)  
+3. Folder: `Gate-NNN-kebab-case/` — ID must keep lane order (E→…→Armor) 
 4. `README.md`: System Brief · Learn First · Backend Link · Source (no algorithm dump)
 5. `solution-1.php`: stub + `TODO` + `declare(strict_types=1);`
 6. Update [`02-Problems/README.md`](02-Problems/README.md) (or run `php scripts/rebuild-gate-map.php`)

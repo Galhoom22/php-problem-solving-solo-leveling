@@ -5,7 +5,7 @@
 ## Names
 
 - `Pattern-NN-kebab` · `Gate-NNN-kebab` · zero-padded IDs  
-- Rank folders: `E-Gates` … `S-Gates` · optional `Side-Quests/`
+- Rank folders: `01-E-Gates` … `06-S-Gates` · optional `07-Side-Quests/` (numbers = explorer order)
 
 ## Gate / Skill files
 

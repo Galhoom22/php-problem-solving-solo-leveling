@@ -47,10 +47,10 @@ final class RepoValidator
         'repo-ideas',
     ];
 
-    private const GATE_RANKS = ['E-Gates', 'D-Gates', 'C-Gates', 'B-Gates', 'A-Gates', 'S-Gates', 'Side-Quests'];
+    private const GATE_RANKS = ['01-E-Gates', '02-D-Gates', '03-C-Gates', '04-B-Gates', '05-A-Gates', '06-S-Gates', '07-Side-Quests'];
 
     /** Early PHP-fit core — linked-list pointer theater forbidden here */
-    private const EARLY_CORE_RANKS = ['E-Gates', 'D-Gates', 'C-Gates'];
+    private const EARLY_CORE_RANKS = ['01-E-Gates', '02-D-Gates', '03-C-Gates'];
 
     private const GATE_README_REQUIRED = [
         '## System Brief',
@@ -236,9 +236,12 @@ final class RepoValidator
             if (preg_match('/Gate Rank:\s*([EDCBAS])/i', $readme, $m)) {
                 $rankLetter = strtoupper($m[1]);
                 $parentRank = $this->parentGateRank($gateDir);
-                if ($parentRank !== null && $parentRank !== 'Side-Quests') {
-                    $expected = substr($parentRank, 0, 1); // E from E-Gates
-                    if ($rankLetter !== $expected) {
+                if ($parentRank !== null && $parentRank !== '07-Side-Quests') {
+                    // Folder is NN-X-Gates → letter X
+                    $expected = preg_match('/^[0-9]{2}-([EDCBAS])-Gates$/', $parentRank, $pm)
+                        ? $pm[1]
+                        : '';
+                    if ($expected === '' || $rankLetter !== $expected) {
                         $this->errors[] = "[progression] {$rel}: Gate Rank {$rankLetter} does not match folder {$parentRank}";
                     }
                 }
@@ -367,25 +370,25 @@ final class RepoValidator
     private function gateLane(string $rel): ?string
     {
         $normalized = str_replace('\\', '/', $rel);
-        if (str_contains($normalized, '02-Problems/E-Gates/')) {
+        if (str_contains($normalized, '02-Problems/01-E-Gates/')) {
             return 'E';
         }
-        if (str_contains($normalized, '02-Problems/D-Gates/')) {
+        if (str_contains($normalized, '02-Problems/02-D-Gates/')) {
             return 'D';
         }
-        if (str_contains($normalized, '02-Problems/C-Gates/')) {
+        if (str_contains($normalized, '02-Problems/03-C-Gates/')) {
             return 'C';
         }
-        if (str_contains($normalized, '02-Problems/B-Gates/')) {
+        if (str_contains($normalized, '02-Problems/04-B-Gates/')) {
             return 'B';
         }
-        if (str_contains($normalized, '02-Problems/A-Gates/')) {
+        if (str_contains($normalized, '02-Problems/05-A-Gates/')) {
             return 'A';
         }
-        if (str_contains($normalized, '02-Problems/S-Gates/')) {
+        if (str_contains($normalized, '02-Problems/06-S-Gates/')) {
             return 'S';
         }
-        if (str_contains($normalized, '02-Problems/Side-Quests/')) {
+        if (str_contains($normalized, '02-Problems/07-Side-Quests/')) {
             return 'Side';
         }
         if (str_contains($normalized, '04-Interview-Armor/')) {
@@ -624,7 +627,11 @@ final class RepoValidator
     private function parentGateRank(string $gateDir): ?string
     {
         $normalized = str_replace('\\', '/', $gateDir);
-        if (preg_match('#/02-Problems/(E-Gates|D-Gates|C-Gates|B-Gates|A-Gates|S-Gates|Side-Quests)/#', $normalized, $m)) {
+        if (preg_match(
+            '#/02-Problems/(01-E-Gates|02-D-Gates|03-C-Gates|04-B-Gates|05-A-Gates|06-S-Gates|07-Side-Quests)/#',
+            $normalized,
+            $m
+        )) {
             return $m[1];
         }
 

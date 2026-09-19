@@ -82,9 +82,9 @@ function collectGates(string $baseDir): array
         }
         $rel = str_replace('\\', '/', $file->getPathname());
         $category = '';
-        if (preg_match('#/(E-Gates|D-Gates|C-Gates|B-Gates|A-Gates|S-Gates)/([^/]+)/Gate-#', $rel, $cm)) {
+        if (preg_match('#/(01-E-Gates|02-D-Gates|03-C-Gates|04-B-Gates|05-A-Gates|06-S-Gates)/([^/]+)/Gate-#', $rel, $cm)) {
             $category = $cm[2];
-        } elseif (preg_match('#/Side-Quests/(.+)/Gate-#', $rel, $cm)) {
+        } elseif (preg_match('#/07-Side-Quests/(.+)/Gate-#', $rel, $cm)) {
             $category = $cm[1];
         } elseif (preg_match('#/04-Interview-Armor/(Part-[^/]+)/#', $rel, $cm)) {
             $category = $cm[1];
@@ -104,13 +104,13 @@ function collectGates(string $baseDir): array
 }
 
 $sections = [
-    'E' => ['dir' => '02-Problems/E-Gates', 'label' => 'E-Gates', 'intent' => 'Survive — PHP confidence'],
-    'D' => ['dir' => '02-Problems/D-Gates', 'label' => 'D-Gates', 'intent' => 'Core Easy'],
-    'C' => ['dir' => '02-Problems/C-Gates', 'label' => 'C-Gates', 'intent' => 'Easy → early Medium'],
-    'B' => ['dir' => '02-Problems/B-Gates', 'label' => 'B-Gates', 'intent' => 'Main Medium set'],
-    'A' => ['dir' => '02-Problems/A-Gates', 'label' => 'A-Gates', 'intent' => 'Stretch'],
-    'S' => ['dir' => '02-Problems/S-Gates', 'label' => 'S-Gates', 'intent' => 'Prestige (PHP-fit only)'],
-    'Side' => ['dir' => '02-Problems/Side-Quests', 'label' => 'Side-Quests', 'intent' => 'Optional — not graduation-critical'],
+    'E' => ['dir' => '02-Problems/01-E-Gates', 'label' => '01-E-Gates', 'intent' => 'Survive — PHP confidence'],
+    'D' => ['dir' => '02-Problems/02-D-Gates', 'label' => '02-D-Gates', 'intent' => 'Core Easy'],
+    'C' => ['dir' => '02-Problems/03-C-Gates', 'label' => '03-C-Gates', 'intent' => 'Easy → early Medium'],
+    'B' => ['dir' => '02-Problems/04-B-Gates', 'label' => '04-B-Gates', 'intent' => 'Main Medium set'],
+    'A' => ['dir' => '02-Problems/05-A-Gates', 'label' => '05-A-Gates', 'intent' => 'Stretch'],
+    'S' => ['dir' => '02-Problems/06-S-Gates', 'label' => '06-S-Gates', 'intent' => 'Prestige (PHP-fit only)'],
+    'Side' => ['dir' => '02-Problems/07-Side-Quests', 'label' => '07-Side-Quests', 'intent' => 'Optional — not graduation-critical'],
 ];
 
 $armorGates = collectGates($root . '/04-Interview-Armor');
@@ -133,17 +133,17 @@ foreach ($sections as $code => $meta) {
         $totalClimb += $n;
     }
 }
-$totalAll = $totalClimb + count(collectGates($root . '/02-Problems/Side-Quests')) + count($armorGates);
+$totalAll = $totalClimb + count(collectGates($root . '/02-Problems/07-Side-Quests')) + count($armorGates);
 $md[] = '| **Bank size** | ' . $totalAll . ' Gate stubs (climb + Side Quests + Interview Armor) |';
 $md[] = '| **Order law** | Gate IDs ascend with difficulty: **E → D → C → B → A → S → Side → Armor** |';
-$md[] = '| **Start** | [`E-Gates/`](E-Gates/) — lowest IDs first |';
+$md[] = '| **Start** | [`01-E-Gates/`](01-E-Gates/) — lowest IDs first |';
 $md[] = '| **Layout** | `Rank-folder / Pattern-category / Gate-NNN-kebab/` |';
-$md[] = '| **Optional** | [`Side-Quests/`](Side-Quests/) — not graduation-critical |';
+$md[] = '| **Optional** | [`07-Side-Quests/`](07-Side-Quests/) — not graduation-critical |';
 $md[] = '| **Armor** | Linked lists / TreeNode → [`../04-Interview-Armor/`](../04-Interview-Armor/) (after S on the ID ladder) |';
 $md[] = '';
 $md[] = '**How to clear one Gate:** open its `README.md` → **Brief → Brute → Tighten → Talk** (see root [Clear method](../README.md#clear-method-interview-mirror)) → fill `solution-1.php` → mark ✅ below → update root Status Window.  ';
 $md[] = '';
-$md[] = '**Folder name:** `Gate-NNN-kebab-case/` under `Rank/Category/` (example: `D-Gates/05-Arrays-Hashing/Gate-080-contains-duplicate/`).';
+$md[] = '**Folder name:** `Gate-NNN-kebab-case/` under `Rank/Category/` (example: `02-D-Gates/05-Arrays-Hashing/Gate-080-contains-duplicate/`).';
 $md[] = '';
 $md[] = '**Category order:** within each rank, numbered folders ascend by skill load (easy drills → core patterns). Gate IDs follow that walk.';
 $md[] = '';

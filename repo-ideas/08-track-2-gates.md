@@ -21,7 +21,7 @@ Never ship finished answers as default Gate files. Never open a session with a f
   solution-1.php   ← stub + TODO only
 ```
 
-Side Quests: `02-Problems/Side-Quests/` (optional).  
+Side Quests: `02-Problems/07-Side-Quests/` (optional).  
 List/TreeNode theater: `04-Interview-Armor/` only.
 
 ## Gate README (required fields)

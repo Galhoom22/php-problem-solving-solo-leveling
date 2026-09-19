@@ -30,8 +30,8 @@ php-problem-solving-solo-leveling/
 │   └── Milestones/
 │
 ├── 02-Problems/                      ← Track 2: PHP-fit Gates
-│   ├── E-Gates/ … S-Gates/           ← pattern categories with unique NN- prefixes
-│   └── Side-Quests/                  ← optional (CodeChef, Codeforces, …)
+│   ├── 01-E-Gates/ … 06-S-Gates/     ← numbered so explorer order = climb order
+│   └── 07-Side-Quests/               ← optional (CodeChef, Codeforces, …)
 │
 ├── 03-Mock-Interview/                ← Track 3: Instant Dungeons
 │   └── sessions/
@@ -50,7 +50,7 @@ php-problem-solving-solo-leveling/
 ### Gate folder shape
 
 ```
-02-Problems/{E|D|C|B|A|S}-Gates/{NN-Pattern}/Gate-NNN-kebab/
+02-Problems/{01-E|02-D|03-C|04-B|05-A|06-S}-Gates/{NN-Pattern}/Gate-NNN-kebab/
   README.md          ← teaching brief + Source (no spoiler)
   solution-1.php     ← stub + TODO only
 ```
@@ -63,13 +63,13 @@ Gate numbers are **global and sequential by difficulty lane**:
 
 | Lane | ID range (current) |
 |:---|:---|
-| E-Gates | 001–049 |
-| D-Gates | 050–094 |
-| C-Gates | 095–132 |
-| B-Gates | 133–166 |
-| A-Gates | 167–183 |
-| S-Gates | 184–186 |
-| Side-Quests | 187–207 |
+| 01-E-Gates | 001–049 |
+| 02-D-Gates | 050–094 |
+| 03-C-Gates | 095–132 |
+| 04-B-Gates | 133–166 |
+| 05-A-Gates | 167–183 |
+| 06-S-Gates | 184–186 |
+| 07-Side-Quests | 187–207 |
 | Interview Armor | 208–224 |
 
 Never append a new Easy Gate with an ID after a Medium/Hard Gate. New imports must be **insertion-sorted** into the correct rank block (renumber later IDs if needed), not “next wave number”.

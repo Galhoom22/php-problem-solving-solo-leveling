@@ -1,4 +1,4 @@
-# S-Gates
+# 06-S-Gates
 
 Min Hunter Rank: **S-Rank+**
 

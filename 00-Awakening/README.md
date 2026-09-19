@@ -25,7 +25,7 @@ Mark a lesson ✅ only after you can explain it in your own words and run a tiny
 ## After Awakening
 
 → [`01-Patterns-And-Fundamentals/`](../01-Patterns-And-Fundamentals/) Skill Books  
-→ or directly [`02-Problems/E-Gates/`](../02-Problems/E-Gates/) if Pattern-01 feels redundant
+→ or directly [`02-Problems/01-E-Gates/`](../02-Problems/01-E-Gates/) if Pattern-01 feels redundant
 
 ## Session recipe
 
