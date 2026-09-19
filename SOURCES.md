@@ -1,0 +1,46 @@
+# Problem Sources — Multi-Platform Index
+
+> Every Gate README must end with a `Source:` (or `Sources:`) line.
+> Import only after the **PHP Fitness Filter** (`repo-ideas/19-php-fitness-filter.md`).
+
+---
+
+## Primary
+
+| Platform | Use in this repo |
+|:---|:---|
+| [LeetCode](https://leetcode.com/) | Core interview Gates |
+| [Codewars (PHP)](https://www.codewars.com/?language=php) | Warmups, PHP-flavor kata |
+| [HackerRank](https://www.hackerrank.com/) | Arrays/strings + interview sets |
+| [Exercism — PHP](https://exercism.org/tracks/php) | Mentored fluency (E/D) |
+| [Edabit — PHP](https://edabit.com/challenges/php) | Early-rank volume |
+
+## Additional
+
+| Platform | Notes |
+|:---|:---|
+| [GeeksforGeeks — PHP](https://www.geeksforgeeks.org/php/php-exercises-practice-questions-and-solutions/) | Pattern warmups |
+| [HackerEarth](https://www.hackerearth.com/) | Extra practice |
+| [Codeforces](https://codeforces.com/) | **Side Quests only** after fitness filter |
+| [CodeChef](https://www.codechef.com/) | Optional Side Quests |
+| [Advent of Code](https://adventofcode.com/) | Seasonal raids if PHP-fit |
+| [CodeCrafters — PHP](https://app.codecrafters.io/tracks/php) | Late Boss Projects |
+| NeetCode / Blind 75 | Filter through PHP Fitness before required climb |
+
+## Language reference
+
+- [PHP Manual](https://www.php.net/manual/en/)
+- Target runtime: **PHP 8.5**
+
+## Gate Rank normalization
+
+| This repo | Rough source mapping |
+|:---|:---|
+| E-Gate | Edabit Very Easy/Easy, Codewars 8–7kyu, Exercism intro |
+| D-Gate | LeetCode Easy (simple), Codewars 7–6kyu, HR Easy |
+| C-Gate | Easy → early Medium |
+| B-Gate | Medium core |
+| A-Gate | Harder Medium / light Hard |
+| S-Gate | Hard / prestige |
+
+Full policy: [`repo-ideas/02-multi-platform-sources.md`](repo-ideas/02-multi-platform-sources.md)
