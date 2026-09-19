@@ -229,7 +229,8 @@ When you clear a Gate / pattern:
 
 ## Design docs (AI / maintainers)
 
-Boot order for agents: [`repo-ideas/README.md`](repo-ideas/README.md)
+- **Agents:** [`AGENTS.md`](AGENTS.md) — boot order, Hunter Solves First, modes, do/don’t  
+- Full design pack: [`repo-ideas/README.md`](repo-ideas/README.md)
 
 ## CI — Protecting `main`
 
