@@ -19,6 +19,7 @@ Objective: Clear Gates. Absorb Patterns. Level Up Alone.
 
 | Date | Event | Details |
 |:---|:---|:---|
+| 2026-09-19 | Interview-repo craft | Root README: is/is-not pitch · Gate section legend · rank counts · sibling links; SOURCES/CONTRIBUTING credit [technical-interview-questions](https://github.com/Galhoom22/technical-interview-questions) without becoming an answer bank |
 | 2026-09-19 | Explorer order | Awakening `Part-01/02`; Skill Books `Part-4-Milestones` (was sorting before Part-1) |
 | 2026-09-19 | Consistency audit | Full-repo path/link sync to `01-E`…`07-Side`; AGENTS/CI/design docs aligned; `scripts/audit-consistency.php` |
 | 2026-09-19 | Rank folder prefix | `01-E-Gates`…`07-Side-Quests` so explorer/GitHub sort matches climb order |

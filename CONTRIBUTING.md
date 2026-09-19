@@ -18,10 +18,12 @@ How to change this gym. Chat may be any language; **committed files stay English
 1. Pass PHP Fitness Filter — [`repo-ideas/19`](repo-ideas/19-php-fitness-filter.md)
 2. Place under `01-E-Gates` … `06-S-Gates` or `07-Side-Quests/` (Armor for list/TreeNode theater)  
 3. Folder: `Gate-NNN-kebab-case/` — ID must keep lane order (E→…→Armor) 
-4. `README.md`: System Brief · Learn First · Backend Link · Source (no algorithm dump)
+4. `README.md`: System Brief · Learn First · Backend Link · Source · Clear Rule (same legend as root README — no algorithm dump)
 5. `solution-1.php`: stub + `TODO` + `declare(strict_types=1);`
 6. Update [`02-Problems/README.md`](02-Problems/README.md) (or run `php scripts/rebuild-gate-map.php`)
 7. `php scripts/ci/validate-repo.php`
+
+Verbal theory Q&A lives in the sibling [technical-interview-questions](https://github.com/Galhoom22/technical-interview-questions) bank — do not turn this gym into an answer dump.
 
 Before every change: **What becomes more professional after this?**
 
@@ -40,7 +42,7 @@ Required PR checks: `Repo Laws + PHP Lint` · `Sacred Structure Guard`
 Suggested **name:** `php-problem-solving-solo-leveling`  
 
 **Description:**  
-`PHP 8.5 Learn+Solve gym: the 20% DSA patterns that matter, Solo Leveling Gates, no spoilers. Path to Big Tech / FAANG-ready thinking.`
+`PHP 8.5 Learn + Solve gym: 224 DSA Gate stubs, Solo Leveling ranks, Hunter Solves First — not a solutions dump.`
 
 **Topics:** `php` `php85` `dsa` `leetcode` `problem-solving` `interview-prep` `algorithms` `solo-leveling`
 

@@ -6,12 +6,12 @@
 [![English Only](https://img.shields.io/badge/Docs-English%20100%25-informational)](repo-ideas/22-english-only.md)
 [![CI Laws](https://img.shields.io/badge/CI-Repo%20Laws-success)](scripts/ci/validate-repo.php)
 
-**Practice DSA in PHP 8.5 — write every solution yourself.**
+A **Learn + Solve gym**: curated DSA Gates with empty PHP stubs — you write every answer.  
+Not a solutions dump, and not a scraped LeetCode mirror. Theme is light Solo Leveling (ranks, Gates, XP).
 
-This is a Learn + Solve gym: curated problem briefs, empty stubs, and a clear path from beginner drills to interview-style work.  
-Theme is light Solo Leveling flavor (ranks, Gates, XP). The goal is real skill — not collecting answers.
+**224 Gates** · PHP **8.5** · climb **E → S** (+ Side Quests · Interview Armor)
 
-> 🌑 **Hunter Solves First** — you write every `solution-1.php`. There is no solutions dump here.
+> 🌑 **Hunter Solves First** — you write every `solution-1.php`.
 
 ```
 [SYSTEM NOTICE]
@@ -30,20 +30,34 @@ Command waiting: Arise.
 | 🗡️ Comfortable with basic PHP | [`02-Problems/01-E-Gates/`](02-Problems/01-E-Gates/) — Gate **001** |
 | 🎯 Preparing for backend / Big Tech interviews | Follow tracks `00` → `04` in order |
 
-**Honest note:** PHP is not the usual FAANG live-coding language. The *patterns* (hash maps, two pointers, graphs, …) transfer; the language drill is PHP-first.
+**Honest note:** PHP is not the usual FAANG live-coding language. The *patterns* transfer; the language drill is PHP-first.
 
 ---
 
-## 📦 What you get (and what you don’t)
+## 📦 What this is / is not
 
-| ✅ Included | 🚫 Not included |
+| ✅ This gym | 🚫 Not this gym |
 |:---|:---|
-| 224 problem **stubs** (brief + empty PHP file) | Finished answers checked into the climb |
-| 📖 DSA Skill Books ([pattern catalog](01-Patterns-And-Fundamentals/PATTERN-CATALOG.md)) | Laravel / OOP / GoF Design Patterns course |
+| 224 problem **stubs** (brief + empty PHP file) | Finished answers on the climb |
+| 📖 DSA Skill Books ([catalog](01-Patterns-And-Fundamentals/PATTERN-CATALOG.md)) | Laravel / OOP / GoF Design Patterns course |
 | 🏰 Ranked path E → S + optional Side Quests | Random full-site problem dumps |
-| ⏱️ Timed mock format + interview list/tree armor | Spoilers as the default path |
+| ⏱️ Mocks + interview list/tree armor (late) | Spoilers as the default path |
 
-**Hunter Solves First** is the law: open the brief, try alone, ask for coaching only when stuck.
+---
+
+## 📜 How to read a Gate README
+
+Same sections in every Gate (read in this order):
+
+| | Section | What to do |
+|:---:|:---|:---|
+| 🧾 | **System Brief** | Problem in plain words + examples |
+| 🎓 | **Learn First** | Ideas to know before you code |
+| 💼 | **Backend Link** | Why this shows up in real PHP work |
+| 🔗 | **Source** | Where the problem came from |
+| ✅ | **Clear Rule** | When you may mark the Gate done |
+
+Then open `solution-1.php` and clear it yourself.
 
 ---
 
@@ -56,45 +70,55 @@ php playground.php
 
 1. 🚪 Open **Gate 001**: [`02-Problems/01-E-Gates/01-Numbers/Gate-001-sum-two-numbers/`](02-Problems/01-E-Gates/01-Numbers/Gate-001-sum-two-numbers/)  
    *(Absolute beginners: do [`00-Awakening/`](00-Awakening/) first.)*
-2. 📜 Read that Gate’s `README.md` (problem brief).
+2. 📜 Read the Gate README (table above).
 3. ✍️ Write your code in `solution-1.php`.
 4. 🗣️ When you can explain it without looking, mark ✅ on the [Gate map](02-Problems/README.md).
-
-Full checklist of all Gates: [`02-Problems/README.md`](02-Problems/README.md)
 
 ---
 
 ## ⚔️ How to solve one Gate
 
-Use one file. Improve it in place — same habit as a strong interview set:
-
 | Step | What to do |
 |:---|:---|
-| 1️⃣ **Read** | Constraints, examples, “Learn First” notes in the Gate README |
-| 2️⃣ **Brute** | Get a correct answer first ([lesson](00-Awakening/Part-02-Problem-Solving-Intro/Lesson-02-brute-force-first/)) |
-| 3️⃣ **Tighten** | Improve time/space; rewrite the same `solution-1.php` |
-| 4️⃣ **Talk** | Say Time and Space out loud (required later in [mocks](03-Mock-Interview/)) |
+| 1️⃣ **Read** | Brief → Learn First → constraints |
+| 2️⃣ **Brute** | Correct answer first ([lesson](00-Awakening/Part-02-Problem-Solving-Intro/Lesson-02-brute-force-first/)) |
+| 3️⃣ **Tighten** | Improve time/space in the same `solution-1.php` |
+| 4️⃣ **Talk** | Say Time / Space aloud (required in [mocks](03-Mock-Interview/)) |
 
 ---
 
-## 🗺️ Repository map
+## 🗺️ Climb map (study order)
 
-Work **top to bottom**:
+Work **top to bottom**.
 
-| Track | Folder | Plain meaning |
-|:---:|:---|:---|
-| 🌅 0 | [`00-Awakening/`](00-Awakening/) | Learn enough PHP + how to read a problem |
-| 📘 1 | [`01-Patterns-And-Fundamentals/`](01-Patterns-And-Fundamentals/) | Short pattern lessons (Skill Books) |
-| 🏰 2 | [`02-Problems/`](02-Problems/) | Main practice bank (Gates by rank) |
-| ⏱️ 3 | [`03-Mock-Interview/`](03-Mock-Interview/) | Timed talk-aloud sessions |
-| 🛡️ 4 | [`04-Interview-Armor/`](04-Interview-Armor/) | Linked-list / tree interview form (later) |
+### Tracks
 
-Inside `02-Problems/`, rank folders are numbered so the file explorer matches the climb:
+| | Track | Folder | Role |
+|:---:|:---:|:---|:---|
+| 🌅 | 0 | [`00-Awakening/`](00-Awakening/) | PHP + how to read a problem |
+| 📘 | 1 | [`01-Patterns-And-Fundamentals/`](01-Patterns-And-Fundamentals/) | Skill Books (DSA patterns) |
+| 🏰 | 2 | [`02-Problems/`](02-Problems/) | Main Gate bank |
+| ⏱️ | 3 | [`03-Mock-Interview/`](03-Mock-Interview/) | Timed talk-aloud |
+| 🛡️ | 4 | [`04-Interview-Armor/`](04-Interview-Armor/) | List / TreeNode form (late) |
 
-`01-E-Gates` → `02-D-Gates` → `03-C-Gates` → `04-B-Gates` → `05-A-Gates` → `06-S-Gates` → `07-Side-Quests`
+### Gates by rank
 
-Inside each rank, category folders are also numbered (example: `01-E-Gates/01-Numbers/` → `02-Control-Flow/` → …).  
-Gate IDs ascend the same way: **E (001+) → D → C → B → A → S → Side → Armor**.
+Listed in **climb order** — open folders top to bottom in the explorer too (`01-E` … `07-Side`).
+
+| | Rank folder | Gates | Intent |
+|:---:|:---|:---:|:---|
+| 🌱 | [`01-E-Gates/`](02-Problems/01-E-Gates/) | 49 | Survive — PHP confidence |
+| 🗡️ | [`02-D-Gates/`](02-Problems/02-D-Gates/) | 45 | Core Easy |
+| ⚡ | [`03-C-Gates/`](02-Problems/03-C-Gates/) | 38 | Easy → early Medium |
+| 🔥 | [`04-B-Gates/`](02-Problems/04-B-Gates/) | 34 | Main Medium set |
+| 🌑 | [`05-A-Gates/`](02-Problems/05-A-Gates/) | 17 | Stretch |
+| 👑 | [`06-S-Gates/`](02-Problems/06-S-Gates/) | 3 | Prestige (PHP-fit Hard) |
+| 🗺️ | [`07-Side-Quests/`](02-Problems/07-Side-Quests/) | 21 | Optional — not graduation-critical |
+| 🛡️ | [`04-Interview-Armor/`](04-Interview-Armor/) | 17 | Interview lists/trees (B-Rank+) |
+
+Full checklist: [`02-Problems/README.md`](02-Problems/README.md)
+
+Uneven rank sizes are intentional: curated for PHP fitness, not a mirror of every platform.
 
 ---
 
@@ -141,21 +165,29 @@ Details: [`repo-ideas/20-big-tech-faang-graduation.md`](repo-ideas/20-big-tech-f
 
 ---
 
+## 🔗 Sibling study repos
+
+| Repo | Role next to this gym |
+|:---|:---|
+| [technical-interview-questions](https://github.com/Galhoom22/technical-interview-questions) | Verbal PHP / Laravel **answer bank** (theory interviews) |
+| [LeetCode-DSA-Pareto-Set](https://github.com/Galhoom22/LeetCode-DSA-Pareto-Set) | Earlier C++ Pareto **solutions** practice |
+| **This repo** | PHP DSA **stubs** — you solve; no spoilers |
+
+---
+
 ## 📚 Docs
 
 | Need | Open |
 |:---|:---|
 | 🧭 Solve / learn | This file → Awakening or `01-E-Gates` |
-| 🤝 Add a Gate / contribute | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
-| 🔗 Problem sources | [`SOURCES.md`](SOURCES.md) |
-| 🤖 AI / maintainer laws | [`AGENTS.md`](AGENTS.md) · [`repo-ideas/`](repo-ideas/) |
+| 🤝 Contribute | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
+| 🔗 Sources | [`SOURCES.md`](SOURCES.md) |
+| 🤖 AI / laws | [`AGENTS.md`](AGENTS.md) · [`repo-ideas/`](repo-ideas/) |
 | 🔒 Branch protection | [`.github/BRANCH_PROTECTION.md`](.github/BRANCH_PROTECTION.md) |
 
 ```bash
 php scripts/ci/validate-repo.php
 ```
-
-Prior C++ Pareto set (solutions style, different mission): [LeetCode-DSA-Pareto-Set](https://github.com/Galhoom22/LeetCode-DSA-Pareto-Set)
 
 ---
 
