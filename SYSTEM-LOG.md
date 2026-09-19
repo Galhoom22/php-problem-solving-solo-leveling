@@ -19,6 +19,7 @@ Objective: Clear Gates. Absorb Patterns. Level Up Alone.
 
 | Date | Event | Details |
 |:---|:---|:---|
+| 2026-09-19 | Root README | Plain-language rewrite for normal readers; removed confusing `.github/README` meta face |
 | 2026-09-19 | Gate folder order | Categories + IDs remapped easiest→harder within each rank (E Numbers→…→Arrays; C Strings→…→Window; Side Quests prefixed) |
 | 2026-09-19 | Face polish | Borrowed Pareto-set craft: Clear method + Credits + naming callout (no solution dump) |
 | 2026-09-19 | Published | Public GitHub: `Galhoom22/php-problem-solving-solo-leveling` (description + topics; Actions from `pending-workflows`) |
